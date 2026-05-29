@@ -1,0 +1,2001 @@
+item_category,item_name,avg_price,lower_bound,upper_bound,transaction_name_clean,keyword_match
+Tagihan,Listrik PLN Bulanan,214375,161854,250167,listrik pln bulanan,pln;listrik
+Tagihan,Listrik PLN Bulanan,263252,231250,296443,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,6012,4471,7524,buku tulis,
+Makanan & Minuman,Es Teh,4548,3774,5746,es teh,
+Transport,Parkir Motor,3080,2654,3394,parkir motor,parkir
+Belanja,Topup OVO,105944,81370,121480,topup ovo,
+Belanja,Topup Shopeepay,88066,68337,106356,topup shopeepay,shopee;belanja online
+Hiburan,Gym Membership,185871,131724,230076,gym membership,
+Makanan & Minuman,Boba Drink,21841,16569,28144,boba drink,
+Belanja,Topup Shopeepay,102320,86042,113958,topup shopeepay,shopee;belanja online
+Transport,Gojek Short Trip,17183,14967,23367,gojek short trip,
+Belanja,Print Tugas per lembar,493,427,566,print tugas per lembar,
+Hiburan,Netflix Mobile,68318,57411,89159,netflix mobile,netflix
+Makanan & Minuman,Martabak Manis,36417,29382,42733,martabak manis,
+Belanja,Flashdisk 32GB,51204,45319,66895,flashdisk e2gb,
+Transport,Gojek Short Trip,16542,14146,19332,gojek short trip,
+Makanan & Minuman,Air Mineral 600ml,3778,2846,4394,air mineral gooml,
+Belanja,Masker Medis,18275,14617,24952,masker medis,
+Tagihan,LPG 3kg,19642,14297,25996,lpg ekg,
+Belanja,Masker Medis,21482,16878,27390,masker medis,
+Hiburan,Netflix Mobile,74697,54354,93225,netflix mobile,netflix
+Belanja,Topup Gopay,55416,40485,63617,topup gopay,
+Tagihan,LPG 3kg,22636,17587,28946,lpg ekg,
+Belanja,Print Tugas per lembar,570,497,628,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,263628,212851,311093,listrik pln bulanan,pln;listrik
+Tagihan,WiFi Indihome Bulanan,309212,243335,382222,wifi indihome bulanan,
+Tagihan,WiFi Indihome Bulanan,399548,340571,500355,wifi indihome bulanan,
+Makanan & Minuman,Roti Tawar,16911,13998,21691,roti tawar,
+Transport,Gojek Short Trip,16181,13072,21578,gojek short trip,
+Belanja,Paracetamol,10296,8213,11671,paracetamol,
+Hiburan,Skincare Facial Wash,49141,36752,57606,skincare facial wash,
+Belanja,Paracetamol,8756,6980,9813,paracetamol,
+Belanja,Pulsa 25K,28073,20371,34883,pulsa 2sk,
+Belanja,Vitamin C,23237,20320,28510,vitamin c,
+Transport,Tiket Kereta Lokal,53828,45106,70723,tiket kereta lokal,
+Belanja,Print Tugas per lembar,490,393,556,print tugas per lembar,
+Transport,Bensin Pertalite 1L,9514,7779,11122,bensin pertalite il,
+Transport,Bensin Pertalite 1L,8712,7198,10181,bensin pertalite il,
+Makanan & Minuman,Kopi Susu,19167,14329,24930,kopi susu,kopi;starbucks;kopi kenangan
+Transport,Tiket Kereta Lokal,44484,39461,56553,tiket kereta lokal,
+Belanja,Pulpen,5426,4674,6278,pulpen,
+Makanan & Minuman,Roti Tawar,17627,13832,21859,roti tawar,
+Tagihan,Listrik PLN Bulanan,263002,235868,297067,listrik pln bulanan,pln;listrik
+Belanja,Print Tugas per lembar,545,393,630,print tugas per lembar,
+Belanja,Hand Sanitizer,16056,11828,19889,hand sanitizer,
+Belanja,Topup Gopay,49146,42868,62174,topup gopay,
+Makanan & Minuman,Roti Tawar,20696,17947,28781,roti tawar,
+Belanja,Topup OVO,89989,71732,104758,topup ovo,
+Belanja,Buku Tulis,6295,4409,7661,buku tulis,
+Belanja,Paket Data 20GB,60812,51040,80220,paket data 2ogb,
+Belanja,Pulsa 25K,27262,21736,31541,pulsa 2sk,
+Transport,Bensin Pertalite 1L,10237,8275,13557,bensin pertalite il,
+Makanan & Minuman,Ayam Geprek,18454,14773,25020,ayam geprek,
+Transport,Bensin Pertalite 1L,11382,8149,13154,bensin pertalite il,
+Belanja,Paracetamol,10525,7862,11956,paracetamol,
+Belanja,Vitamin C,25591,18117,28779,vitamin c,
+Tagihan,WiFi Indihome Bulanan,395644,293113,520215,wifi indihome bulanan,
+Transport,Gojek Short Trip,14531,12123,17291,gojek short trip,
+Hiburan,Skincare Facial Wash,50882,35712,65451,skincare facial wash,
+Belanja,Paracetamol,8719,6474,10284,paracetamol,
+Hiburan,Spotify Premium,61257,47407,70281,spotify premium,spotify
+Belanja,Pulsa 25K,27587,22685,38516,pulsa 2sk,
+Tagihan,Listrik PLN Bulanan,262589,212938,362248,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Bakso,14869,13054,19667,bakso,
+Transport,Gojek Short Trip,14017,10402,16860,gojek short trip,
+Tagihan,WiFi Indihome Bulanan,350567,263003,481134,wifi indihome bulanan,
+Makanan & Minuman,Nasi Goreng,17684,15312,19686,nasi goreng,
+Hiburan,Skincare Facial Wash,40016,35852,45957,skincare facial wash,
+Belanja,Flashdisk 32GB,56004,40455,77482,flashdisk e2gb,
+Tagihan,Air PDAM Bulanan,121641,105452,155062,air pdam bulanan,pdam;air
+Transport,Parkir Motor,2664,2029,3648,parkir motor,parkir
+Belanja,Topup Gopay,55983,41540,65772,topup gopay,
+Makanan & Minuman,Kopi Susu,23848,20910,29140,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Vitamin C,28193,21069,32386,vitamin c,
+Belanja,Topup OVO,111442,78561,147211,topup ovo,
+Hiburan,Skincare Facial Wash,50816,43724,69070,skincare facial wash,
+Belanja,Topup OVO,93004,79748,105320,topup ovo,
+Belanja,Topup Gopay,55378,41228,74482,topup gopay,
+Belanja,Print Tugas per lembar,470,403,549,print tugas per lembar,
+Makanan & Minuman,Roti Tawar,16342,12512,22213,roti tawar,
+Belanja,Topup Shopeepay,95534,76606,124562,topup shopeepay,shopee;belanja online
+Belanja,Pulsa 25K,24682,17413,33644,pulsa 2sk,
+Hiburan,Netflix Mobile,66571,59694,73992,netflix mobile,netflix
+Belanja,Hand Sanitizer,17166,14716,21129,hand sanitizer,
+Belanja,Paracetamol,9655,7871,11358,paracetamol,
+Tagihan,LPG 3kg,18711,16561,23604,lpg ekg,
+Tagihan,Air PDAM Bulanan,115111,82188,149560,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,188834,164210,248491,gym membership,
+Hiburan,Gym Membership,188557,147390,230175,gym membership,
+Hiburan,Gym Membership,177637,139283,245513,gym membership,
+Tagihan,Air PDAM Bulanan,124158,94383,156983,air pdam bulanan,pdam;air
+Makanan & Minuman,Sate Ayam,23401,18392,29812,sate ayam,
+Tagihan,WiFi Indihome Bulanan,346323,273052,403158,wifi indihome bulanan,
+Belanja,Pulpen,5238,3963,6804,pulpen,
+Belanja,Masker Medis,17560,15635,20553,masker medis,
+Hiburan,Netflix Mobile,70977,51775,79058,netflix mobile,netflix
+Belanja,Buku Tulis,6906,6058,8789,buku tulis,
+Tagihan,LPG 3kg,21962,16445,28480,lpg ekg,
+Makanan & Minuman,Air Mineral 600ml,4432,3887,5910,air mineral gooml,
+Transport,GrabBike,18550,15566,22990,grabbike,grabbike;grab
+Belanja,Vitamin C,28131,20374,32069,vitamin c,
+Belanja,Print Tugas per lembar,567,497,727,print tugas per lembar,
+Tagihan,LPG 3kg,24181,19576,33107,lpg ekg,
+Tagihan,LPG 3kg,21670,18427,29296,lpg ekg,
+Hiburan,Skincare Facial Wash,48748,38848,57121,skincare facial wash,
+Belanja,Buku Tulis,7448,5562,8943,buku tulis,
+Belanja,Paracetamol,8915,6652,11662,paracetamol,
+Tagihan,Air PDAM Bulanan,104312,81521,131723,air pdam bulanan,pdam;air
+Belanja,Buku Tulis,6384,5005,8755,buku tulis,
+Belanja,Paracetamol,11070,9444,13440,paracetamol,
+Makanan & Minuman,Kopi Susu,20670,16081,28266,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Paket Data 20GB,65745,55681,88095,paket data 2ogb,
+Transport,Parkir Motor,2747,2162,3045,parkir motor,parkir
+Hiburan,Potong Rambut Pria,36880,28798,42394,potong rambut pria,
+Belanja,Pulpen,5721,4615,7849,pulpen,
+Belanja,Paracetamol,8751,6875,11901,paracetamol,
+Transport,Bensin Pertalite 1L,9280,7103,11473,bensin pertalite il,
+Hiburan,Skincare Facial Wash,50125,37877,69441,skincare facial wash,
+Belanja,Print Tugas per lembar,550,436,728,print tugas per lembar,
+Makanan & Minuman,Kopi Susu,20179,14402,27992,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Air Mineral 600ml,3437,2575,4646,air mineral gooml,
+Belanja,Vitamin C,23039,18309,26133,vitamin c,
+Transport,Parkir Motor,3179,2712,3656,parkir motor,parkir
+Belanja,Paracetamol,10833,7937,12927,paracetamol,
+Belanja,Paracetamol,11286,9199,15488,paracetamol,
+Belanja,Flashdisk 32GB,62284,46069,79575,flashdisk e2gb,
+Belanja,Topup OVO,88057,75244,119324,topup ovo,
+Belanja,Paracetamol,10888,8853,12110,paracetamol,
+Belanja,Hand Sanitizer,18872,13470,24425,hand sanitizer,
+Makanan & Minuman,Boba Drink,27417,19770,38061,boba drink,
+Tagihan,LPG 3kg,23368,18392,30848,lpg ekg,
+Tagihan,WiFi Indihome Bulanan,362170,320130,482552,wifi indihome bulanan,
+Belanja,Flashdisk 32GB,60374,49415,72249,flashdisk e2gb,
+Transport,Bensin Pertalite 1L,9336,7376,12371,bensin pertalite il,
+Belanja,Hand Sanitizer,17116,13673,20496,hand sanitizer,
+Belanja,Pulpen,4782,3594,5661,pulpen,
+Belanja,Masker Medis,20334,16334,23532,masker medis,
+Transport,Parkir Motor,2989,2545,3907,parkir motor,parkir
+Tagihan,LPG 3kg,21657,15234,25734,lpg ekg,
+Belanja,Pulpen,4709,3844,5848,pulpen,
+Belanja,Masker Medis,19553,16604,23448,masker medis,
+Tagihan,LPG 3kg,20488,15371,23278,lpg ekg,
+Transport,Gojek Short Trip,13287,10724,17653,gojek short trip,
+Transport,GrabBike,15553,12393,20489,grabbike,grabbike;grab
+Belanja,Pulsa 25K,26754,23974,36112,pulsa 2sk,
+Hiburan,Netflix Mobile,62287,47366,81745,netflix mobile,netflix
+Transport,Gojek Short Trip,12954,9209,15384,gojek short trip,
+Transport,Parkir Motor,2642,1855,3131,parkir motor,parkir
+Belanja,Flashdisk 32GB,52371,46772,61574,flashdisk e2gb,
+Belanja,Paket Data 20GB,57474,40982,71700,paket data 2ogb,
+Belanja,Paracetamol,8955,7721,12400,paracetamol,
+Makanan & Minuman,Mie Ayam,13283,11328,17027,mie ayam,
+Belanja,Pulsa 25K,23860,19195,29470,pulsa 2sk,
+Belanja,Print Tugas per lembar,554,497,660,print tugas per lembar,
+Belanja,Paracetamol,10328,8758,14296,paracetamol,
+Transport,GrabBike,15799,11315,18515,grabbike,grabbike;grab
+Belanja,Paracetamol,8969,7011,11720,paracetamol,
+Belanja,Print Tugas per lembar,429,325,508,print tugas per lembar,
+Belanja,Paket Data 20GB,56638,42290,66796,paket data 2ogb,
+Belanja,Pulsa 25K,27257,24169,33459,pulsa 2sk,
+Belanja,Vitamin C,26107,23018,35191,vitamin c,
+Makanan & Minuman,Ayam Geprek,16195,12332,21453,ayam geprek,
+Belanja,Masker Medis,19634,15584,23388,masker medis,
+Belanja,Print Tugas per lembar,500,399,562,print tugas per lembar,
+Makanan & Minuman,Boba Drink,26759,21962,29642,boba drink,
+Transport,Tiket Kereta Lokal,51306,36127,68207,tiket kereta lokal,
+Belanja,Topup Shopeepay,102287,87212,117891,topup shopeepay,shopee;belanja online
+Belanja,Hand Sanitizer,20246,14907,25825,hand sanitizer,
+Tagihan,LPG 3kg,25095,19925,30678,lpg ekg,
+Hiburan,Potong Rambut Pria,30848,22585,37742,potong rambut pria,
+Belanja,Print Tugas per lembar,524,408,695,print tugas per lembar,
+Makanan & Minuman,Matcha Latte,26292,19731,29835,matcha latte,
+Belanja,Paket Data 20GB,72115,62378,79351,paket data 2ogb,
+Belanja,Pulsa 25K,25703,18270,32270,pulsa 2sk,
+Belanja,Hand Sanitizer,18677,15912,21685,hand sanitizer,
+Belanja,Vitamin C,28207,22216,36936,vitamin c,
+Makanan & Minuman,Ayam Geprek,20554,16890,24084,ayam geprek,
+Transport,Gojek Short Trip,15228,12341,17176,gojek short trip,
+Belanja,Topup Gopay,49421,35755,66700,topup gopay,
+Belanja,Print Tugas per lembar,501,378,676,print tugas per lembar,
+Belanja,Pulpen,4935,3597,5710,pulpen,
+Belanja,Vitamin C,27730,20943,37075,vitamin c,
+Belanja,Print Tugas per lembar,565,452,760,print tugas per lembar,
+Hiburan,Potong Rambut Pria,32884,26878,46026,potong rambut pria,
+Belanja,Pulpen,4919,3919,5901,pulpen,
+Belanja,Pulsa 25K,25042,22201,34079,pulsa 2sk,
+Tagihan,Air PDAM Bulanan,122584,91535,163363,air pdam bulanan,pdam;air
+Makanan & Minuman,Kopi Susu,23615,19861,31724,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Pulpen,4992,3531,6243,pulpen,
+Belanja,Masker Medis,22218,19437,27374,masker medis,
+Belanja,Hand Sanitizer,15382,11210,20939,hand sanitizer,
+Transport,Bensin Pertalite 1L,9908,8856,11905,bensin pertalite il,
+Tagihan,LPG 3kg,22988,20007,31164,lpg ekg,
+Belanja,Pulsa 25K,25064,19132,32974,pulsa 2sk,
+Belanja,Paket Data 20GB,72261,51101,80970,paket data 2ogb,
+Tagihan,WiFi Indihome Bulanan,402229,341634,494818,wifi indihome bulanan,
+Makanan & Minuman,Air Mineral 600ml,4160,3637,5129,air mineral gooml,
+Tagihan,WiFi Indihome Bulanan,392359,278260,525307,wifi indihome bulanan,
+Hiburan,Canva Pro Sharing,24061,17543,30301,canva pro sharing,
+Belanja,Vitamin C,22524,16122,30660,vitamin c,
+Belanja,Vitamin C,24982,20401,29220,vitamin c,
+Tagihan,WiFi Indihome Bulanan,345754,288140,473569,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,526,384,648,print tugas per lembar,
+Hiburan,Gym Membership,187949,167726,245667,gym membership,
+Belanja,Print Tugas per lembar,454,352,565,print tugas per lembar,
+Transport,Parkir Motor,3064,2497,4282,parkir motor,parkir
+Hiburan,Spotify Premium,62886,52298,74352,spotify premium,spotify
+Belanja,Paracetamol,11231,9535,15160,paracetamol,
+Hiburan,Skincare Facial Wash,49034,40277,59120,skincare facial wash,
+Tagihan,Air PDAM Bulanan,124352,103902,163681,air pdam bulanan,pdam;air
+Tagihan,Air PDAM Bulanan,124616,109746,161240,air pdam bulanan,pdam;air
+Hiburan,Skincare Facial Wash,44201,36064,58332,skincare facial wash,
+Makanan & Minuman,Sate Ayam,23700,18559,27497,sate ayam,
+Belanja,Pulsa 25K,28936,22372,36185,pulsa 2sk,
+Hiburan,Skincare Facial Wash,40471,35728,55981,skincare facial wash,
+Belanja,Topup Shopeepay,107396,82452,121846,topup shopeepay,shopee;belanja online
+Makanan & Minuman,Bakso,17219,12830,22434,bakso,
+Tagihan,LPG 3kg,25083,21594,30343,lpg ekg,
+Belanja,Paket Data 20GB,55521,44822,68648,paket data 2ogb,
+Tagihan,WiFi Indihome Bulanan,358878,310244,496000,wifi indihome bulanan,
+Makanan & Minuman,Roti Tawar,16562,11676,22611,roti tawar,
+Belanja,Masker Medis,22491,16739,25166,masker medis,
+Belanja,Paket Data 20GB,72983,55499,89220,paket data 2ogb,
+Transport,Bensin Pertalite 1L,11338,8626,14147,bensin pertalite il,
+Makanan & Minuman,Mie Ayam,16742,12173,20694,mie ayam,
+Tagihan,LPG 3kg,22576,19083,30830,lpg ekg,
+Tagihan,Listrik PLN Bulanan,275026,226382,380007,listrik pln bulanan,pln;listrik
+Hiburan,Spotify Premium,58139,43223,71709,spotify premium,spotify
+Transport,Gojek Short Trip,13197,11047,16672,gojek short trip,
+Tagihan,WiFi Indihome Bulanan,303857,229465,422501,wifi indihome bulanan,
+Belanja,Paket Data 20GB,57037,42345,73683,paket data 2ogb,
+Makanan & Minuman,Ayam Geprek,19548,14635,22241,ayam geprek,
+Belanja,Vitamin C,21764,18565,25292,vitamin c,
+Transport,GrabBike,16125,11763,22093,grabbike,grabbike;grab
+Makanan & Minuman,Sate Ayam,27688,20182,31536,sate ayam,
+Hiburan,Skincare Facial Wash,40605,33791,44979,skincare facial wash,
+Makanan & Minuman,Kopi Susu,23913,17877,28627,kopi susu,kopi;starbucks;kopi kenangan
+Transport,Gojek Short Trip,12985,11015,16332,gojek short trip,
+Tagihan,Listrik PLN Bulanan,248218,212376,311258,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Matcha Latte,30034,26702,33428,matcha latte,
+Belanja,Pulsa 25K,24452,20262,27125,pulsa 2sk,
+Belanja,Flashdisk 32GB,53783,38809,70655,flashdisk e2gb,
+Belanja,Buku Tulis,7838,5991,8970,buku tulis,
+Transport,Gojek Short Trip,15559,12712,20439,gojek short trip,
+Belanja,Print Tugas per lembar,493,404,556,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,276459,229511,367880,listrik pln bulanan,pln;listrik
+Tagihan,Air PDAM Bulanan,117482,103104,143814,air pdam bulanan,pdam;air
+Belanja,Paket Data 20GB,63025,53314,75237,paket data 2ogb,
+Hiburan,Potong Rambut Pria,32426,28882,42349,potong rambut pria,
+Belanja,Buku Tulis,6141,4403,7550,buku tulis,
+Tagihan,WiFi Indihome Bulanan,382735,310503,488346,wifi indihome bulanan,
+Belanja,Masker Medis,21020,16441,28630,masker medis,
+Belanja,Paket Data 20GB,72177,60932,100363,paket data 2ogb,
+Belanja,Masker Medis,19109,15584,22239,masker medis,
+Tagihan,LPG 3kg,20180,14562,27315,lpg ekg,
+Hiburan,Spotify Premium,59332,48344,79633,spotify premium,spotify
+Belanja,Pulsa 25K,29701,25652,38138,pulsa 2sk,
+Tagihan,Listrik PLN Bulanan,258174,214688,337702,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Bakso,14911,12711,20524,bakso,
+Hiburan,Spotify Premium,49743,36245,64526,spotify premium,spotify
+Makanan & Minuman,Bakso,17156,15343,19343,bakso,
+Belanja,Vitamin C,24071,19033,27614,vitamin c,
+Hiburan,Potong Rambut Pria,33156,29451,42402,potong rambut pria,
+Makanan & Minuman,Bakso,14355,11822,18692,bakso,
+Hiburan,Laundry Kiloan,7340,5850,9047,laundry kiloan,
+Hiburan,Netflix Mobile,69971,50572,85992,netflix mobile,netflix
+Hiburan,Potong Rambut Pria,36874,29400,47941,potong rambut pria,
+Makanan & Minuman,Mie Ayam,14528,11910,16014,mie ayam,
+Hiburan,Netflix Mobile,70213,59879,83331,netflix mobile,netflix
+Makanan & Minuman,Ayam Geprek,17985,14138,20480,ayam geprek,
+Belanja,Vitamin C,25001,21667,33547,vitamin c,
+Makanan & Minuman,Boba Drink,27713,19633,30640,boba drink,
+Makanan & Minuman,Kopi Susu,22500,18330,29539,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Print Tugas per lembar,442,311,529,print tugas per lembar,
+Belanja,Pulsa 25K,25688,21524,31045,pulsa 2sk,
+Belanja,Buku Tulis,6460,5282,8121,buku tulis,
+Belanja,Print Tugas per lembar,536,398,714,print tugas per lembar,
+Makanan & Minuman,Es Teh,5199,4191,6021,es teh,
+Belanja,Topup Shopeepay,95532,85180,123583,topup shopeepay,shopee;belanja online
+Transport,GrabBike,14974,11248,17250,grabbike,grabbike;grab
+Transport,Bensin Pertalite 1L,9031,7717,11272,bensin pertalite il,
+Belanja,Pulsa 25K,28027,22135,38600,pulsa 2sk,
+Belanja,Masker Medis,22185,18312,25408,masker medis,
+Makanan & Minuman,Matcha Latte,29479,22420,34856,matcha latte,
+Makanan & Minuman,Kopi Susu,22048,16802,27241,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Kopi Susu,24189,17303,32879,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Topup Gopay,51725,41453,64077,topup gopay,
+Belanja,Paracetamol,9849,8489,12759,paracetamol,
+Hiburan,Gym Membership,198537,144966,222075,gym membership,
+Makanan & Minuman,Air Mineral 600ml,4478,3442,5885,air mineral gooml,
+Belanja,Vitamin C,21543,18128,30101,vitamin c,
+Belanja,Vitamin C,23979,21187,29163,vitamin c,
+Belanja,Topup Shopeepay,105366,74859,135844,topup shopeepay,shopee;belanja online
+Hiburan,Spotify Premium,52189,42356,63460,spotify premium,spotify
+Hiburan,Potong Rambut Pria,38691,34546,49555,potong rambut pria,
+Transport,Gojek Short Trip,13116,10921,18034,gojek short trip,
+Hiburan,Potong Rambut Pria,37084,28865,47412,potong rambut pria,
+Makanan & Minuman,Sate Ayam,25441,21082,30492,sate ayam,
+Transport,Tiket Kereta Lokal,43901,36617,54988,tiket kereta lokal,
+Makanan & Minuman,Kopi Susu,20738,18461,24937,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Paket Data 20GB,58994,53094,67635,paket data 2ogb,
+Hiburan,Skincare Facial Wash,48889,39186,61694,skincare facial wash,
+Tagihan,Listrik PLN Bulanan,262144,229449,336962,listrik pln bulanan,pln;listrik
+Belanja,Hand Sanitizer,16132,11875,21098,hand sanitizer,
+Belanja,Vitamin C,26658,18893,32237,vitamin c,
+Tagihan,Air PDAM Bulanan,136905,112552,181497,air pdam bulanan,pdam;air
+Belanja,Paket Data 20GB,59813,44730,83120,paket data 2ogb,
+Belanja,Paket Data 20GB,72877,53841,94994,paket data 2ogb,
+Belanja,Hand Sanitizer,17793,13457,21610,hand sanitizer,
+Belanja,Hand Sanitizer,20517,17713,27500,hand sanitizer,
+Transport,Gojek Short Trip,12984,10336,15728,gojek short trip,
+Makanan & Minuman,Mie Instan,4966,4321,5887,mie instan,
+Belanja,Topup OVO,93183,82099,106620,topup ovo,
+Belanja,Buku Tulis,7937,5908,9804,buku tulis,
+Hiburan,Spotify Premium,53595,41766,64967,spotify premium,spotify
+Belanja,Buku Tulis,6737,4753,9291,buku tulis,
+Belanja,Topup Shopeepay,108741,79111,128973,topup shopeepay,shopee;belanja online
+Belanja,Paket Data 20GB,68823,50086,90272,paket data 2ogb,
+Belanja,Buku Tulis,7852,5526,9145,buku tulis,
+Transport,Tiket Kereta Lokal,56603,46514,69450,tiket kereta lokal,
+Belanja,Topup Shopeepay,92129,66735,107932,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,19114,16578,23891,lpg ekg,
+Belanja,Paracetamol,10395,8472,13675,paracetamol,
+Hiburan,Laundry Kiloan,5953,4587,7567,laundry kiloan,
+Transport,Bensin Pertalite 1L,10070,7775,13957,bensin pertalite il,
+Belanja,Paracetamol,9671,7679,12482,paracetamol,
+Hiburan,Canva Pro Sharing,26854,20715,30083,canva pro sharing,
+Transport,Bensin Pertalite 1L,10814,9159,12974,bensin pertalite il,
+Makanan & Minuman,Kopi Susu,22303,19240,25704,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Paket Data 20GB,74375,59180,85879,paket data 2ogb,
+Transport,Bensin Pertalite 1L,10648,9463,11830,bensin pertalite il,
+Transport,Bensin Pertalite 1L,10873,9537,12989,bensin pertalite il,
+Hiburan,Gym Membership,193893,167345,240818,gym membership,
+Makanan & Minuman,Air Mineral 600ml,4176,3162,5673,air mineral gooml,
+Makanan & Minuman,Roti Tawar,17092,12389,20688,roti tawar,
+Belanja,Flashdisk 32GB,61511,47814,85630,flashdisk e2gb,
+Belanja,Flashdisk 32GB,52811,45388,62317,flashdisk e2gb,
+Makanan & Minuman,Mie Instan,4398,3457,6150,mie instan,
+Transport,Tiket Kereta Lokal,46906,33796,56211,tiket kereta lokal,
+Hiburan,Canva Pro Sharing,24594,20745,28282,canva pro sharing,
+Belanja,Print Tugas per lembar,492,415,675,print tugas per lembar,
+Belanja,Hand Sanitizer,16782,15036,23232,hand sanitizer,
+Makanan & Minuman,Roti Tawar,18742,14481,25120,roti tawar,
+Tagihan,Air PDAM Bulanan,136300,99302,174773,air pdam bulanan,pdam;air
+Belanja,Paket Data 20GB,55928,39901,74583,paket data 2ogb,
+Hiburan,Canva Pro Sharing,24121,19621,30911,canva pro sharing,
+Tagihan,LPG 3kg,24962,19330,33172,lpg ekg,
+Belanja,Vitamin C,25220,19661,32656,vitamin c,
+Transport,Bensin Pertalite 1L,8577,6323,10766,bensin pertalite il,
+Belanja,Paracetamol,9285,6982,11456,paracetamol,
+Belanja,Masker Medis,21163,19040,24550,masker medis,
+Transport,Bensin Pertalite 1L,9856,8670,12157,bensin pertalite il,
+Makanan & Minuman,Air Mineral 600ml,4218,3665,5044,air mineral gooml,
+Hiburan,Potong Rambut Pria,30431,24601,41611,potong rambut pria,
+Belanja,Topup OVO,106354,94172,137335,topup ovo,
+Belanja,Topup Shopeepay,100262,72617,116333,topup shopeepay,shopee;belanja online
+Transport,GrabBike,18480,13033,23399,grabbike,grabbike;grab
+Hiburan,Laundry Kiloan,7637,6188,9802,laundry kiloan,
+Makanan & Minuman,Nasi Goreng,16027,14423,21086,nasi goreng,
+Belanja,Hand Sanitizer,19453,16820,21828,hand sanitizer,
+Hiburan,Potong Rambut Pria,30528,24213,38318,potong rambut pria,
+Transport,Tiket Kereta Lokal,52096,38363,72407,tiket kereta lokal,
+Belanja,Buku Tulis,7695,6183,9166,buku tulis,
+Transport,Gojek Short Trip,16956,12633,23471,gojek short trip,
+Belanja,Masker Medis,22075,16558,28488,masker medis,
+Belanja,Masker Medis,17751,13500,22367,masker medis,
+Belanja,Vitamin C,25688,20964,29576,vitamin c,
+Belanja,Masker Medis,22055,17924,29720,masker medis,
+Makanan & Minuman,Nasi Goreng,14681,12160,18689,nasi goreng,
+Tagihan,Air PDAM Bulanan,129610,101525,167416,air pdam bulanan,pdam;air
+Belanja,Print Tugas per lembar,521,396,611,print tugas per lembar,
+Belanja,Paket Data 20GB,61049,43625,68251,paket data 2ogb,
+Belanja,Flashdisk 32GB,54740,40551,70176,flashdisk e2gb,
+Hiburan,Skincare Facial Wash,47947,40603,65123,skincare facial wash,
+Belanja,Pulpen,5390,4328,6100,pulpen,
+Transport,Parkir Motor,2660,2101,3038,parkir motor,parkir
+Makanan & Minuman,Sate Ayam,28340,24736,34728,sate ayam,
+Belanja,Topup OVO,109404,97014,144012,topup ovo,
+Transport,GrabBike,16991,13642,21232,grabbike,grabbike;grab
+Hiburan,Laundry Kiloan,5998,5332,7507,laundry kiloan,
+Transport,GrabBike,17425,12367,20638,grabbike,grabbike;grab
+Belanja,Hand Sanitizer,16843,11817,19070,hand sanitizer,
+Transport,Gojek Short Trip,16023,13663,19384,gojek short trip,
+Belanja,Buku Tulis,7147,5281,9047,buku tulis,
+Makanan & Minuman,Boba Drink,25031,21348,29634,boba drink,
+Belanja,Paracetamol,8885,6391,10768,paracetamol,
+Hiburan,Gym Membership,226336,192610,262485,gym membership,
+Belanja,Hand Sanitizer,18000,12763,20539,hand sanitizer,
+Hiburan,Skincare Facial Wash,44645,35331,57229,skincare facial wash,
+Belanja,Vitamin C,23709,19503,27235,vitamin c,
+Belanja,Masker Medis,20562,16479,25762,masker medis,
+Belanja,Print Tugas per lembar,496,348,594,print tugas per lembar,
+Makanan & Minuman,Boba Drink,25627,22022,33766,boba drink,
+Tagihan,Listrik PLN Bulanan,257268,193750,333593,listrik pln bulanan,pln;listrik
+Belanja,Pulsa 25K,26605,22462,33922,pulsa 2sk,
+Transport,Tiket Kereta Lokal,51935,42791,70234,tiket kereta lokal,
+Transport,GrabBike,14611,12998,16553,grabbike,grabbike;grab
+Makanan & Minuman,Matcha Latte,28323,20683,37022,matcha latte,
+Belanja,Flashdisk 32GB,61151,51805,68408,flashdisk e2gb,
+Transport,Tiket Kereta Lokal,45610,34892,59232,tiket kereta lokal,
+Belanja,Hand Sanitizer,16994,12484,23343,hand sanitizer,
+Hiburan,Gym Membership,191257,163409,251747,gym membership,
+Tagihan,WiFi Indihome Bulanan,361558,266993,424453,wifi indihome bulanan,
+Belanja,Masker Medis,18349,16414,21822,masker medis,
+Hiburan,Potong Rambut Pria,31926,26849,38155,potong rambut pria,
+Hiburan,Gym Membership,226022,194171,267166,gym membership,
+Makanan & Minuman,Martabak Manis,36854,28596,51376,martabak manis,
+Belanja,Topup Shopeepay,113638,97833,134903,topup shopeepay,shopee;belanja online
+Hiburan,Potong Rambut Pria,30579,27056,39654,potong rambut pria,
+Tagihan,LPG 3kg,20112,17408,23759,lpg ekg,
+Belanja,Masker Medis,17823,14670,22743,masker medis,
+Transport,Bensin Pertalite 1L,10509,8472,13571,bensin pertalite il,
+Makanan & Minuman,Nasi Goreng,16557,13965,18712,nasi goreng,
+Belanja,Topup OVO,85155,68981,117405,topup ovo,
+Belanja,Flashdisk 32GB,54627,40418,75886,flashdisk e2gb,
+Hiburan,Canva Pro Sharing,26094,23004,29403,canva pro sharing,
+Belanja,Vitamin C,25263,21337,34888,vitamin c,
+Transport,Parkir Motor,3344,2458,4600,parkir motor,parkir
+Belanja,Paket Data 20GB,70615,52061,93543,paket data 2ogb,
+Belanja,Topup Shopeepay,111302,78117,141396,topup shopeepay,shopee;belanja online
+Makanan & Minuman,Kopi Susu,20578,18475,25989,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Pulpen,5526,4385,6398,pulpen,
+Makanan & Minuman,Kopi Susu,19772,15655,23275,kopi susu,kopi;starbucks;kopi kenangan
+Transport,Bensin Pertalite 1L,10709,9189,13604,bensin pertalite il,
+Belanja,Topup OVO,90264,78640,123581,topup ovo,
+Belanja,Paket Data 20GB,65297,46840,84936,paket data 2ogb,
+Transport,GrabBike,16885,14979,18608,grabbike,grabbike;grab
+Belanja,Pulpen,4920,3706,5898,pulpen,
+Belanja,Paracetamol,9284,7166,10870,paracetamol,
+Tagihan,Listrik PLN Bulanan,247404,181085,323065,listrik pln bulanan,pln;listrik
+Tagihan,WiFi Indihome Bulanan,369980,306248,511382,wifi indihome bulanan,
+Hiburan,Gym Membership,183250,163362,227863,gym membership,
+Belanja,Print Tugas per lembar,487,394,604,print tugas per lembar,
+Belanja,Vitamin C,26963,22542,34478,vitamin c,
+Belanja,Topup Gopay,50382,40589,60888,topup gopay,
+Belanja,Paracetamol,8685,7030,10870,paracetamol,
+Belanja,Vitamin C,22484,19581,27712,vitamin c,
+Tagihan,Air PDAM Bulanan,127809,101961,175055,air pdam bulanan,pdam;air
+Belanja,Buku Tulis,6902,5539,8538,buku tulis,
+Makanan & Minuman,Es Teh,4943,4257,6509,es teh,
+Belanja,Print Tugas per lembar,547,464,696,print tugas per lembar,
+Makanan & Minuman,Boba Drink,23833,16987,33324,boba drink,
+Makanan & Minuman,Matcha Latte,25785,20158,34311,matcha latte,
+Belanja,Paket Data 20GB,62551,54936,77223,paket data 2ogb,
+Belanja,Flashdisk 32GB,48074,42921,65494,flashdisk e2gb,
+Transport,Gojek Short Trip,13283,11935,16177,gojek short trip,
+Transport,GrabBike,18707,15924,26069,grabbike,grabbike;grab
+Belanja,Flashdisk 32GB,55526,48011,65201,flashdisk e2gb,
+Hiburan,Netflix Mobile,60625,53803,79873,netflix mobile,netflix
+Makanan & Minuman,Ayam Geprek,19671,15419,26158,ayam geprek,
+Makanan & Minuman,Mie Ayam,13677,9849,15182,mie ayam,
+Belanja,Paracetamol,9234,6545,11373,paracetamol,
+Belanja,Vitamin C,26907,23011,30728,vitamin c,
+Hiburan,Netflix Mobile,71157,60220,85080,netflix mobile,netflix
+Belanja,Masker Medis,18421,16123,25710,masker medis,
+Belanja,Vitamin C,24351,18385,30853,vitamin c,
+Belanja,Vitamin C,25944,20377,32395,vitamin c,
+Hiburan,Potong Rambut Pria,36799,31542,43997,potong rambut pria,
+Belanja,Flashdisk 32GB,49212,38153,65271,flashdisk e2gb,
+Belanja,Pulpen,5524,4199,7248,pulpen,
+Belanja,Paket Data 20GB,73087,59381,101615,paket data 2ogb,
+Belanja,Vitamin C,24163,18146,28973,vitamin c,
+Makanan & Minuman,Matcha Latte,33124,23799,43636,matcha latte,
+Transport,Bensin Pertalite 1L,9305,7767,11918,bensin pertalite il,
+Belanja,Topup Gopay,45322,38629,59702,topup gopay,
+Belanja,Vitamin C,24845,21711,29811,vitamin c,
+Makanan & Minuman,Mie Ayam,16967,15141,19260,mie ayam,
+Belanja,Paket Data 20GB,73081,61324,95818,paket data 2ogb,
+Belanja,Pulpen,5078,4342,6165,pulpen,
+Belanja,Masker Medis,18850,14550,25727,masker medis,
+Belanja,Buku Tulis,7635,6447,10143,buku tulis,
+Hiburan,Netflix Mobile,62478,48906,79269,netflix mobile,netflix
+Transport,GrabBike,14532,11780,18531,grabbike,grabbike;grab
+Tagihan,LPG 3kg,20648,15263,24137,lpg ekg,
+Belanja,Vitamin C,24994,20768,32628,vitamin c,
+Hiburan,Skincare Facial Wash,49341,44076,63773,skincare facial wash,
+Belanja,Flashdisk 32GB,49525,42541,56992,flashdisk e2gb,
+Tagihan,LPG 3kg,19914,17481,27821,lpg ekg,
+Makanan & Minuman,Es Teh,4300,3738,5949,es teh,
+Tagihan,Listrik PLN Bulanan,269825,211132,365009,listrik pln bulanan,pln;listrik
+Transport,Bensin Pertalite 1L,10621,7454,13294,bensin pertalite il,
+Hiburan,Spotify Premium,56944,47454,73170,spotify premium,spotify
+Belanja,Flashdisk 32GB,47009,37910,57510,flashdisk e2gb,
+Makanan & Minuman,Es Teh,5333,4304,6324,es teh,
+Belanja,Hand Sanitizer,19653,17333,22249,hand sanitizer,
+Makanan & Minuman,Es Teh,4473,3302,5626,es teh,
+Belanja,Topup Shopeepay,93019,72497,112731,topup shopeepay,shopee;belanja online
+Belanja,Flashdisk 32GB,56072,50355,65478,flashdisk e2gb,
+Tagihan,Listrik PLN Bulanan,261530,227961,347279,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Boba Drink,24094,19529,26909,boba drink,
+Makanan & Minuman,Mie Instan,4056,3244,4989,mie instan,
+Belanja,Topup Shopeepay,101975,88880,115089,topup shopeepay,shopee;belanja online
+Belanja,Paracetamol,9189,8088,12016,paracetamol,
+Belanja,Hand Sanitizer,16763,14832,21881,hand sanitizer,
+Hiburan,Gym Membership,203810,144008,280978,gym membership,
+Hiburan,Spotify Premium,62614,51181,83005,spotify premium,spotify
+Tagihan,LPG 3kg,24830,18867,31513,lpg ekg,
+Belanja,Hand Sanitizer,18955,15317,23033,hand sanitizer,
+Tagihan,Air PDAM Bulanan,130457,109304,146572,air pdam bulanan,pdam;air
+Tagihan,WiFi Indihome Bulanan,303138,238696,409722,wifi indihome bulanan,
+Hiburan,Gym Membership,216140,192574,263477,gym membership,
+Belanja,Topup Shopeepay,85888,64816,120052,topup shopeepay,shopee;belanja online
+Belanja,Pulpen,4783,4248,5880,pulpen,
+Tagihan,LPG 3kg,19265,15869,25803,lpg ekg,
+Tagihan,Listrik PLN Bulanan,218652,159800,287200,listrik pln bulanan,pln;listrik
+Tagihan,Air PDAM Bulanan,128627,98185,145601,air pdam bulanan,pdam;air
+Makanan & Minuman,Sate Ayam,24585,20953,27797,sate ayam,
+Makanan & Minuman,Bakso,15668,12712,19643,bakso,
+Makanan & Minuman,Ayam Geprek,15783,12797,20187,ayam geprek,
+Belanja,Topup Shopeepay,110911,77911,135770,topup shopeepay,shopee;belanja online
+Belanja,Topup Gopay,53372,43333,74604,topup gopay,
+Transport,Tiket Kereta Lokal,50316,42117,57906,tiket kereta lokal,
+Hiburan,Canva Pro Sharing,23263,16963,26756,canva pro sharing,
+Hiburan,Laundry Kiloan,6579,5635,7949,laundry kiloan,
+Transport,Parkir Motor,3084,2279,3491,parkir motor,parkir
+Hiburan,Spotify Premium,62405,47829,80256,spotify premium,spotify
+Belanja,Topup Shopeepay,98206,77202,132289,topup shopeepay,shopee;belanja online
+Tagihan,Air PDAM Bulanan,112815,92580,147628,air pdam bulanan,pdam;air
+Belanja,Print Tugas per lembar,451,351,539,print tugas per lembar,
+Tagihan,LPG 3kg,25087,21484,30048,lpg ekg,
+Hiburan,Skincare Facial Wash,48859,37768,67406,skincare facial wash,
+Transport,Tiket Kereta Lokal,57458,42288,76435,tiket kereta lokal,
+Makanan & Minuman,Mie Instan,4448,3743,5477,mie instan,
+Hiburan,Skincare Facial Wash,47603,41119,63725,skincare facial wash,
+Belanja,Flashdisk 32GB,49046,37302,57668,flashdisk e2gb,
+Transport,Parkir Motor,3260,2330,4554,parkir motor,parkir
+Belanja,Flashdisk 32GB,55567,49160,75620,flashdisk e2gb,
+Belanja,Buku Tulis,7610,5874,10415,buku tulis,
+Belanja,Paracetamol,8828,6617,11471,paracetamol,
+Transport,Tiket Kereta Lokal,43164,38706,56253,tiket kereta lokal,
+Belanja,Print Tugas per lembar,569,447,627,print tugas per lembar,
+Hiburan,Netflix Mobile,65208,52411,83085,netflix mobile,netflix
+Belanja,Vitamin C,24593,19138,32750,vitamin c,
+Belanja,Vitamin C,23837,16802,26968,vitamin c,
+Belanja,Buku Tulis,6193,5500,7075,buku tulis,
+Hiburan,Canva Pro Sharing,24664,18285,30703,canva pro sharing,
+Belanja,Buku Tulis,6870,5766,8214,buku tulis,
+Hiburan,Spotify Premium,60118,43466,81445,spotify premium,spotify
+Tagihan,Listrik PLN Bulanan,263285,192953,367327,listrik pln bulanan,pln;listrik
+Transport,Tiket Kereta Lokal,45116,33026,57205,tiket kereta lokal,
+Belanja,Pulpen,5446,4498,6295,pulpen,
+Tagihan,LPG 3kg,21310,18059,29086,lpg ekg,
+Belanja,Flashdisk 32GB,53165,44708,61763,flashdisk e2gb,
+Belanja,Topup Gopay,51160,43992,64516,topup gopay,
+Hiburan,Canva Pro Sharing,22728,16427,29573,canva pro sharing,
+Belanja,Print Tugas per lembar,514,422,655,print tugas per lembar,
+Hiburan,Canva Pro Sharing,27591,22720,37085,canva pro sharing,
+Tagihan,WiFi Indihome Bulanan,393961,322273,512792,wifi indihome bulanan,
+Hiburan,Spotify Premium,50686,36665,61431,spotify premium,spotify
+Transport,Tiket Kereta Lokal,48326,39592,61492,tiket kereta lokal,
+Belanja,Pulpen,4980,4021,6851,pulpen,
+Transport,Tiket Kereta Lokal,45002,34101,52028,tiket kereta lokal,
+Belanja,Paket Data 20GB,67328,58784,93286,paket data 2ogb,
+Belanja,Pulpen,4542,3528,5761,pulpen,
+Tagihan,LPG 3kg,21400,17084,28099,lpg ekg,
+Belanja,Flashdisk 32GB,49509,40254,66280,flashdisk e2gb,
+Transport,Gojek Short Trip,12897,9607,15303,gojek short trip,
+Belanja,Paket Data 20GB,66280,56636,82756,paket data 2ogb,
+Belanja,Paracetamol,10218,7700,12904,paracetamol,
+Hiburan,Gym Membership,219356,155374,288605,gym membership,
+Belanja,Vitamin C,28673,20658,38680,vitamin c,
+Belanja,Topup OVO,93931,84524,115997,topup ovo,
+Hiburan,Skincare Facial Wash,49275,38819,68895,skincare facial wash,
+Belanja,Topup OVO,91296,77375,119300,topup ovo,
+Belanja,Pulsa 25K,27035,19821,30867,pulsa 2sk,
+Transport,GrabBike,18557,15105,23375,grabbike,grabbike;grab
+Belanja,Vitamin C,23677,19907,28099,vitamin c,
+Hiburan,Skincare Facial Wash,45194,39772,60765,skincare facial wash,
+Transport,Parkir Motor,3376,3033,4591,parkir motor,parkir
+Transport,GrabBike,15723,13243,21203,grabbike,grabbike;grab
+Belanja,Paket Data 20GB,64794,52838,76496,paket data 2ogb,
+Belanja,Flashdisk 32GB,54207,44814,73940,flashdisk e2gb,
+Makanan & Minuman,Boba Drink,25117,18979,34684,boba drink,
+Hiburan,Laundry Kiloan,7945,6081,8745,laundry kiloan,
+Belanja,Topup Gopay,53463,42326,69461,topup gopay,
+Hiburan,Skincare Facial Wash,39104,31552,45569,skincare facial wash,
+Belanja,Pulpen,4992,3816,5915,pulpen,
+Belanja,Vitamin C,25496,20322,30674,vitamin c,
+Tagihan,Listrik PLN Bulanan,215945,178205,291743,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Nasi Goreng,19190,14039,23737,nasi goreng,
+Belanja,Pulpen,5743,5064,7837,pulpen,
+Hiburan,Netflix Mobile,72301,63286,81555,netflix mobile,netflix
+Hiburan,Canva Pro Sharing,21868,18213,28311,canva pro sharing,
+Makanan & Minuman,Boba Drink,25942,21926,34413,boba drink,
+Belanja,Buku Tulis,7427,5200,9232,buku tulis,
+Transport,Tiket Kereta Lokal,45892,38365,50609,tiket kereta lokal,
+Tagihan,WiFi Indihome Bulanan,383296,344058,470186,wifi indihome bulanan,
+Transport,Parkir Motor,2613,2029,3447,parkir motor,parkir
+Makanan & Minuman,Nasi Goreng,16048,14061,18312,nasi goreng,
+Belanja,Topup OVO,104247,87090,116811,topup ovo,
+Belanja,Paracetamol,10330,7570,12451,paracetamol,
+Transport,GrabBike,19141,15757,23595,grabbike,grabbike;grab
+Transport,Bensin Pertalite 1L,11189,8145,12721,bensin pertalite il,
+Tagihan,LPG 3kg,21020,16519,28110,lpg ekg,
+Transport,Gojek Short Trip,15650,11731,20036,gojek short trip,
+Tagihan,WiFi Indihome Bulanan,379291,317881,513699,wifi indihome bulanan,
+Tagihan,WiFi Indihome Bulanan,319071,262080,369035,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,521,446,697,print tugas per lembar,
+Transport,Parkir Motor,2897,2167,3741,parkir motor,parkir
+Makanan & Minuman,Es Teh,5583,3921,6746,es teh,
+Hiburan,Netflix Mobile,62793,54491,77000,netflix mobile,netflix
+Belanja,Vitamin C,26970,24027,35900,vitamin c,
+Makanan & Minuman,Martabak Manis,30459,22918,33868,martabak manis,
+Makanan & Minuman,Air Mineral 600ml,3877,2936,5093,air mineral gooml,
+Belanja,Paket Data 20GB,63509,49565,82063,paket data 2ogb,
+Belanja,Vitamin C,23331,17777,29242,vitamin c,
+Transport,GrabBike,17185,13372,22173,grabbike,grabbike;grab
+Belanja,Topup Gopay,47152,37132,65354,topup gopay,
+Transport,Bensin Pertalite 1L,9233,8170,10477,bensin pertalite il,
+Belanja,Paracetamol,9427,7997,12464,paracetamol,
+Makanan & Minuman,Ayam Geprek,19122,16068,21974,ayam geprek,
+Hiburan,Gym Membership,201033,173793,236771,gym membership,
+Hiburan,Netflix Mobile,69870,61114,92220,netflix mobile,netflix
+Makanan & Minuman,Air Mineral 600ml,4479,3435,5503,air mineral gooml,
+Belanja,Paracetamol,9288,8312,11965,paracetamol,
+Belanja,Flashdisk 32GB,55177,39235,74919,flashdisk e2gb,
+Transport,Gojek Short Trip,13457,11501,18412,gojek short trip,
+Tagihan,Listrik PLN Bulanan,229630,184109,255626,listrik pln bulanan,pln;listrik
+Belanja,Topup Gopay,46168,36673,56089,topup gopay,
+Transport,GrabBike,19198,16731,24301,grabbike,grabbike;grab
+Tagihan,LPG 3kg,20181,15128,27743,lpg ekg,
+Hiburan,Canva Pro Sharing,27444,22347,31171,canva pro sharing,
+Tagihan,Listrik PLN Bulanan,225950,194513,315070,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,7791,6803,10378,buku tulis,
+Hiburan,Canva Pro Sharing,21897,17328,26510,canva pro sharing,
+Hiburan,Gym Membership,217070,184056,254574,gym membership,
+Hiburan,Gym Membership,228311,205378,304285,gym membership,
+Tagihan,Air PDAM Bulanan,107420,95225,118932,air pdam bulanan,pdam;air
+Belanja,Masker Medis,20815,17457,22956,masker medis,
+Hiburan,Spotify Premium,59272,45950,78323,spotify premium,spotify
+Hiburan,Spotify Premium,50135,44952,61462,spotify premium,spotify
+Makanan & Minuman,Bakso,17015,12227,23419,bakso,
+Belanja,Pulsa 25K,25321,22260,31335,pulsa 2sk,
+Tagihan,Listrik PLN Bulanan,256057,205123,330611,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,7192,5123,9340,buku tulis,
+Transport,GrabBike,15937,13868,21958,grabbike,grabbike;grab
+Belanja,Print Tugas per lembar,472,356,529,print tugas per lembar,
+Transport,GrabBike,18427,15053,21128,grabbike,grabbike;grab
+Transport,Parkir Motor,2969,2319,3743,parkir motor,parkir
+Belanja,Topup OVO,98557,78123,133618,topup ovo,
+Makanan & Minuman,Bakso,17476,13296,22918,bakso,
+Belanja,Paracetamol,9145,7968,10466,paracetamol,
+Tagihan,Air PDAM Bulanan,136862,106649,152558,air pdam bulanan,pdam;air
+Hiburan,Canva Pro Sharing,27400,20132,37966,canva pro sharing,
+Belanja,Paket Data 20GB,66091,53535,74578,paket data 2ogb,
+Makanan & Minuman,Air Mineral 600ml,4352,3152,4867,air mineral gooml,
+Belanja,Topup OVO,88921,76893,107743,topup ovo,
+Tagihan,Listrik PLN Bulanan,256174,192582,344252,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Nasi Goreng,15458,12817,20756,nasi goreng,
+Makanan & Minuman,Air Mineral 600ml,3797,2690,4701,air mineral gooml,
+Transport,Tiket Kereta Lokal,48997,41396,61189,tiket kereta lokal,
+Belanja,Flashdisk 32GB,49601,36850,57345,flashdisk e2gb,
+Hiburan,Laundry Kiloan,7805,5517,10035,laundry kiloan,
+Transport,Gojek Short Trip,14995,13143,18649,gojek short trip,
+Makanan & Minuman,Sate Ayam,24122,18907,31184,sate ayam,
+Belanja,Pulsa 25K,24043,21610,30368,pulsa 2sk,
+Makanan & Minuman,Boba Drink,27114,20927,34254,boba drink,
+Belanja,Print Tugas per lembar,561,449,682,print tugas per lembar,
+Transport,Bensin Pertalite 1L,9456,7033,12942,bensin pertalite il,
+Belanja,Topup Shopeepay,86757,77934,109212,topup shopeepay,shopee;belanja online
+Belanja,Pulsa 25K,29896,26750,33783,pulsa 2sk,
+Tagihan,Air PDAM Bulanan,111594,96334,153461,air pdam bulanan,pdam;air
+Makanan & Minuman,Air Mineral 600ml,4595,3418,6221,air mineral gooml,
+Belanja,Paket Data 20GB,62168,53952,84148,paket data 2ogb,
+Transport,GrabBike,17471,15046,22874,grabbike,grabbike;grab
+Belanja,Paracetamol,10610,8173,13477,paracetamol,
+Transport,Tiket Kereta Lokal,56725,49199,76188,tiket kereta lokal,
+Belanja,Print Tugas per lembar,451,319,503,print tugas per lembar,
+Belanja,Vitamin C,21399,17024,25668,vitamin c,
+Belanja,Vitamin C,27298,20969,31481,vitamin c,
+Belanja,Topup Shopeepay,86786,63314,113811,topup shopeepay,shopee;belanja online
+Transport,Bensin Pertalite 1L,11039,9627,15323,bensin pertalite il,
+Hiburan,Potong Rambut Pria,39640,30884,44805,potong rambut pria,
+Hiburan,Canva Pro Sharing,22273,16292,30839,canva pro sharing,
+Belanja,Paket Data 20GB,67909,49902,94435,paket data 2ogb,
+Tagihan,WiFi Indihome Bulanan,320939,262460,369916,wifi indihome bulanan,
+Hiburan,Potong Rambut Pria,36979,26827,48762,potong rambut pria,
+Tagihan,LPG 3kg,24314,20768,30884,lpg ekg,
+Transport,Tiket Kereta Lokal,47273,40738,60670,tiket kereta lokal,
+Tagihan,Listrik PLN Bulanan,282751,205879,374250,listrik pln bulanan,pln;listrik
+Transport,Gojek Short Trip,17170,12595,23447,gojek short trip,
+Makanan & Minuman,Mie Instan,4729,4000,5678,mie instan,
+Makanan & Minuman,Sate Ayam,22822,19139,27503,sate ayam,
+Belanja,Topup Gopay,53306,37827,65644,topup gopay,
+Belanja,Pulpen,5576,4453,6767,pulpen,
+Belanja,Hand Sanitizer,15847,12612,21539,hand sanitizer,
+Tagihan,Air PDAM Bulanan,107855,77088,146006,air pdam bulanan,pdam;air
+Hiburan,Spotify Premium,52008,46304,58366,spotify premium,spotify
+Transport,Parkir Motor,2694,1926,3724,parkir motor,parkir
+Makanan & Minuman,Kopi Susu,22620,18610,28157,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Boba Drink,28318,20757,38708,boba drink,
+Transport,Bensin Pertalite 1L,8803,6523,10185,bensin pertalite il,
+Tagihan,WiFi Indihome Bulanan,366862,278624,414104,wifi indihome bulanan,
+Belanja,Flashdisk 32GB,49284,38055,60534,flashdisk e2gb,
+Hiburan,Skincare Facial Wash,47187,38695,54732,skincare facial wash,
+Makanan & Minuman,Mie Ayam,13518,10251,15202,mie ayam,
+Belanja,Topup Gopay,47125,36733,58752,topup gopay,
+Tagihan,WiFi Indihome Bulanan,307069,248365,354807,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,452,320,556,print tugas per lembar,
+Hiburan,Netflix Mobile,71573,58178,81975,netflix mobile,netflix
+Tagihan,Listrik PLN Bulanan,218928,168302,276382,listrik pln bulanan,pln;listrik
+Belanja,Pulsa 25K,23874,17002,29033,pulsa 2sk,
+Belanja,Hand Sanitizer,20514,17178,28327,hand sanitizer,
+Belanja,Vitamin C,24821,17766,34025,vitamin c,
+Tagihan,Listrik PLN Bulanan,250157,220160,335244,listrik pln bulanan,pln;listrik
+Tagihan,Air PDAM Bulanan,106330,90533,122477,air pdam bulanan,pdam;air
+Transport,GrabBike,18573,13469,22789,grabbike,grabbike;grab
+Tagihan,LPG 3kg,20032,17317,22923,lpg ekg,
+Belanja,Masker Medis,18918,15993,25391,masker medis,
+Makanan & Minuman,Boba Drink,25422,20602,34497,boba drink,
+Belanja,Hand Sanitizer,20252,14226,26532,hand sanitizer,
+Belanja,Hand Sanitizer,15907,11610,20201,hand sanitizer,
+Belanja,Paracetamol,11274,9160,12742,paracetamol,
+Hiburan,Skincare Facial Wash,45481,34964,55635,skincare facial wash,
+Belanja,Flashdisk 32GB,56188,44647,64709,flashdisk e2gb,
+Belanja,Pulpen,5177,4328,6318,pulpen,
+Belanja,Print Tugas per lembar,528,374,656,print tugas per lembar,
+Hiburan,Canva Pro Sharing,21401,18479,25486,canva pro sharing,
+Hiburan,Skincare Facial Wash,44886,37669,50697,skincare facial wash,
+Belanja,Topup OVO,89031,79668,109769,topup ovo,
+Belanja,Topup Shopeepay,93082,72916,120417,topup shopeepay,shopee;belanja online
+Transport,Parkir Motor,2740,2369,3623,parkir motor,parkir
+Belanja,Pulsa 25K,28864,24944,36212,pulsa 2sk,
+Transport,Bensin Pertalite 1L,9433,7559,10760,bensin pertalite il,
+Belanja,Pulsa 25K,28958,20438,33528,pulsa 2sk,
+Belanja,Topup OVO,110109,82570,136197,topup ovo,
+Hiburan,Potong Rambut Pria,31840,24633,39458,potong rambut pria,
+Belanja,Buku Tulis,7380,5523,9200,buku tulis,
+Belanja,Pulpen,5690,4523,7200,pulpen,
+Hiburan,Netflix Mobile,71584,53811,96585,netflix mobile,netflix
+Makanan & Minuman,Sate Ayam,21455,15231,29096,sate ayam,
+Belanja,Topup OVO,110713,91833,144293,topup ovo,
+Hiburan,Potong Rambut Pria,34049,23970,45424,potong rambut pria,
+Belanja,Topup Gopay,49611,36040,57149,topup gopay,
+Belanja,Topup Gopay,45856,37678,63414,topup gopay,
+Tagihan,WiFi Indihome Bulanan,341999,265150,411976,wifi indihome bulanan,
+Hiburan,Netflix Mobile,64350,53760,86698,netflix mobile,netflix
+Belanja,Buku Tulis,5965,5367,8291,buku tulis,
+Belanja,Topup Shopeepay,101843,83384,120663,topup shopeepay,shopee;belanja online
+Tagihan,Listrik PLN Bulanan,248630,190763,294115,listrik pln bulanan,pln;listrik
+Hiburan,Skincare Facial Wash,41987,34900,58179,skincare facial wash,
+Tagihan,WiFi Indihome Bulanan,317277,254918,371877,wifi indihome bulanan,
+Makanan & Minuman,Air Mineral 600ml,4428,3816,5407,air mineral gooml,
+Hiburan,Potong Rambut Pria,31219,22012,38999,potong rambut pria,
+Hiburan,Canva Pro Sharing,28051,21905,37055,canva pro sharing,
+Belanja,Vitamin C,23823,20075,31110,vitamin c,
+Tagihan,LPG 3kg,24683,20594,30907,lpg ekg,
+Belanja,Topup OVO,110219,96474,127230,topup ovo,
+Makanan & Minuman,Matcha Latte,26651,20034,35779,matcha latte,
+Belanja,Topup OVO,113407,99788,147012,topup ovo,
+Transport,Gojek Short Trip,13754,12024,16864,gojek short trip,
+Hiburan,Canva Pro Sharing,23204,17607,31449,canva pro sharing,
+Belanja,Buku Tulis,7769,6345,10746,buku tulis,
+Makanan & Minuman,Matcha Latte,33504,26806,45573,matcha latte,
+Belanja,Print Tugas per lembar,486,424,556,print tugas per lembar,
+Transport,Gojek Short Trip,14591,11875,20018,gojek short trip,
+Belanja,Pulpen,4724,3982,6300,pulpen,
+Belanja,Print Tugas per lembar,519,381,669,print tugas per lembar,
+Makanan & Minuman,Matcha Latte,27961,23829,32171,matcha latte,
+Belanja,Topup OVO,99687,85004,112288,topup ovo,
+Belanja,Hand Sanitizer,18720,14614,26013,hand sanitizer,
+Belanja,Buku Tulis,6029,4460,7306,buku tulis,
+Makanan & Minuman,Kopi Susu,23695,19103,26191,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Roti Tawar,19261,14354,26254,roti tawar,
+Hiburan,Netflix Mobile,57252,45839,68234,netflix mobile,netflix
+Makanan & Minuman,Ayam Geprek,16910,12820,22293,ayam geprek,
+Belanja,Masker Medis,19601,16413,22347,masker medis,
+Belanja,Print Tugas per lembar,537,393,736,print tugas per lembar,
+Belanja,Paket Data 20GB,55622,41430,77618,paket data 2ogb,
+Transport,Bensin Pertalite 1L,10269,7535,12425,bensin pertalite il,
+Tagihan,Listrik PLN Bulanan,240639,199264,320380,listrik pln bulanan,pln;listrik
+Belanja,Paracetamol,10281,7295,11642,paracetamol,
+Belanja,Topup Gopay,43223,31257,53306,topup gopay,
+Makanan & Minuman,Es Teh,4629,3890,5377,es teh,
+Tagihan,Listrik PLN Bulanan,235083,195667,305312,listrik pln bulanan,pln;listrik
+Hiburan,Gym Membership,206338,150097,278390,gym membership,
+Makanan & Minuman,Es Teh,5328,3855,6043,es teh,
+Makanan & Minuman,Matcha Latte,27287,20191,32168,matcha latte,
+Belanja,Vitamin C,23934,18715,27478,vitamin c,
+Belanja,Hand Sanitizer,20215,16932,25151,hand sanitizer,
+Transport,Bensin Pertalite 1L,8538,6128,9674,bensin pertalite il,
+Belanja,Hand Sanitizer,16105,11563,20187,hand sanitizer,
+Tagihan,Listrik PLN Bulanan,280358,232379,346809,listrik pln bulanan,pln;listrik
+Hiburan,Canva Pro Sharing,24732,17806,28501,canva pro sharing,
+Makanan & Minuman,Sate Ayam,23951,20007,29407,sate ayam,
+Makanan & Minuman,Nasi Goreng,18791,16499,20724,nasi goreng,
+Transport,GrabBike,16126,14173,22359,grabbike,grabbike;grab
+Hiburan,Potong Rambut Pria,30725,26515,35483,potong rambut pria,
+Belanja,Flashdisk 32GB,62628,47244,76137,flashdisk e2gb,
+Belanja,Paket Data 20GB,70848,58787,94870,paket data 2ogb,
+Makanan & Minuman,Bakso,16941,12057,23424,bakso,
+Transport,Bensin Pertalite 1L,9748,7975,13068,bensin pertalite il,
+Tagihan,LPG 3kg,19896,15438,24026,lpg ekg,
+Makanan & Minuman,Roti Tawar,20051,16952,27420,roti tawar,
+Belanja,Flashdisk 32GB,48613,38027,54144,flashdisk e2gb,
+Hiburan,Potong Rambut Pria,33049,27791,43075,potong rambut pria,
+Belanja,Pulsa 25K,27745,20664,38474,pulsa 2sk,
+Belanja,Topup Shopeepay,100572,84243,129282,topup shopeepay,shopee;belanja online
+Belanja,Pulpen,4972,4140,6425,pulpen,
+Transport,Tiket Kereta Lokal,55880,45965,61663,tiket kereta lokal,
+Transport,Tiket Kereta Lokal,55232,48072,75161,tiket kereta lokal,
+Makanan & Minuman,Air Mineral 600ml,3989,2984,5548,air mineral gooml,
+Makanan & Minuman,Es Teh,4584,3798,5596,es teh,
+Transport,Bensin Pertalite 1L,9877,8496,12192,bensin pertalite il,
+Belanja,Paket Data 20GB,63967,46295,79908,paket data 2ogb,
+Tagihan,Listrik PLN Bulanan,220198,172297,279021,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Nasi Goreng,18488,16503,23872,nasi goreng,
+Belanja,Vitamin C,26159,20698,31449,vitamin c,
+Belanja,Topup Gopay,54748,47568,65675,topup gopay,
+Belanja,Pulsa 25K,26779,22583,32375,pulsa 2sk,
+Belanja,Buku Tulis,6154,5118,6773,buku tulis,
+Hiburan,Skincare Facial Wash,46804,40250,59174,skincare facial wash,
+Hiburan,Potong Rambut Pria,30866,27142,38512,potong rambut pria,
+Belanja,Paket Data 20GB,57335,47139,66294,paket data 2ogb,
+Belanja,Paket Data 20GB,59453,51421,68797,paket data 2ogb,
+Hiburan,Spotify Premium,59242,42020,76420,spotify premium,spotify
+Tagihan,Listrik PLN Bulanan,270410,213651,350866,listrik pln bulanan,pln;listrik
+Belanja,Vitamin C,28478,19959,37615,vitamin c,
+Belanja,Hand Sanitizer,19829,15795,24835,hand sanitizer,
+Transport,Tiket Kereta Lokal,45104,38926,51015,tiket kereta lokal,
+Tagihan,WiFi Indihome Bulanan,350431,272261,488448,wifi indihome bulanan,
+Tagihan,Air PDAM Bulanan,111849,99849,155598,air pdam bulanan,pdam;air
+Belanja,Pulpen,4457,3656,6087,pulpen,
+Belanja,Masker Medis,22058,17857,26341,masker medis,
+Tagihan,Air PDAM Bulanan,109232,90098,129677,air pdam bulanan,pdam;air
+Hiburan,Potong Rambut Pria,31143,26224,43368,potong rambut pria,
+Transport,Tiket Kereta Lokal,50637,41895,66491,tiket kereta lokal,
+Belanja,Topup Shopeepay,101868,83181,140863,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,23150,20343,29172,lpg ekg,
+Belanja,Paket Data 20GB,71011,57131,78650,paket data 2ogb,
+Transport,Bensin Pertalite 1L,10510,7777,13926,bensin pertalite il,
+Transport,Gojek Short Trip,15825,11540,17702,gojek short trip,
+Belanja,Topup Shopeepay,91120,73646,110036,topup shopeepay,shopee;belanja online
+Belanja,Buku Tulis,7243,6048,9188,buku tulis,
+Transport,Tiket Kereta Lokal,48333,38771,64720,tiket kereta lokal,
+Tagihan,WiFi Indihome Bulanan,370258,262659,449669,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,569,404,752,print tugas per lembar,
+Transport,Tiket Kereta Lokal,55532,48428,68466,tiket kereta lokal,
+Transport,Gojek Short Trip,16147,13068,20684,gojek short trip,
+Belanja,Topup OVO,93825,69006,122422,topup ovo,
+Transport,GrabBike,18198,13173,20239,grabbike,grabbike;grab
+Hiburan,Gym Membership,185854,136079,251609,gym membership,
+Makanan & Minuman,Kopi Susu,21777,19327,24215,kopi susu,kopi;starbucks;kopi kenangan
+Hiburan,Gym Membership,173051,153405,222315,gym membership,
+Tagihan,WiFi Indihome Bulanan,349007,284278,421400,wifi indihome bulanan,
+Belanja,Topup Shopeepay,100761,89818,126574,topup shopeepay,shopee;belanja online
+Belanja,Pulsa 25K,23343,18875,28502,pulsa 2sk,
+Hiburan,Netflix Mobile,72476,60348,86921,netflix mobile,netflix
+Hiburan,Netflix Mobile,73781,60770,91669,netflix mobile,netflix
+Belanja,Paracetamol,8844,6802,10366,paracetamol,
+Tagihan,Air PDAM Bulanan,136520,114200,163316,air pdam bulanan,pdam;air
+Belanja,Topup Gopay,48288,39018,57213,topup gopay,
+Belanja,Masker Medis,20085,16103,25026,masker medis,
+Hiburan,Potong Rambut Pria,31771,25505,43985,potong rambut pria,
+Transport,Tiket Kereta Lokal,50498,41680,58741,tiket kereta lokal,
+Tagihan,Air PDAM Bulanan,133138,104492,150602,air pdam bulanan,pdam;air
+Belanja,Hand Sanitizer,18791,16685,24880,hand sanitizer,
+Transport,Bensin Pertalite 1L,9877,7569,11124,bensin pertalite il,
+Makanan & Minuman,Bakso,17412,14131,22156,bakso,
+Transport,Gojek Short Trip,14584,11524,17811,gojek short trip,
+Hiburan,Spotify Premium,53176,38481,58587,spotify premium,spotify
+Tagihan,Listrik PLN Bulanan,269197,219966,352719,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Kopi Susu,24825,17904,33167,kopi susu,kopi;starbucks;kopi kenangan
+Hiburan,Gym Membership,175190,149446,215711,gym membership,
+Belanja,Buku Tulis,6945,5602,7923,buku tulis,
+Belanja,Print Tugas per lembar,569,414,741,print tugas per lembar,
+Belanja,Topup Shopeepay,113721,79858,154936,topup shopeepay,shopee;belanja online
+Transport,Bensin Pertalite 1L,8625,7025,10507,bensin pertalite il,
+Belanja,Paracetamol,9414,7998,12907,paracetamol,
+Hiburan,Netflix Mobile,63296,52484,79358,netflix mobile,netflix
+Transport,GrabBike,15576,13503,18041,grabbike,grabbike;grab
+Transport,Tiket Kereta Lokal,55283,48111,76274,tiket kereta lokal,
+Belanja,Hand Sanitizer,18781,13421,24443,hand sanitizer,
+Hiburan,Spotify Premium,50007,40811,69282,spotify premium,spotify
+Hiburan,Netflix Mobile,68340,51043,81019,netflix mobile,netflix
+Makanan & Minuman,Mie Ayam,14180,11204,18219,mie ayam,
+Hiburan,Potong Rambut Pria,35883,29176,43395,potong rambut pria,
+Hiburan,Laundry Kiloan,6304,4807,8420,laundry kiloan,
+Tagihan,LPG 3kg,20526,15843,26763,lpg ekg,
+Hiburan,Laundry Kiloan,6921,5341,8247,laundry kiloan,
+Belanja,Paracetamol,9027,7414,12209,paracetamol,
+Belanja,Topup OVO,111738,82606,147501,topup ovo,
+Tagihan,Listrik PLN Bulanan,267056,234587,361827,listrik pln bulanan,pln;listrik
+Tagihan,Listrik PLN Bulanan,273448,223073,363893,listrik pln bulanan,pln;listrik
+Transport,Bensin Pertalite 1L,10154,8211,14211,bensin pertalite il,
+Belanja,Pulpen,4798,3572,6389,pulpen,
+Tagihan,WiFi Indihome Bulanan,311557,249315,351176,wifi indihome bulanan,
+Hiburan,Gym Membership,170635,127596,237046,gym membership,
+Belanja,Vitamin C,26929,19606,30908,vitamin c,
+Belanja,Vitamin C,26769,21326,32327,vitamin c,
+Transport,Parkir Motor,2758,2076,3227,parkir motor,parkir
+Tagihan,Air PDAM Bulanan,120643,103546,146753,air pdam bulanan,pdam;air
+Belanja,Buku Tulis,6033,5005,6823,buku tulis,
+Belanja,Masker Medis,22009,16565,27804,masker medis,
+Transport,Parkir Motor,3138,2425,4066,parkir motor,parkir
+Belanja,Topup Gopay,50249,38956,68950,topup gopay,
+Belanja,Hand Sanitizer,17205,15029,21438,hand sanitizer,
+Belanja,Buku Tulis,7003,5096,8051,buku tulis,
+Makanan & Minuman,Es Teh,5215,3871,6028,es teh,
+Hiburan,Gym Membership,213038,154168,249063,gym membership,
+Belanja,Topup Shopeepay,106607,84891,132581,topup shopeepay,shopee;belanja online
+Transport,Tiket Kereta Lokal,44918,38929,49712,tiket kereta lokal,
+Makanan & Minuman,Bakso,16352,11973,21075,bakso,
+Makanan & Minuman,Martabak Manis,31292,22945,43080,martabak manis,
+Belanja,Hand Sanitizer,18536,15064,20493,hand sanitizer,
+Tagihan,WiFi Indihome Bulanan,396961,295068,508887,wifi indihome bulanan,
+Belanja,Flashdisk 32GB,49564,42926,63454,flashdisk e2gb,
+Belanja,Pulsa 25K,28499,20986,36988,pulsa 2sk,
+Hiburan,Netflix Mobile,69371,53313,85745,netflix mobile,netflix
+Belanja,Paracetamol,9189,7140,10407,paracetamol,
+Transport,Tiket Kereta Lokal,55393,44362,67908,tiket kereta lokal,
+Transport,Tiket Kereta Lokal,43944,34943,56442,tiket kereta lokal,
+Makanan & Minuman,Air Mineral 600ml,4037,3433,4553,air mineral gooml,
+Tagihan,Air PDAM Bulanan,134471,108633,147966,air pdam bulanan,pdam;air
+Belanja,Paket Data 20GB,65429,50646,72824,paket data 2ogb,
+Belanja,Hand Sanitizer,16539,14231,22110,hand sanitizer,
+Belanja,Print Tugas per lembar,513,435,681,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,244411,183529,325007,listrik pln bulanan,pln;listrik
+Belanja,Topup Gopay,46749,40921,57155,topup gopay,
+Transport,Bensin Pertalite 1L,10627,9116,13532,bensin pertalite il,
+Makanan & Minuman,Es Teh,4260,3539,5564,es teh,
+Hiburan,Laundry Kiloan,6710,4904,8692,laundry kiloan,
+Hiburan,Canva Pro Sharing,27662,21706,33462,canva pro sharing,
+Hiburan,Potong Rambut Pria,33923,25128,42934,potong rambut pria,
+Belanja,Hand Sanitizer,16265,13204,20252,hand sanitizer,
+Hiburan,Gym Membership,190661,160364,251812,gym membership,
+Belanja,Topup Gopay,53717,42399,70358,topup gopay,
+Transport,Bensin Pertalite 1L,9143,7132,10985,bensin pertalite il,
+Belanja,Paracetamol,8982,8020,9894,paracetamol,
+Makanan & Minuman,Bakso,15864,13009,17869,bakso,
+Hiburan,Netflix Mobile,62481,51347,82309,netflix mobile,netflix
+Belanja,Print Tugas per lembar,531,435,734,print tugas per lembar,
+Belanja,Topup OVO,104208,82094,120934,topup ovo,
+Tagihan,WiFi Indihome Bulanan,317948,272415,398441,wifi indihome bulanan,
+Tagihan,Air PDAM Bulanan,124146,103637,149958,air pdam bulanan,pdam;air
+Tagihan,Listrik PLN Bulanan,285673,204932,337888,listrik pln bulanan,pln;listrik
+Belanja,Print Tugas per lembar,525,410,609,print tugas per lembar,
+Makanan & Minuman,Mie Instan,4774,4219,6038,mie instan,
+Tagihan,WiFi Indihome Bulanan,333984,288262,390056,wifi indihome bulanan,
+Transport,Parkir Motor,3386,2759,3989,parkir motor,parkir
+Belanja,Buku Tulis,7123,5702,8561,buku tulis,
+Makanan & Minuman,Air Mineral 600ml,4015,3017,5064,air mineral gooml,
+Belanja,Pulsa 25K,24051,18965,29176,pulsa 2sk,
+Belanja,Pulpen,5386,4805,6666,pulpen,
+Belanja,Buku Tulis,6962,5232,8457,buku tulis,
+Belanja,Topup OVO,105307,78557,125812,topup ovo,
+Hiburan,Gym Membership,202139,169829,238322,gym membership,
+Hiburan,Spotify Premium,53332,45319,64136,spotify premium,spotify
+Belanja,Vitamin C,24824,19132,33966,vitamin c,
+Hiburan,Netflix Mobile,73718,61674,101213,netflix mobile,netflix
+Belanja,Pulpen,4602,3444,5428,pulpen,
+Transport,GrabBike,18708,16224,22576,grabbike,grabbike;grab
+Belanja,Topup Gopay,44298,31703,61429,topup gopay,
+Belanja,Buku Tulis,7554,6105,8405,buku tulis,
+Belanja,Print Tugas per lembar,518,413,722,print tugas per lembar,
+Belanja,Masker Medis,19944,17887,27419,masker medis,
+Hiburan,Laundry Kiloan,6416,5231,7161,laundry kiloan,
+Belanja,Paket Data 20GB,64577,52188,80769,paket data 2ogb,
+Belanja,Pulpen,4935,3573,6195,pulpen,
+Hiburan,Potong Rambut Pria,29838,24909,36218,potong rambut pria,
+Makanan & Minuman,Kopi Susu,21086,18394,24378,kopi susu,kopi;starbucks;kopi kenangan
+Hiburan,Netflix Mobile,60503,53950,72780,netflix mobile,netflix
+Transport,Parkir Motor,2931,2297,3885,parkir motor,parkir
+Hiburan,Skincare Facial Wash,43658,34496,55507,skincare facial wash,
+Belanja,Vitamin C,27356,23092,36690,vitamin c,
+Belanja,Hand Sanitizer,19924,14728,26698,hand sanitizer,
+Tagihan,Air PDAM Bulanan,119027,83550,145981,air pdam bulanan,pdam;air
+Transport,Tiket Kereta Lokal,50509,38545,62933,tiket kereta lokal,
+Hiburan,Gym Membership,221510,157170,250238,gym membership,
+Transport,Bensin Pertalite 1L,9146,6867,12362,bensin pertalite il,
+Makanan & Minuman,Matcha Latte,32201,24213,38901,matcha latte,
+Belanja,Masker Medis,19064,14914,22978,masker medis,
+Tagihan,Air PDAM Bulanan,122766,101892,154873,air pdam bulanan,pdam;air
+Belanja,Topup Shopeepay,95653,79835,119207,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,24571,19072,29140,lpg ekg,
+Tagihan,Air PDAM Bulanan,133257,110352,183704,air pdam bulanan,pdam;air
+Belanja,Flashdisk 32GB,60756,43396,69784,flashdisk e2gb,
+Transport,Gojek Short Trip,14175,10748,16729,gojek short trip,
+Tagihan,LPG 3kg,20490,16166,27842,lpg ekg,
+Hiburan,Potong Rambut Pria,35912,32073,43963,potong rambut pria,
+Transport,Bensin Pertalite 1L,8875,6628,10432,bensin pertalite il,
+Tagihan,Listrik PLN Bulanan,228292,177932,257665,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,6005,4680,7983,buku tulis,
+Makanan & Minuman,Nasi Goreng,15788,11541,20468,nasi goreng,
+Belanja,Print Tugas per lembar,459,389,565,print tugas per lembar,
+Transport,GrabBike,17136,12579,19030,grabbike,grabbike;grab
+Hiburan,Skincare Facial Wash,50606,44171,62759,skincare facial wash,
+Belanja,Pulsa 25K,29391,23798,33521,pulsa 2sk,
+Tagihan,Air PDAM Bulanan,123269,97543,163291,air pdam bulanan,pdam;air
+Belanja,Hand Sanitizer,18126,15006,21622,hand sanitizer,
+Hiburan,Laundry Kiloan,7083,6098,8730,laundry kiloan,
+Hiburan,Laundry Kiloan,6495,4940,7144,laundry kiloan,
+Belanja,Topup OVO,95316,75665,105085,topup ovo,
+Belanja,Flashdisk 32GB,51693,44103,69237,flashdisk e2gb,
+Belanja,Vitamin C,27225,22042,31487,vitamin c,
+Belanja,Hand Sanitizer,17431,12770,23028,hand sanitizer,
+Belanja,Flashdisk 32GB,50389,36070,64880,flashdisk e2gb,
+Belanja,Masker Medis,18708,15875,25118,masker medis,
+Belanja,Pulpen,5530,4072,6563,pulpen,
+Tagihan,LPG 3kg,22777,17183,29310,lpg ekg,
+Transport,Gojek Short Trip,12837,9113,16180,gojek short trip,
+Transport,Bensin Pertalite 1L,9346,6775,11509,bensin pertalite il,
+Makanan & Minuman,Mie Ayam,13155,9247,15327,mie ayam,
+Belanja,Print Tugas per lembar,542,433,656,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,237268,206116,328733,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Sate Ayam,27067,19333,33591,sate ayam,
+Transport,Gojek Short Trip,16427,14220,18670,gojek short trip,
+Belanja,Topup OVO,96543,86405,113355,topup ovo,
+Makanan & Minuman,Mie Ayam,14823,12661,18622,mie ayam,
+Transport,Parkir Motor,2900,2587,4004,parkir motor,parkir
+Transport,Bensin Pertalite 1L,10734,8693,12200,bensin pertalite il,
+Belanja,Print Tugas per lembar,454,398,617,print tugas per lembar,
+Transport,Bensin Pertalite 1L,9207,7244,10169,bensin pertalite il,
+Belanja,Topup Shopeepay,102540,79895,120271,topup shopeepay,shopee;belanja online
+Makanan & Minuman,Martabak Manis,37976,30192,48566,martabak manis,
+Hiburan,Skincare Facial Wash,39457,28864,44484,skincare facial wash,
+Belanja,Masker Medis,22585,20312,29079,masker medis,
+Makanan & Minuman,Kopi Susu,22954,19287,30699,kopi susu,kopi;starbucks;kopi kenangan
+Transport,Parkir Motor,2759,2472,3687,parkir motor,parkir
+Belanja,Topup Shopeepay,109165,85994,126401,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,21063,15311,28847,lpg ekg,
+Belanja,Flashdisk 32GB,55973,45256,69799,flashdisk e2gb,
+Belanja,Vitamin C,25327,19368,31418,vitamin c,
+Belanja,Pulsa 25K,29232,23704,32759,pulsa 2sk,
+Transport,Parkir Motor,2816,2119,3407,parkir motor,parkir
+Makanan & Minuman,Air Mineral 600ml,4165,3231,4813,air mineral gooml,
+Makanan & Minuman,Martabak Manis,38746,33135,45396,martabak manis,
+Tagihan,Listrik PLN Bulanan,261871,211537,318499,listrik pln bulanan,pln;listrik
+Belanja,Hand Sanitizer,19434,14202,23028,hand sanitizer,
+Belanja,Print Tugas per lembar,441,354,493,print tugas per lembar,
+Belanja,Topup OVO,90359,63816,102296,topup ovo,
+Transport,Bensin Pertalite 1L,8595,7119,10456,bensin pertalite il,
+Belanja,Print Tugas per lembar,432,321,568,print tugas per lembar,
+Makanan & Minuman,Mie Ayam,15700,13905,21189,mie ayam,
+Belanja,Buku Tulis,6707,5692,9169,buku tulis,
+Belanja,Topup Shopeepay,108827,77447,139851,topup shopeepay,shopee;belanja online
+Belanja,Paracetamol,10702,9277,12022,paracetamol,
+Transport,Tiket Kereta Lokal,43956,37144,55362,tiket kereta lokal,
+Transport,GrabBike,17133,12845,22060,grabbike,grabbike;grab
+Transport,Tiket Kereta Lokal,53737,42078,60811,tiket kereta lokal,
+Tagihan,WiFi Indihome Bulanan,368321,309577,452343,wifi indihome bulanan,
+Makanan & Minuman,Bakso,17403,14096,21778,bakso,
+Tagihan,Air PDAM Bulanan,121220,99398,167290,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,229487,175541,278027,gym membership,
+Belanja,Paket Data 20GB,71360,54568,83649,paket data 2ogb,
+Belanja,Vitamin C,24062,19491,31843,vitamin c,
+Hiburan,Laundry Kiloan,6889,5369,9078,laundry kiloan,
+Hiburan,Gym Membership,170978,124303,233743,gym membership,
+Makanan & Minuman,Sate Ayam,28632,21272,34200,sate ayam,
+Belanja,Topup Shopeepay,112573,90312,143102,topup shopeepay,shopee;belanja online
+Belanja,Vitamin C,21957,17391,25180,vitamin c,
+Hiburan,Canva Pro Sharing,27922,20940,32860,canva pro sharing,
+Hiburan,Spotify Premium,56163,45706,65442,spotify premium,spotify
+Makanan & Minuman,Mie Instan,4263,3395,5313,mie instan,
+Tagihan,Listrik PLN Bulanan,257142,195448,339231,listrik pln bulanan,pln;listrik
+Belanja,Hand Sanitizer,15723,11181,20931,hand sanitizer,
+Hiburan,Skincare Facial Wash,44113,39086,50119,skincare facial wash,
+Belanja,Topup OVO,107430,93452,148102,topup ovo,
+Tagihan,LPG 3kg,19057,15338,22788,lpg ekg,
+Belanja,Vitamin C,23701,19898,27160,vitamin c,
+Tagihan,LPG 3kg,25108,21356,31951,lpg ekg,
+Makanan & Minuman,Mie Ayam,14693,12595,16814,mie ayam,
+Hiburan,Spotify Premium,54601,46359,69040,spotify premium,spotify
+Hiburan,Spotify Premium,53325,41961,69821,spotify premium,spotify
+Belanja,Topup OVO,99427,73538,121161,topup ovo,
+Belanja,Vitamin C,25458,22897,32007,vitamin c,
+Transport,Bensin Pertalite 1L,9298,7308,12137,bensin pertalite il,
+Belanja,Paracetamol,8837,6916,10689,paracetamol,
+Transport,Gojek Short Trip,14300,11884,19031,gojek short trip,
+Transport,Gojek Short Trip,15522,13939,19133,gojek short trip,
+Transport,Parkir Motor,2590,2236,3004,parkir motor,parkir
+Hiburan,Netflix Mobile,70025,60960,79388,netflix mobile,netflix
+Makanan & Minuman,Mie Ayam,17020,15068,23157,mie ayam,
+Belanja,Topup Shopeepay,85411,71639,96803,topup shopeepay,shopee;belanja online
+Belanja,Flashdisk 32GB,47125,34957,59443,flashdisk e2gb,
+Transport,Tiket Kereta Lokal,50348,37848,62678,tiket kereta lokal,
+Tagihan,Air PDAM Bulanan,127022,105892,154075,air pdam bulanan,pdam;air
+Tagihan,Listrik PLN Bulanan,231659,164946,268772,listrik pln bulanan,pln;listrik
+Tagihan,WiFi Indihome Bulanan,303073,251838,334138,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,524,462,633,print tugas per lembar,
+Makanan & Minuman,Ayam Geprek,16879,14797,20524,ayam geprek,
+Belanja,Buku Tulis,7848,6254,10038,buku tulis,
+Makanan & Minuman,Bakso,14554,13001,18457,bakso,
+Tagihan,Listrik PLN Bulanan,215481,190583,256740,listrik pln bulanan,pln;listrik
+Belanja,Flashdisk 32GB,59032,41539,77054,flashdisk e2gb,
+Hiburan,Potong Rambut Pria,32924,29605,45882,potong rambut pria,
+Hiburan,Skincare Facial Wash,39087,29375,47535,skincare facial wash,
+Belanja,Topup Gopay,56662,50419,66162,topup gopay,
+Hiburan,Laundry Kiloan,7329,5258,8902,laundry kiloan,
+Tagihan,Air PDAM Bulanan,117024,95325,143698,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,189757,153408,220502,gym membership,
+Transport,Tiket Kereta Lokal,50620,43534,68781,tiket kereta lokal,
+Hiburan,Potong Rambut Pria,37153,29899,42375,potong rambut pria,
+Belanja,Topup OVO,104686,85106,120118,topup ovo,
+Makanan & Minuman,Es Teh,5049,4260,5832,es teh,
+Belanja,Topup OVO,106812,91119,145695,topup ovo,
+Belanja,Flashdisk 32GB,51755,43946,69688,flashdisk e2gb,
+Tagihan,WiFi Indihome Bulanan,313455,231200,357170,wifi indihome bulanan,
+Makanan & Minuman,Air Mineral 600ml,4583,3773,5873,air mineral gooml,
+Belanja,Vitamin C,25722,19193,28495,vitamin c,
+Makanan & Minuman,Mie Instan,4877,3544,6602,mie instan,
+Belanja,Print Tugas per lembar,452,351,561,print tugas per lembar,
+Transport,GrabBike,15603,12197,21698,grabbike,grabbike;grab
+Hiburan,Laundry Kiloan,6417,5353,7449,laundry kiloan,
+Transport,Bensin Pertalite 1L,9031,8046,11124,bensin pertalite il,
+Belanja,Hand Sanitizer,19014,16605,25978,hand sanitizer,
+Belanja,Flashdisk 32GB,59557,48931,80241,flashdisk e2gb,
+Tagihan,WiFi Indihome Bulanan,338885,300871,430919,wifi indihome bulanan,
+Belanja,Paracetamol,10061,7951,13563,paracetamol,
+Makanan & Minuman,Mie Ayam,15084,11752,19919,mie ayam,
+Belanja,Hand Sanitizer,18087,14942,20163,hand sanitizer,
+Hiburan,Laundry Kiloan,6785,5162,9148,laundry kiloan,
+Belanja,Pulpen,4883,4016,5451,pulpen,
+Belanja,Vitamin C,24726,20503,27869,vitamin c,
+Belanja,Paracetamol,9039,7385,12368,paracetamol,
+Belanja,Vitamin C,24198,18504,26798,vitamin c,
+Belanja,Pulpen,5573,4001,6672,pulpen,
+Tagihan,Air PDAM Bulanan,127861,92661,145026,air pdam bulanan,pdam;air
+Belanja,Print Tugas per lembar,437,367,575,print tugas per lembar,
+Belanja,Vitamin C,24090,18696,32051,vitamin c,
+Hiburan,Gym Membership,222278,193945,255316,gym membership,
+Transport,GrabBike,18372,13048,21907,grabbike,grabbike;grab
+Tagihan,LPG 3kg,20605,15168,28219,lpg ekg,
+Transport,Bensin Pertalite 1L,10367,7781,12830,bensin pertalite il,
+Belanja,Paket Data 20GB,65848,46169,89870,paket data 2ogb,
+Transport,GrabBike,17453,13877,21345,grabbike,grabbike;grab
+Makanan & Minuman,Martabak Manis,36051,27000,45575,martabak manis,
+Belanja,Vitamin C,21616,15772,28013,vitamin c,
+Makanan & Minuman,Bakso,17698,14749,23917,bakso,
+Hiburan,Canva Pro Sharing,28152,19982,34488,canva pro sharing,
+Transport,GrabBike,17877,14698,23373,grabbike,grabbike;grab
+Belanja,Vitamin C,28497,24218,34425,vitamin c,
+Makanan & Minuman,Nasi Goreng,18369,14044,25151,nasi goreng,
+Belanja,Topup Gopay,53876,46800,60312,topup gopay,
+Belanja,Pulpen,4433,3865,5314,pulpen,
+Belanja,Pulpen,5293,4353,5995,pulpen,
+Tagihan,Listrik PLN Bulanan,248774,208405,343349,listrik pln bulanan,pln;listrik
+Tagihan,WiFi Indihome Bulanan,342340,297685,403241,wifi indihome bulanan,
+Belanja,Masker Medis,22562,18565,28178,masker medis,
+Tagihan,LPG 3kg,21950,16154,28157,lpg ekg,
+Tagihan,WiFi Indihome Bulanan,400322,280351,443234,wifi indihome bulanan,
+Tagihan,Listrik PLN Bulanan,267810,198572,344026,listrik pln bulanan,pln;listrik
+Belanja,Flashdisk 32GB,47500,36571,63736,flashdisk e2gb,
+Transport,Bensin Pertalite 1L,10421,8732,12258,bensin pertalite il,
+Makanan & Minuman,Sate Ayam,23502,19036,31260,sate ayam,
+Makanan & Minuman,Roti Tawar,17099,13323,21727,roti tawar,
+Makanan & Minuman,Bakso,14531,12594,20004,bakso,
+Belanja,Flashdisk 32GB,59904,49668,74547,flashdisk e2gb,
+Tagihan,LPG 3kg,24587,19851,29517,lpg ekg,
+Belanja,Paket Data 20GB,73341,52160,92139,paket data 2ogb,
+Belanja,Masker Medis,20331,14307,25885,masker medis,
+Hiburan,Skincare Facial Wash,50618,43488,56685,skincare facial wash,
+Transport,Gojek Short Trip,16533,12694,20047,gojek short trip,
+Belanja,Vitamin C,25532,19861,32644,vitamin c,
+Belanja,Topup Shopeepay,106157,80987,117779,topup shopeepay,shopee;belanja online
+Belanja,Buku Tulis,6993,5227,8640,buku tulis,
+Hiburan,Netflix Mobile,65489,48134,79390,netflix mobile,netflix
+Makanan & Minuman,Air Mineral 600ml,3642,2616,4559,air mineral gooml,
+Belanja,Paket Data 20GB,72896,53273,87623,paket data 2ogb,
+Belanja,Print Tugas per lembar,541,394,736,print tugas per lembar,
+Belanja,Pulsa 25K,27378,19891,36066,pulsa 2sk,
+Belanja,Flashdisk 32GB,58525,47081,64449,flashdisk e2gb,
+Makanan & Minuman,Roti Tawar,19879,17381,23854,roti tawar,
+Makanan & Minuman,Nasi Goreng,17104,14227,20417,nasi goreng,
+Belanja,Masker Medis,20833,15457,24169,masker medis,
+Hiburan,Canva Pro Sharing,25242,21570,32848,canva pro sharing,
+Hiburan,Netflix Mobile,58321,42159,80919,netflix mobile,netflix
+Belanja,Paracetamol,9119,7022,10902,paracetamol,
+Transport,Gojek Short Trip,15333,11258,18298,gojek short trip,
+Hiburan,Gym Membership,196618,142747,244046,gym membership,
+Tagihan,Listrik PLN Bulanan,220444,156682,270691,listrik pln bulanan,pln;listrik
+Transport,Tiket Kereta Lokal,55869,46141,73022,tiket kereta lokal,
+Belanja,Print Tugas per lembar,471,406,618,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,285526,243025,353969,listrik pln bulanan,pln;listrik
+Transport,Bensin Pertalite 1L,10938,9668,13568,bensin pertalite il,
+Belanja,Print Tugas per lembar,527,443,653,print tugas per lembar,
+Transport,GrabBike,15182,13347,17875,grabbike,grabbike;grab
+Hiburan,Laundry Kiloan,6335,5596,7596,laundry kiloan,
+Belanja,Topup Shopeepay,98598,69615,122517,topup shopeepay,shopee;belanja online
+Hiburan,Laundry Kiloan,6918,5078,9203,laundry kiloan,
+Belanja,Vitamin C,25059,19574,32934,vitamin c,
+Makanan & Minuman,Kopi Susu,22370,15976,26634,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Flashdisk 32GB,56493,42240,66272,flashdisk e2gb,
+Transport,Parkir Motor,2895,2223,3891,parkir motor,parkir
+Belanja,Hand Sanitizer,19535,15375,26102,hand sanitizer,
+Belanja,Vitamin C,22548,18803,29804,vitamin c,
+Tagihan,LPG 3kg,19454,15937,23298,lpg ekg,
+Makanan & Minuman,Matcha Latte,27085,24137,30359,matcha latte,
+Makanan & Minuman,Roti Tawar,19695,16824,23903,roti tawar,
+Belanja,Buku Tulis,6140,5301,8388,buku tulis,
+Belanja,Topup Gopay,53856,44817,66560,topup gopay,
+Hiburan,Laundry Kiloan,7242,5717,8413,laundry kiloan,
+Hiburan,Canva Pro Sharing,25527,22531,30411,canva pro sharing,
+Belanja,Print Tugas per lembar,573,467,735,print tugas per lembar,
+Belanja,Hand Sanitizer,19877,17302,22236,hand sanitizer,
+Belanja,Paracetamol,8502,6903,11848,paracetamol,
+Makanan & Minuman,Sate Ayam,27742,20724,36360,sate ayam,
+Belanja,Print Tugas per lembar,531,414,653,print tugas per lembar,
+Transport,GrabBike,16871,12444,20504,grabbike,grabbike;grab
+Hiburan,Skincare Facial Wash,43882,33249,59759,skincare facial wash,
+Transport,GrabBike,14509,12037,16586,grabbike,grabbike;grab
+Belanja,Flashdisk 32GB,62837,45692,71707,flashdisk e2gb,
+Belanja,Paket Data 20GB,72022,63286,94249,paket data 2ogb,
+Belanja,Pulpen,4931,3869,6637,pulpen,
+Belanja,Print Tugas per lembar,458,359,504,print tugas per lembar,
+Belanja,Pulpen,5318,4008,7328,pulpen,
+Belanja,Masker Medis,17200,12170,21413,masker medis,
+Hiburan,Spotify Premium,56324,50260,63309,spotify premium,spotify
+Tagihan,WiFi Indihome Bulanan,346318,247841,473407,wifi indihome bulanan,
+Makanan & Minuman,Mie Ayam,14876,12619,20649,mie ayam,
+Makanan & Minuman,Roti Tawar,18721,16092,22348,roti tawar,
+Makanan & Minuman,Kopi Susu,22231,15609,27482,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Print Tugas per lembar,488,435,653,print tugas per lembar,
+Hiburan,Netflix Mobile,55938,49481,74108,netflix mobile,netflix
+Tagihan,WiFi Indihome Bulanan,303948,241526,349760,wifi indihome bulanan,
+Makanan & Minuman,Roti Tawar,20647,17793,26578,roti tawar,
+Hiburan,Laundry Kiloan,6123,4905,8299,laundry kiloan,
+Hiburan,Canva Pro Sharing,22244,16820,30193,canva pro sharing,
+Makanan & Minuman,Mie Instan,3975,2921,5078,mie instan,
+Transport,Parkir Motor,2882,2118,3846,parkir motor,parkir
+Transport,Parkir Motor,2712,2184,3010,parkir motor,parkir
+Makanan & Minuman,Bakso,16458,14225,22239,bakso,
+Belanja,Paket Data 20GB,70272,52534,86579,paket data 2ogb,
+Tagihan,Air PDAM Bulanan,109590,92808,131894,air pdam bulanan,pdam;air
+Tagihan,WiFi Indihome Bulanan,376825,272519,433454,wifi indihome bulanan,
+Belanja,Flashdisk 32GB,51722,43923,68569,flashdisk e2gb,
+Belanja,Vitamin C,24098,20269,29938,vitamin c,
+Transport,Tiket Kereta Lokal,55554,39019,76562,tiket kereta lokal,
+Belanja,Flashdisk 32GB,57945,51707,75610,flashdisk e2gb,
+Makanan & Minuman,Nasi Goreng,19130,15829,26530,nasi goreng,
+Belanja,Print Tugas per lembar,475,357,536,print tugas per lembar,
+Tagihan,LPG 3kg,21743,18156,25494,lpg ekg,
+Tagihan,Air PDAM Bulanan,120718,100865,168759,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,170634,119733,191175,gym membership,
+Belanja,Buku Tulis,7053,5904,8502,buku tulis,
+Tagihan,WiFi Indihome Bulanan,323949,228969,416539,wifi indihome bulanan,
+Makanan & Minuman,Martabak Manis,36644,31773,50757,martabak manis,
+Tagihan,Listrik PLN Bulanan,265605,192296,360407,listrik pln bulanan,pln;listrik
+Transport,Parkir Motor,3140,2763,3987,parkir motor,parkir
+Transport,Bensin Pertalite 1L,10586,7946,13127,bensin pertalite il,
+Makanan & Minuman,Roti Tawar,17748,15956,23619,roti tawar,
+Tagihan,WiFi Indihome Bulanan,324520,277836,383967,wifi indihome bulanan,
+Makanan & Minuman,Boba Drink,24164,21728,28452,boba drink,
+Belanja,Topup Shopeepay,90337,64489,125914,topup shopeepay,shopee;belanja online
+Transport,Tiket Kereta Lokal,48389,40119,54801,tiket kereta lokal,
+Belanja,Hand Sanitizer,16479,13655,22638,hand sanitizer,
+Tagihan,WiFi Indihome Bulanan,308345,220338,392030,wifi indihome bulanan,
+Hiburan,Skincare Facial Wash,44269,38925,50672,skincare facial wash,
+Tagihan,Listrik PLN Bulanan,282467,235272,333291,listrik pln bulanan,pln;listrik
+Tagihan,WiFi Indihome Bulanan,392484,319846,492416,wifi indihome bulanan,
+Belanja,Paket Data 20GB,64573,50417,85128,paket data 2ogb,
+Belanja,Topup Gopay,50601,35454,70145,topup gopay,
+Belanja,Paket Data 20GB,57613,46497,80513,paket data 2ogb,
+Hiburan,Potong Rambut Pria,32929,23413,46071,potong rambut pria,
+Tagihan,Listrik PLN Bulanan,239901,208874,288365,listrik pln bulanan,pln;listrik
+Belanja,Paket Data 20GB,70078,53118,81356,paket data 2ogb,
+Belanja,Paracetamol,11402,9488,13564,paracetamol,
+Belanja,Buku Tulis,7274,5614,8186,buku tulis,
+Tagihan,LPG 3kg,23553,17146,27272,lpg ekg,
+Tagihan,Air PDAM Bulanan,119612,85235,150970,air pdam bulanan,pdam;air
+Hiburan,Laundry Kiloan,7071,6129,8731,laundry kiloan,
+Makanan & Minuman,Ayam Geprek,17132,13149,22550,ayam geprek,
+Belanja,Buku Tulis,6394,5311,8036,buku tulis,
+Tagihan,Air PDAM Bulanan,128677,96069,144325,air pdam bulanan,pdam;air
+Tagihan,Air PDAM Bulanan,119600,84175,164109,air pdam bulanan,pdam;air
+Belanja,Paracetamol,9228,7657,10190,paracetamol,
+Tagihan,Listrik PLN Bulanan,280349,242262,316566,listrik pln bulanan,pln;listrik
+Belanja,Vitamin C,27515,19612,37014,vitamin c,
+Makanan & Minuman,Matcha Latte,30854,25396,34523,matcha latte,
+Transport,Parkir Motor,2853,2474,3769,parkir motor,parkir
+Belanja,Print Tugas per lembar,443,370,559,print tugas per lembar,
+Hiburan,Skincare Facial Wash,51273,38077,57101,skincare facial wash,
+Transport,Gojek Short Trip,13034,9837,17299,gojek short trip,
+Transport,Gojek Short Trip,15240,12005,20996,gojek short trip,
+Makanan & Minuman,Bakso,14079,12241,18073,bakso,
+Belanja,Topup OVO,85468,68151,94177,topup ovo,
+Transport,Bensin Pertalite 1L,10620,8695,12585,bensin pertalite il,
+Tagihan,LPG 3kg,23269,17247,30062,lpg ekg,
+Belanja,Hand Sanitizer,17524,15554,22486,hand sanitizer,
+Makanan & Minuman,Martabak Manis,31640,25311,43824,martabak manis,
+Tagihan,WiFi Indihome Bulanan,334024,234122,391039,wifi indihome bulanan,
+Makanan & Minuman,Es Teh,5715,4707,7765,es teh,
+Belanja,Vitamin C,24731,20410,28748,vitamin c,
+Makanan & Minuman,Mie Ayam,13257,9675,17938,mie ayam,
+Belanja,Flashdisk 32GB,49659,41417,55267,flashdisk e2gb,
+Tagihan,WiFi Indihome Bulanan,327431,257666,393011,wifi indihome bulanan,
+Belanja,Paket Data 20GB,56094,47572,77267,paket data 2ogb,
+Transport,GrabBike,18456,14709,20944,grabbike,grabbike;grab
+Transport,Parkir Motor,3083,2359,3575,parkir motor,parkir
+Tagihan,WiFi Indihome Bulanan,321656,232244,375801,wifi indihome bulanan,
+Transport,Parkir Motor,3332,2582,3885,parkir motor,parkir
+Belanja,Flashdisk 32GB,47646,37505,55500,flashdisk e2gb,
+Belanja,Hand Sanitizer,16261,12597,20120,hand sanitizer,
+Transport,Gojek Short Trip,17140,12691,19508,gojek short trip,
+Tagihan,Listrik PLN Bulanan,233545,168671,289516,listrik pln bulanan,pln;listrik
+Belanja,Pulpen,5390,4010,6406,pulpen,
+Transport,Tiket Kereta Lokal,56083,45742,70991,tiket kereta lokal,
+Transport,Bensin Pertalite 1L,9735,7830,13226,bensin pertalite il,
+Transport,Tiket Kereta Lokal,49602,39312,54778,tiket kereta lokal,
+Belanja,Pulpen,4621,3636,5391,pulpen,
+Belanja,Vitamin C,28103,24720,34435,vitamin c,
+Makanan & Minuman,Ayam Geprek,20652,17485,25841,ayam geprek,
+Belanja,Flashdisk 32GB,54657,46983,73589,flashdisk e2gb,
+Belanja,Flashdisk 32GB,50718,41167,55978,flashdisk e2gb,
+Tagihan,LPG 3kg,24969,18141,29681,lpg ekg,
+Tagihan,Listrik PLN Bulanan,213694,178179,245436,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,8000,6342,9132,buku tulis,
+Tagihan,LPG 3kg,19920,17416,25657,lpg ekg,
+Tagihan,Listrik PLN Bulanan,277028,197836,378982,listrik pln bulanan,pln;listrik
+Hiburan,Gym Membership,171962,135021,203076,gym membership,
+Belanja,Vitamin C,27157,19449,37049,vitamin c,
+Tagihan,Listrik PLN Bulanan,251105,221474,303635,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Nasi Goreng,16403,13008,18244,nasi goreng,
+Hiburan,Netflix Mobile,67889,57092,86098,netflix mobile,netflix
+Belanja,Topup OVO,89152,68378,112500,topup ovo,
+Tagihan,LPG 3kg,23566,20041,32081,lpg ekg,
+Tagihan,Air PDAM Bulanan,129114,110028,154438,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,210813,159254,235902,gym membership,
+Hiburan,Laundry Kiloan,6971,5614,7924,laundry kiloan,
+Tagihan,WiFi Indihome Bulanan,344957,266868,449131,wifi indihome bulanan,
+Tagihan,Listrik PLN Bulanan,226626,198704,255224,listrik pln bulanan,pln;listrik
+Belanja,Pulpen,4682,4173,5303,pulpen,
+Hiburan,Spotify Premium,58251,46558,79366,spotify premium,spotify
+Belanja,Paracetamol,9379,8384,11840,paracetamol,
+Transport,Parkir Motor,2862,2257,3701,parkir motor,parkir
+Hiburan,Netflix Mobile,56477,49381,66061,netflix mobile,netflix
+Belanja,Masker Medis,19470,14963,25190,masker medis,
+Hiburan,Laundry Kiloan,7196,6040,9733,laundry kiloan,
+Belanja,Flashdisk 32GB,51767,37603,69202,flashdisk e2gb,
+Transport,Gojek Short Trip,13770,10663,16337,gojek short trip,
+Belanja,Topup Gopay,44725,33851,62027,topup gopay,
+Belanja,Vitamin C,26588,20128,37009,vitamin c,
+Belanja,Topup OVO,89837,64986,125603,topup ovo,
+Belanja,Vitamin C,24556,19004,28522,vitamin c,
+Tagihan,Listrik PLN Bulanan,262416,235020,300304,listrik pln bulanan,pln;listrik
+Belanja,Pulpen,5050,3657,5592,pulpen,
+Belanja,Pulpen,5671,5022,6503,pulpen,
+Tagihan,WiFi Indihome Bulanan,365460,277424,500239,wifi indihome bulanan,
+Belanja,Pulsa 25K,27301,23476,35998,pulsa 2sk,
+Belanja,Print Tugas per lembar,528,446,723,print tugas per lembar,
+Transport,Tiket Kereta Lokal,44253,31196,56876,tiket kereta lokal,
+Transport,Parkir Motor,2871,2197,3681,parkir motor,parkir
+Transport,Tiket Kereta Lokal,50396,43151,67033,tiket kereta lokal,
+Transport,Bensin Pertalite 1L,8750,7611,11402,bensin pertalite il,
+Makanan & Minuman,Es Teh,4841,3863,6201,es teh,
+Belanja,Paracetamol,11225,8668,12845,paracetamol,
+Belanja,Paket Data 20GB,62457,48377,74036,paket data 2ogb,
+Hiburan,Canva Pro Sharing,28581,25004,32190,canva pro sharing,
+Tagihan,LPG 3kg,23594,18476,29085,lpg ekg,
+Transport,Parkir Motor,3205,2508,4328,parkir motor,parkir
+Belanja,Paracetamol,8930,6792,12470,paracetamol,
+Belanja,Masker Medis,17396,15517,23081,masker medis,
+Makanan & Minuman,Ayam Geprek,17511,15460,21439,ayam geprek,
+Belanja,Hand Sanitizer,19135,16284,21834,hand sanitizer,
+Transport,Parkir Motor,2810,2242,3784,parkir motor,parkir
+Hiburan,Skincare Facial Wash,46150,36865,61008,skincare facial wash,
+Transport,Bensin Pertalite 1L,10873,7946,12939,bensin pertalite il,
+Tagihan,LPG 3kg,19519,16262,23155,lpg ekg,
+Transport,Parkir Motor,3366,2790,3731,parkir motor,parkir
+Belanja,Topup Shopeepay,99791,89225,127699,topup shopeepay,shopee;belanja online
+Hiburan,Gym Membership,198829,156520,234095,gym membership,
+Tagihan,LPG 3kg,25130,21703,30456,lpg ekg,
+Tagihan,Listrik PLN Bulanan,275896,202112,308328,listrik pln bulanan,pln;listrik
+Hiburan,Laundry Kiloan,7794,5667,8955,laundry kiloan,
+Hiburan,Canva Pro Sharing,24396,21527,29440,canva pro sharing,
+Hiburan,Canva Pro Sharing,25222,22378,31632,canva pro sharing,
+Belanja,Topup OVO,107940,88484,124146,topup ovo,
+Hiburan,Skincare Facial Wash,42518,36948,56972,skincare facial wash,
+Hiburan,Potong Rambut Pria,37078,28642,46730,potong rambut pria,
+Hiburan,Skincare Facial Wash,40190,29233,47602,skincare facial wash,
+Belanja,Paket Data 20GB,63283,55953,72706,paket data 2ogb,
+Transport,GrabBike,17017,14742,22777,grabbike,grabbike;grab
+Belanja,Paracetamol,9752,8613,11068,paracetamol,
+Transport,Bensin Pertalite 1L,9938,7575,12012,bensin pertalite il,
+Belanja,Paket Data 20GB,72599,59497,96489,paket data 2ogb,
+Hiburan,Netflix Mobile,69092,48761,92885,netflix mobile,netflix
+Transport,GrabBike,18819,13709,21980,grabbike,grabbike;grab
+Transport,GrabBike,15114,10817,19757,grabbike,grabbike;grab
+Belanja,Topup Gopay,43666,37331,57953,topup gopay,
+Makanan & Minuman,Mie Ayam,13235,11363,16597,mie ayam,
+Makanan & Minuman,Matcha Latte,26570,19943,29755,matcha latte,
+Tagihan,Listrik PLN Bulanan,269091,230469,370277,listrik pln bulanan,pln;listrik
+Transport,Tiket Kereta Lokal,56017,41282,67526,tiket kereta lokal,
+Makanan & Minuman,Bakso,17660,15688,24452,bakso,
+Hiburan,Canva Pro Sharing,22454,17966,29607,canva pro sharing,
+Transport,Tiket Kereta Lokal,51053,36749,65012,tiket kereta lokal,
+Makanan & Minuman,Es Teh,4575,3377,5419,es teh,
+Belanja,Pulsa 25K,22133,18703,30483,pulsa 2sk,
+Belanja,Hand Sanitizer,17278,14131,21284,hand sanitizer,
+Makanan & Minuman,Bakso,17606,15779,21606,bakso,
+Belanja,Vitamin C,24306,20715,29028,vitamin c,
+Belanja,Buku Tulis,7041,5626,8508,buku tulis,
+Hiburan,Gym Membership,213328,152838,266257,gym membership,
+Belanja,Print Tugas per lembar,493,417,643,print tugas per lembar,
+Belanja,Paket Data 20GB,59654,46617,83246,paket data 2ogb,
+Belanja,Pulpen,5535,4864,7420,pulpen,
+Tagihan,WiFi Indihome Bulanan,316326,284612,394614,wifi indihome bulanan,
+Makanan & Minuman,Boba Drink,24535,20405,27614,boba drink,
+Transport,Parkir Motor,2910,2380,3289,parkir motor,parkir
+Transport,Bensin Pertalite 1L,9591,7095,11126,bensin pertalite il,
+Belanja,Paket Data 20GB,57643,50012,75948,paket data 2ogb,
+Hiburan,Skincare Facial Wash,47882,39090,56591,skincare facial wash,
+Belanja,Paket Data 20GB,62193,51827,86139,paket data 2ogb,
+Belanja,Print Tugas per lembar,447,353,508,print tugas per lembar,
+Belanja,Flashdisk 32GB,50558,44919,56064,flashdisk e2gb,
+Tagihan,Listrik PLN Bulanan,274773,219715,304455,listrik pln bulanan,pln;listrik
+Transport,Parkir Motor,3094,2368,3684,parkir motor,parkir
+Belanja,Paracetamol,10780,8971,13539,paracetamol,
+Belanja,Flashdisk 32GB,50081,41688,62454,flashdisk e2gb,
+Hiburan,Gym Membership,190616,166204,240935,gym membership,
+Belanja,Topup Gopay,57360,50248,65146,topup gopay,
+Belanja,Print Tugas per lembar,552,435,613,print tugas per lembar,
+Transport,Tiket Kereta Lokal,52391,44840,71535,tiket kereta lokal,
+Transport,Parkir Motor,2937,2239,3573,parkir motor,parkir
+Belanja,Topup Gopay,51032,40729,64613,topup gopay,
+Belanja,Hand Sanitizer,17869,15561,22372,hand sanitizer,
+Belanja,Print Tugas per lembar,499,446,641,print tugas per lembar,
+Hiburan,Skincare Facial Wash,51450,39312,57029,skincare facial wash,
+Makanan & Minuman,Bakso,17617,13561,23300,bakso,
+Makanan & Minuman,Air Mineral 600ml,4469,3433,5046,air mineral gooml,
+Hiburan,Canva Pro Sharing,24339,17312,28556,canva pro sharing,
+Transport,Gojek Short Trip,15416,13598,17260,gojek short trip,
+Hiburan,Spotify Premium,52320,36830,62670,spotify premium,spotify
+Belanja,Flashdisk 32GB,56122,49403,66223,flashdisk e2gb,
+Tagihan,LPG 3kg,22580,20257,27396,lpg ekg,
+Belanja,Print Tugas per lembar,510,439,576,print tugas per lembar,
+Tagihan,Air PDAM Bulanan,114094,91338,151684,air pdam bulanan,pdam;air
+Hiburan,Netflix Mobile,67239,51953,82757,netflix mobile,netflix
+Belanja,Buku Tulis,7714,6226,9150,buku tulis,
+Makanan & Minuman,Sate Ayam,28721,22414,33539,sate ayam,
+Tagihan,Listrik PLN Bulanan,266328,217227,340249,listrik pln bulanan,pln;listrik
+Hiburan,Spotify Premium,56096,45225,68893,spotify premium,spotify
+Hiburan,Skincare Facial Wash,39284,33970,49159,skincare facial wash,
+Hiburan,Laundry Kiloan,7343,5600,8989,laundry kiloan,
+Hiburan,Gym Membership,200922,167631,254019,gym membership,
+Makanan & Minuman,Roti Tawar,19097,16662,24311,roti tawar,
+Transport,Parkir Motor,2791,2309,3747,parkir motor,parkir
+Belanja,Paket Data 20GB,73475,62110,82142,paket data 2ogb,
+Transport,Gojek Short Trip,14831,11094,19635,gojek short trip,
+Belanja,Topup Shopeepay,110323,86278,149824,topup shopeepay,shopee;belanja online
+Makanan & Minuman,Roti Tawar,16399,12832,22091,roti tawar,
+Tagihan,Air PDAM Bulanan,111232,91237,135898,air pdam bulanan,pdam;air
+Makanan & Minuman,Bakso,14521,10877,19576,bakso,
+Belanja,Flashdisk 32GB,55987,44074,72451,flashdisk e2gb,
+Makanan & Minuman,Mie Ayam,13467,9794,15857,mie ayam,
+Belanja,Topup Shopeepay,104760,77019,142029,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,23862,16967,32665,lpg ekg,
+Hiburan,Gym Membership,187878,133903,260497,gym membership,
+Hiburan,Potong Rambut Pria,36653,26319,50689,potong rambut pria,
+Tagihan,Air PDAM Bulanan,110497,89966,138129,air pdam bulanan,pdam;air
+Makanan & Minuman,Es Teh,5246,4281,6990,es teh,
+Belanja,Masker Medis,19978,14345,25570,masker medis,
+Belanja,Topup Shopeepay,94878,77502,115465,topup shopeepay,shopee;belanja online
+Tagihan,Air PDAM Bulanan,135678,100890,153593,air pdam bulanan,pdam;air
+Transport,Gojek Short Trip,14727,11057,18804,gojek short trip,
+Belanja,Print Tugas per lembar,529,382,668,print tugas per lembar,
+Belanja,Pulpen,5694,4987,7863,pulpen,
+Hiburan,Laundry Kiloan,7452,6440,8244,laundry kiloan,
+Belanja,Paracetamol,11024,9176,15237,paracetamol,
+Tagihan,Air PDAM Bulanan,111107,86323,143515,air pdam bulanan,pdam;air
+Tagihan,WiFi Indihome Bulanan,392331,328400,494522,wifi indihome bulanan,
+Transport,Parkir Motor,2899,2556,3530,parkir motor,parkir
+Hiburan,Canva Pro Sharing,21926,18955,25667,canva pro sharing,
+Transport,GrabBike,19121,15799,26077,grabbike,grabbike;grab
+Belanja,Paket Data 20GB,70641,53320,79402,paket data 2ogb,
+Belanja,Paket Data 20GB,64436,50427,87139,paket data 2ogb,
+Tagihan,LPG 3kg,24486,21157,32990,lpg ekg,
+Tagihan,WiFi Indihome Bulanan,350665,270142,449073,wifi indihome bulanan,
+Belanja,Pulsa 25K,27854,22022,30867,pulsa 2sk,
+Makanan & Minuman,Roti Tawar,18764,15499,25093,roti tawar,
+Transport,Bensin Pertalite 1L,9701,8009,11584,bensin pertalite il,
+Makanan & Minuman,Nasi Goreng,15254,12253,21216,nasi goreng,
+Belanja,Topup OVO,110408,92428,147703,topup ovo,
+Hiburan,Laundry Kiloan,6954,5890,8193,laundry kiloan,
+Tagihan,WiFi Indihome Bulanan,381450,282171,467027,wifi indihome bulanan,
+Transport,Parkir Motor,3338,2967,4557,parkir motor,parkir
+Transport,Bensin Pertalite 1L,11344,10035,14680,bensin pertalite il,
+Tagihan,Air PDAM Bulanan,134646,120484,156119,air pdam bulanan,pdam;air
+Tagihan,Air PDAM Bulanan,103792,85483,132865,air pdam bulanan,pdam;air
+Transport,Bensin Pertalite 1L,11374,8348,14446,bensin pertalite il,
+Makanan & Minuman,Mie Instan,4534,3875,6250,mie instan,
+Belanja,Paket Data 20GB,57560,48506,66606,paket data 2ogb,
+Belanja,Topup Shopeepay,93638,74801,106659,topup shopeepay,shopee;belanja online
+Belanja,Topup OVO,103002,92603,122046,topup ovo,
+Tagihan,Air PDAM Bulanan,117059,91505,133890,air pdam bulanan,pdam;air
+Hiburan,Canva Pro Sharing,23016,18187,27032,canva pro sharing,
+Belanja,Hand Sanitizer,15762,12511,21458,hand sanitizer,
+Tagihan,LPG 3kg,23233,19577,30494,lpg ekg,
+Tagihan,WiFi Indihome Bulanan,305170,247614,340457,wifi indihome bulanan,
+Transport,Parkir Motor,3367,3028,4652,parkir motor,parkir
+Belanja,Pulsa 25K,27634,23819,30441,pulsa 2sk,
+Belanja,Hand Sanitizer,16933,13189,20510,hand sanitizer,
+Belanja,Paracetamol,10241,7701,12812,paracetamol,
+Hiburan,Laundry Kiloan,6227,4754,7840,laundry kiloan,
+Transport,Gojek Short Trip,13275,9409,15111,gojek short trip,
+Belanja,Topup Shopeepay,107434,95105,127296,topup shopeepay,shopee;belanja online
+Hiburan,Gym Membership,219775,194576,275837,gym membership,
+Belanja,Pulpen,4723,4245,6277,pulpen,
+Transport,Tiket Kereta Lokal,55295,45976,74065,tiket kereta lokal,
+Makanan & Minuman,Mie Ayam,13418,10009,14904,mie ayam,
+Hiburan,Netflix Mobile,69016,54335,96523,netflix mobile,netflix
+Belanja,Buku Tulis,6877,6173,8721,buku tulis,
+Belanja,Flashdisk 32GB,48606,41021,55625,flashdisk e2gb,
+Hiburan,Spotify Premium,50111,37925,67674,spotify premium,spotify
+Tagihan,WiFi Indihome Bulanan,356640,296948,415028,wifi indihome bulanan,
+Makanan & Minuman,Es Teh,5400,3975,7431,es teh,
+Transport,Parkir Motor,3159,2771,3499,parkir motor,parkir
+Tagihan,Listrik PLN Bulanan,242062,198023,335344,listrik pln bulanan,pln;listrik
+Belanja,Topup Shopeepay,89613,64181,120906,topup shopeepay,shopee;belanja online
+Tagihan,LPG 3kg,21696,19332,27733,lpg ekg,
+Makanan & Minuman,Kopi Susu,25100,20863,34770,kopi susu,kopi;starbucks;kopi kenangan
+Hiburan,Potong Rambut Pria,40248,35473,53896,potong rambut pria,
+Transport,GrabBike,18852,16218,22337,grabbike,grabbike;grab
+Belanja,Topup Gopay,53656,43430,68716,topup gopay,
+Makanan & Minuman,Boba Drink,23163,17326,30836,boba drink,
+Belanja,Buku Tulis,5993,4444,7290,buku tulis,
+Belanja,Print Tugas per lembar,522,465,598,print tugas per lembar,
+Hiburan,Laundry Kiloan,7632,6465,10505,laundry kiloan,
+Tagihan,Air PDAM Bulanan,114925,82656,139086,air pdam bulanan,pdam;air
+Transport,Parkir Motor,2950,2293,3482,parkir motor,parkir
+Belanja,Hand Sanitizer,15787,12385,19109,hand sanitizer,
+Transport,Parkir Motor,3117,2239,3908,parkir motor,parkir
+Belanja,Pulpen,5221,4399,7200,pulpen,
+Belanja,Paracetamol,9372,7380,12859,paracetamol,
+Belanja,Print Tugas per lembar,447,324,612,print tugas per lembar,
+Belanja,Topup OVO,100692,76434,112202,topup ovo,
+Makanan & Minuman,Ayam Geprek,18072,14496,22118,ayam geprek,
+Belanja,Print Tugas per lembar,478,390,636,print tugas per lembar,
+Makanan & Minuman,Nasi Goreng,18226,14445,24347,nasi goreng,
+Belanja,Paket Data 20GB,56132,43965,73606,paket data 2ogb,
+Hiburan,Gym Membership,213445,181742,263601,gym membership,
+Belanja,Topup Shopeepay,95240,84156,127907,topup shopeepay,shopee;belanja online
+Transport,GrabBike,14848,13310,17487,grabbike,grabbike;grab
+Tagihan,Listrik PLN Bulanan,245034,172401,298569,listrik pln bulanan,pln;listrik
+Makanan & Minuman,Bakso,16747,13264,20456,bakso,
+Tagihan,LPG 3kg,20698,17854,26597,lpg ekg,
+Tagihan,LPG 3kg,24010,17227,27384,lpg ekg,
+Transport,Bensin Pertalite 1L,10947,9186,12659,bensin pertalite il,
+Makanan & Minuman,Mie Ayam,14915,10873,17488,mie ayam,
+Belanja,Pulsa 25K,23589,17931,29227,pulsa 2sk,
+Belanja,Flashdisk 32GB,47109,34541,53974,flashdisk e2gb,
+Tagihan,LPG 3kg,25061,19905,34031,lpg ekg,
+Belanja,Vitamin C,22760,18524,30729,vitamin c,
+Makanan & Minuman,Kopi Susu,18751,15489,24637,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Flashdisk 32GB,58911,48258,74598,flashdisk e2gb,
+Hiburan,Spotify Premium,54793,43682,69987,spotify premium,spotify
+Belanja,Hand Sanitizer,16552,11787,18301,hand sanitizer,
+Belanja,Masker Medis,20319,15311,26302,masker medis,
+Belanja,Buku Tulis,6989,6204,8414,buku tulis,
+Tagihan,LPG 3kg,18837,14270,21806,lpg ekg,
+Hiburan,Laundry Kiloan,6437,4788,8836,laundry kiloan,
+Hiburan,Gym Membership,221207,186486,274416,gym membership,
+Hiburan,Potong Rambut Pria,37219,33197,50242,potong rambut pria,
+Tagihan,WiFi Indihome Bulanan,381077,327707,515734,wifi indihome bulanan,
+Belanja,Vitamin C,23368,19859,30381,vitamin c,
+Transport,GrabBike,15467,12700,17481,grabbike,grabbike;grab
+Belanja,Flashdisk 32GB,51760,38400,57666,flashdisk e2gb,
+Makanan & Minuman,Kopi Susu,24513,18909,28130,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Pulsa 25K,22349,15928,27471,pulsa 2sk,
+Belanja,Vitamin C,22155,16501,26084,vitamin c,
+Hiburan,Skincare Facial Wash,43045,30533,58683,skincare facial wash,
+Hiburan,Netflix Mobile,71891,62885,92112,netflix mobile,netflix
+Makanan & Minuman,Mie Instan,3893,3461,5215,mie instan,
+Belanja,Topup Gopay,57119,48912,73277,topup gopay,
+Belanja,Topup Gopay,54854,38858,62074,topup gopay,
+Tagihan,Listrik PLN Bulanan,277815,245087,318684,listrik pln bulanan,pln;listrik
+Hiburan,Potong Rambut Pria,34385,27548,45380,potong rambut pria,
+Makanan & Minuman,Bakso,16706,12812,19067,bakso,
+Belanja,Topup OVO,98173,76884,130639,topup ovo,
+Transport,Parkir Motor,2857,2288,3215,parkir motor,parkir
+Hiburan,Potong Rambut Pria,37675,29089,48958,potong rambut pria,
+Transport,Tiket Kereta Lokal,48825,36405,65451,tiket kereta lokal,
+Belanja,Flashdisk 32GB,61568,54818,77258,flashdisk e2gb,
+Tagihan,WiFi Indihome Bulanan,396592,312719,527882,wifi indihome bulanan,
+Tagihan,Listrik PLN Bulanan,218858,166980,305215,listrik pln bulanan,pln;listrik
+Transport,Parkir Motor,2605,2219,3381,parkir motor,parkir
+Tagihan,Air PDAM Bulanan,134490,95697,173422,air pdam bulanan,pdam;air
+Tagihan,WiFi Indihome Bulanan,341527,299572,447481,wifi indihome bulanan,
+Belanja,Topup Shopeepay,106646,81343,128321,topup shopeepay,shopee;belanja online
+Belanja,Topup Shopeepay,112006,92077,128141,topup shopeepay,shopee;belanja online
+Belanja,Flashdisk 32GB,57374,50346,73858,flashdisk e2gb,
+Belanja,Hand Sanitizer,19066,16731,25442,hand sanitizer,
+Belanja,Pulpen,5571,3993,7026,pulpen,
+Belanja,Pulpen,5030,4065,5855,pulpen,
+Belanja,Masker Medis,20128,17137,23107,masker medis,
+Makanan & Minuman,Air Mineral 600ml,4047,3042,5462,air mineral gooml,
+Hiburan,Potong Rambut Pria,34188,27386,45114,potong rambut pria,
+Belanja,Topup Shopeepay,92792,74372,105517,topup shopeepay,shopee;belanja online
+Belanja,Topup Gopay,49231,40098,54231,topup gopay,
+Hiburan,Netflix Mobile,70955,63703,90090,netflix mobile,netflix
+Tagihan,Air PDAM Bulanan,114612,86750,153057,air pdam bulanan,pdam;air
+Tagihan,Air PDAM Bulanan,127716,102675,149975,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,204942,177186,247647,gym membership,
+Makanan & Minuman,Bakso,17015,14729,19134,bakso,
+Makanan & Minuman,Boba Drink,27913,22197,34440,boba drink,
+Hiburan,Potong Rambut Pria,35275,28842,44294,potong rambut pria,
+Belanja,Print Tugas per lembar,512,423,716,print tugas per lembar,
+Tagihan,LPG 3kg,23529,18432,27031,lpg ekg,
+Belanja,Vitamin C,24885,19697,34600,vitamin c,
+Belanja,Paracetamol,10583,8372,11744,paracetamol,
+Transport,Tiket Kereta Lokal,48039,42772,61512,tiket kereta lokal,
+Belanja,Buku Tulis,6203,5051,6898,buku tulis,
+Transport,Bensin Pertalite 1L,9614,8635,11450,bensin pertalite il,
+Belanja,Buku Tulis,7611,5544,9718,buku tulis,
+Makanan & Minuman,Sate Ayam,27917,20745,37568,sate ayam,
+Belanja,Buku Tulis,6206,4776,8447,buku tulis,
+Belanja,Flashdisk 32GB,56205,45703,77005,flashdisk e2gb,
+Belanja,Paket Data 20GB,64516,54451,82690,paket data 2ogb,
+Belanja,Topup OVO,100142,79331,123673,topup ovo,
+Belanja,Pulpen,5549,4245,7435,pulpen,
+Tagihan,LPG 3kg,21255,18705,25542,lpg ekg,
+Makanan & Minuman,Roti Tawar,20106,17033,26012,roti tawar,
+Belanja,Topup OVO,106216,86502,142207,topup ovo,
+Tagihan,WiFi Indihome Bulanan,356409,258309,451857,wifi indihome bulanan,
+Transport,Tiket Kereta Lokal,50627,43110,70229,tiket kereta lokal,
+Belanja,Vitamin C,26879,21517,29717,vitamin c,
+Tagihan,Air PDAM Bulanan,136645,103165,158746,air pdam bulanan,pdam;air
+Belanja,Pulsa 25K,25564,22020,32774,pulsa 2sk,
+Belanja,Buku Tulis,6982,6191,8392,buku tulis,
+Transport,Parkir Motor,2571,2071,3122,parkir motor,parkir
+Makanan & Minuman,Nasi Goreng,19446,15719,23055,nasi goreng,
+Transport,Gojek Short Trip,16207,11844,22457,gojek short trip,
+Tagihan,Air PDAM Bulanan,104120,92898,120200,air pdam bulanan,pdam;air
+Tagihan,Listrik PLN Bulanan,234851,169033,268373,listrik pln bulanan,pln;listrik
+Hiburan,Canva Pro Sharing,24066,20830,27345,canva pro sharing,
+Transport,GrabBike,18285,14942,22817,grabbike,grabbike;grab
+Belanja,Pulsa 25K,25103,18149,28069,pulsa 2sk,
+Belanja,Flashdisk 32GB,47830,33757,61703,flashdisk e2gb,
+Makanan & Minuman,Sate Ayam,25405,20761,28719,sate ayam,
+Belanja,Pulsa 25K,27182,19710,34534,pulsa 2sk,
+Belanja,Buku Tulis,7727,6182,10314,buku tulis,
+Transport,Gojek Short Trip,15181,11137,17815,gojek short trip,
+Belanja,Flashdisk 32GB,47439,40917,65861,flashdisk e2gb,
+Belanja,Masker Medis,20918,15342,23387,masker medis,
+Belanja,Print Tugas per lembar,514,446,624,print tugas per lembar,
+Hiburan,Skincare Facial Wash,46784,38224,58624,skincare facial wash,
+Makanan & Minuman,Bakso,17148,13934,20409,bakso,
+Belanja,Buku Tulis,7694,6501,10768,buku tulis,
+Belanja,Pulpen,5165,4604,6174,pulpen,
+Tagihan,WiFi Indihome Bulanan,364192,326289,477938,wifi indihome bulanan,
+Hiburan,Netflix Mobile,68164,52099,79287,netflix mobile,netflix
+Belanja,Masker Medis,17095,14331,22119,masker medis,
+Makanan & Minuman,Martabak Manis,34753,30592,45241,martabak manis,
+Belanja,Flashdisk 32GB,59330,47916,79276,flashdisk e2gb,
+Tagihan,Listrik PLN Bulanan,252898,222174,340101,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,6691,5771,9021,buku tulis,
+Hiburan,Laundry Kiloan,6322,5396,8276,laundry kiloan,
+Makanan & Minuman,Nasi Goreng,16809,14913,20731,nasi goreng,
+Transport,Bensin Pertalite 1L,10775,9009,14144,bensin pertalite il,
+Transport,Bensin Pertalite 1L,10948,9032,14697,bensin pertalite il,
+Transport,GrabBike,19448,17375,21607,grabbike,grabbike;grab
+Belanja,Pulpen,4260,3820,5501,pulpen,
+Makanan & Minuman,Sate Ayam,25518,20383,32293,sate ayam,
+Tagihan,Air PDAM Bulanan,104352,75722,116823,air pdam bulanan,pdam;air
+Hiburan,Gym Membership,221328,193927,291858,gym membership,
+Hiburan,Netflix Mobile,71779,50577,99840,netflix mobile,netflix
+Tagihan,WiFi Indihome Bulanan,368971,323447,406084,wifi indihome bulanan,
+Belanja,Buku Tulis,7743,5920,10478,buku tulis,
+Belanja,Print Tugas per lembar,443,356,553,print tugas per lembar,
+Belanja,Paracetamol,11151,8306,13195,paracetamol,
+Belanja,Flashdisk 32GB,51967,40449,62381,flashdisk e2gb,
+Belanja,Paracetamol,11470,8546,14989,paracetamol,
+Makanan & Minuman,Mie Ayam,13635,10442,15255,mie ayam,
+Tagihan,Listrik PLN Bulanan,214590,168751,237595,listrik pln bulanan,pln;listrik
+Belanja,Topup Shopeepay,110215,82598,136895,topup shopeepay,shopee;belanja online
+Hiburan,Skincare Facial Wash,38984,29889,52169,skincare facial wash,
+Makanan & Minuman,Air Mineral 600ml,4119,3244,4649,air mineral gooml,
+Belanja,Buku Tulis,6129,4364,6803,buku tulis,
+Hiburan,Skincare Facial Wash,47610,40779,53256,skincare facial wash,
+Belanja,Paket Data 20GB,56318,46301,69245,paket data 2ogb,
+Makanan & Minuman,Roti Tawar,15601,11083,21139,roti tawar,
+Belanja,Buku Tulis,7246,5667,9850,buku tulis,
+Belanja,Pulsa 25K,22182,17230,29691,pulsa 2sk,
+Belanja,Paracetamol,9518,8447,12705,paracetamol,
+Belanja,Print Tugas per lembar,513,370,566,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,256966,223086,352380,listrik pln bulanan,pln;listrik
+Transport,Tiket Kereta Lokal,46344,36343,61052,tiket kereta lokal,
+Belanja,Pulpen,4614,3965,5159,pulpen,
+Hiburan,Gym Membership,196150,174955,260156,gym membership,
+Hiburan,Gym Membership,223113,190783,255290,gym membership,
+Hiburan,Gym Membership,190574,147459,210093,gym membership,
+Belanja,Vitamin C,21679,17374,29278,vitamin c,
+Belanja,Topup Gopay,48830,36089,56648,topup gopay,
+Transport,Bensin Pertalite 1L,9524,7938,12461,bensin pertalite il,
+Belanja,Print Tugas per lembar,552,448,662,print tugas per lembar,
+Hiburan,Laundry Kiloan,6640,4787,9049,laundry kiloan,
+Makanan & Minuman,Matcha Latte,27474,19252,32059,matcha latte,
+Transport,Parkir Motor,3111,2326,4107,parkir motor,parkir
+Belanja,Topup Shopeepay,109218,84663,133256,topup shopeepay,shopee;belanja online
+Belanja,Topup Gopay,47942,34266,53167,topup gopay,
+Makanan & Minuman,Bakso,14994,11078,19127,bakso,
+Belanja,Topup Shopeepay,86317,60934,100071,topup shopeepay,shopee;belanja online
+Transport,GrabBike,18965,16002,22794,grabbike,grabbike;grab
+Belanja,Vitamin C,22589,15909,30559,vitamin c,
+Makanan & Minuman,Ayam Geprek,19789,14395,25655,ayam geprek,
+Makanan & Minuman,Kopi Susu,24878,18932,29158,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Topup Shopeepay,104827,93110,146037,topup shopeepay,shopee;belanja online
+Belanja,Hand Sanitizer,20043,14292,22915,hand sanitizer,
+Transport,GrabBike,15427,11965,18701,grabbike,grabbike;grab
+Belanja,Hand Sanitizer,20575,15408,22917,hand sanitizer,
+Belanja,Vitamin C,27658,20987,31656,vitamin c,
+Transport,Bensin Pertalite 1L,10388,7853,11820,bensin pertalite il,
+Belanja,Hand Sanitizer,16429,11767,20391,hand sanitizer,
+Tagihan,Listrik PLN Bulanan,225057,175009,307141,listrik pln bulanan,pln;listrik
+Belanja,Pulsa 25K,25019,20109,28864,pulsa 2sk,
+Tagihan,WiFi Indihome Bulanan,352674,280961,489062,wifi indihome bulanan,
+Belanja,Print Tugas per lembar,512,423,684,print tugas per lembar,
+Tagihan,Listrik PLN Bulanan,228039,200441,281770,listrik pln bulanan,pln;listrik
+Transport,Parkir Motor,2746,2155,3331,parkir motor,parkir
+Transport,Gojek Short Trip,13895,9962,18417,gojek short trip,
+Hiburan,Laundry Kiloan,7039,5251,7829,laundry kiloan,
+Belanja,Masker Medis,19556,15517,23910,masker medis,
+Belanja,Paket Data 20GB,61431,47699,70883,paket data 2ogb,
+Transport,Gojek Short Trip,15654,12082,17606,gojek short trip,
+Belanja,Pulsa 25K,26099,21629,34862,pulsa 2sk,
+Transport,Bensin Pertalite 1L,8855,6836,11191,bensin pertalite il,
+Hiburan,Netflix Mobile,68414,51310,90550,netflix mobile,netflix
+Belanja,Topup Shopeepay,90719,74462,103542,topup shopeepay,shopee;belanja online
+Belanja,Pulsa 25K,29216,20501,34762,pulsa 2sk,
+Belanja,Topup Shopeepay,108493,84707,132548,topup shopeepay,shopee;belanja online
+Belanja,Paracetamol,9916,7957,13171,paracetamol,
+Transport,Parkir Motor,2754,2326,3202,parkir motor,parkir
+Transport,Tiket Kereta Lokal,51305,41583,63650,tiket kereta lokal,
+Belanja,Paket Data 20GB,61892,44387,83785,paket data 2ogb,
+Belanja,Flashdisk 32GB,50208,39664,63640,flashdisk e2gb,
+Hiburan,Netflix Mobile,66511,48264,91985,netflix mobile,netflix
+Makanan & Minuman,Matcha Latte,32793,28426,39415,matcha latte,
+Belanja,Flashdisk 32GB,58065,45329,77435,flashdisk e2gb,
+Belanja,Masker Medis,18956,13357,25317,masker medis,
+Transport,GrabBike,19433,17467,24688,grabbike,grabbike;grab
+Belanja,Pulsa 25K,29227,23813,35577,pulsa 2sk,
+Belanja,Pulpen,5673,4043,6897,pulpen,
+Belanja,Buku Tulis,6640,5925,8576,buku tulis,
+Hiburan,Spotify Premium,49578,41396,57177,spotify premium,spotify
+Belanja,Pulsa 25K,25911,19105,29042,pulsa 2sk,
+Belanja,Print Tugas per lembar,455,344,572,print tugas per lembar,
+Belanja,Buku Tulis,6724,4721,8055,buku tulis,
+Belanja,Flashdisk 32GB,49341,35631,62215,flashdisk e2gb,
+Belanja,Buku Tulis,6766,5958,7861,buku tulis,
+Belanja,Topup OVO,94292,81428,122526,topup ovo,
+Transport,Tiket Kereta Lokal,51126,38961,59351,tiket kereta lokal,
+Tagihan,LPG 3kg,20517,14392,23446,lpg ekg,
+Makanan & Minuman,Boba Drink,25786,19323,30908,boba drink,
+Belanja,Hand Sanitizer,17785,14498,23497,hand sanitizer,
+Hiburan,Potong Rambut Pria,39000,30859,51093,potong rambut pria,
+Tagihan,WiFi Indihome Bulanan,338564,292751,458738,wifi indihome bulanan,
+Belanja,Pulpen,4519,3721,5556,pulpen,
+Belanja,Pulpen,5297,3809,6936,pulpen,
+Makanan & Minuman,Mie Ayam,16734,12242,22838,mie ayam,
+Belanja,Masker Medis,20999,14979,27675,masker medis,
+Transport,Parkir Motor,2920,2488,3318,parkir motor,parkir
+Hiburan,Spotify Premium,59214,47423,78982,spotify premium,spotify
+Belanja,Flashdisk 32GB,49469,36679,55078,flashdisk e2gb,
+Makanan & Minuman,Nasi Goreng,17708,14788,21932,nasi goreng,
+Hiburan,Potong Rambut Pria,33943,25079,37721,potong rambut pria,
+Hiburan,Spotify Premium,58450,42510,76048,spotify premium,spotify
+Belanja,Flashdisk 32GB,54362,38950,70513,flashdisk e2gb,
+Tagihan,LPG 3kg,19625,16957,26542,lpg ekg,
+Transport,Bensin Pertalite 1L,10320,7589,11736,bensin pertalite il,
+Tagihan,LPG 3kg,19811,16527,21858,lpg ekg,
+Hiburan,Netflix Mobile,63842,46961,83909,netflix mobile,netflix
+Tagihan,Air PDAM Bulanan,117914,83666,152160,air pdam bulanan,pdam;air
+Belanja,Paracetamol,9671,7366,10790,paracetamol,
+Makanan & Minuman,Ayam Geprek,19471,16616,26843,ayam geprek,
+Hiburan,Netflix Mobile,59149,41594,65559,netflix mobile,netflix
+Makanan & Minuman,Kopi Susu,24115,20159,26983,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Air Mineral 600ml,4402,3666,5798,air mineral gooml,
+Makanan & Minuman,Boba Drink,25093,21658,30031,boba drink,
+Tagihan,Air PDAM Bulanan,124488,110404,151691,air pdam bulanan,pdam;air
+Belanja,Buku Tulis,6438,4642,7706,buku tulis,
+Makanan & Minuman,Boba Drink,26154,18370,30438,boba drink,
+Transport,Bensin Pertalite 1L,10473,7914,13480,bensin pertalite il,
+Makanan & Minuman,Nasi Goreng,18965,14834,25228,nasi goreng,
+Belanja,Buku Tulis,7446,6390,10250,buku tulis,
+Belanja,Vitamin C,23139,16635,27704,vitamin c,
+Tagihan,LPG 3kg,23174,20728,30314,lpg ekg,
+Hiburan,Netflix Mobile,67639,59305,80854,netflix mobile,netflix
+Belanja,Paket Data 20GB,56566,39795,77700,paket data 2ogb,
+Belanja,Flashdisk 32GB,55181,46813,69032,flashdisk e2gb,
+Tagihan,Listrik PLN Bulanan,229945,189306,314802,listrik pln bulanan,pln;listrik
+Hiburan,Netflix Mobile,69639,59294,89550,netflix mobile,netflix
+Makanan & Minuman,Bakso,15397,11691,17637,bakso,
+Transport,Bensin Pertalite 1L,9214,7786,12867,bensin pertalite il,
+Belanja,Print Tugas per lembar,445,339,594,print tugas per lembar,
+Makanan & Minuman,Es Teh,5437,4257,7306,es teh,
+Belanja,Topup Gopay,45935,38887,55251,topup gopay,
+Transport,Tiket Kereta Lokal,43311,38266,60484,tiket kereta lokal,
+Belanja,Topup OVO,103241,80145,123526,topup ovo,
+Belanja,Buku Tulis,6085,4857,8434,buku tulis,
+Makanan & Minuman,Roti Tawar,20656,18335,23499,roti tawar,
+Transport,Tiket Kereta Lokal,50732,43581,58915,tiket kereta lokal,
+Belanja,Paracetamol,9778,7758,11237,paracetamol,
+Transport,GrabBike,16612,13641,19783,grabbike,grabbike;grab
+Belanja,Hand Sanitizer,20525,15194,27887,hand sanitizer,
+Belanja,Buku Tulis,7947,6134,9642,buku tulis,
+Belanja,Flashdisk 32GB,53724,44154,66082,flashdisk e2gb,
+Transport,Parkir Motor,2567,1992,3481,parkir motor,parkir
+Belanja,Topup Shopeepay,102855,75141,135562,topup shopeepay,shopee;belanja online
+Hiburan,Laundry Kiloan,6923,5474,8394,laundry kiloan,
+Belanja,Hand Sanitizer,15688,11410,19465,hand sanitizer,
+Transport,GrabBike,14471,12623,19088,grabbike,grabbike;grab
+Hiburan,Laundry Kiloan,6799,5324,8283,laundry kiloan,
+Tagihan,WiFi Indihome Bulanan,337823,257273,471687,wifi indihome bulanan,
+Makanan & Minuman,Boba Drink,27887,25056,31717,boba drink,
+Belanja,Vitamin C,22706,17875,26715,vitamin c,
+Belanja,Topup Shopeepay,100288,80002,131030,topup shopeepay,shopee;belanja online
+Tagihan,Listrik PLN Bulanan,261317,231344,345121,listrik pln bulanan,pln;listrik
+Transport,Parkir Motor,2581,2226,3327,parkir motor,parkir
+Tagihan,Listrik PLN Bulanan,264810,219545,312051,listrik pln bulanan,pln;listrik
+Belanja,Pulpen,4631,3799,6416,pulpen,
+Belanja,Topup OVO,85370,72922,110410,topup ovo,
+Belanja,Flashdisk 32GB,58400,52258,65647,flashdisk e2gb,
+Transport,Parkir Motor,2699,2119,3529,parkir motor,parkir
+Belanja,Hand Sanitizer,18464,15635,24478,hand sanitizer,
+Tagihan,Listrik PLN Bulanan,220695,179761,295568,listrik pln bulanan,pln;listrik
+Belanja,Topup OVO,93070,69049,123270,topup ovo,
+Tagihan,WiFi Indihome Bulanan,298174,218764,371977,wifi indihome bulanan,
+Makanan & Minuman,Nasi Goreng,18396,14414,22536,nasi goreng,
+Hiburan,Potong Rambut Pria,34274,25200,39618,potong rambut pria,
+Transport,GrabBike,16931,13553,19184,grabbike,grabbike;grab
+Belanja,Vitamin C,22642,16116,26147,vitamin c,
+Belanja,Topup OVO,92780,81688,113436,topup ovo,
+Tagihan,Listrik PLN Bulanan,277627,203563,329803,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,6531,5018,8331,buku tulis,
+Belanja,Flashdisk 32GB,57851,41662,64695,flashdisk e2gb,
+Belanja,Topup Gopay,52479,45018,58385,topup gopay,
+Transport,Tiket Kereta Lokal,54376,42148,68297,tiket kereta lokal,
+Belanja,Topup Shopeepay,112963,89765,135680,topup shopeepay,shopee;belanja online
+Belanja,Print Tugas per lembar,480,421,671,print tugas per lembar,
+Belanja,Topup OVO,113229,94321,137406,topup ovo,
+Makanan & Minuman,Kopi Susu,24462,21067,26930,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Paket Data 20GB,69391,60897,79220,paket data 2ogb,
+Belanja,Paracetamol,11107,8395,14547,paracetamol,
+Belanja,Topup OVO,96052,79115,124643,topup ovo,
+Belanja,Flashdisk 32GB,57643,40386,74441,flashdisk e2gb,
+Belanja,Topup Shopeepay,85498,66007,95221,topup shopeepay,shopee;belanja online
+Belanja,Topup Shopeepay,105337,78656,131182,topup shopeepay,shopee;belanja online
+Tagihan,Listrik PLN Bulanan,238625,211855,329885,listrik pln bulanan,pln;listrik
+Belanja,Buku Tulis,7491,5683,8678,buku tulis,
+Transport,Tiket Kereta Lokal,55643,47684,73170,tiket kereta lokal,
+Makanan & Minuman,Bakso,15990,11471,21581,bakso,
+Belanja,Hand Sanitizer,16207,12791,18390,hand sanitizer,
+Tagihan,Air PDAM Bulanan,110760,81307,153210,air pdam bulanan,pdam;air
+Tagihan,Listrik PLN Bulanan,220410,198076,244383,listrik pln bulanan,pln;listrik
+Hiburan,Laundry Kiloan,7559,5624,8899,laundry kiloan,
+Belanja,Buku Tulis,7347,6498,9478,buku tulis,
+Belanja,Buku Tulis,7620,5841,8893,buku tulis,
+Belanja,Paracetamol,10431,8088,13719,paracetamol,
+Tagihan,LPG 3kg,23015,19724,31987,lpg ekg,
+Belanja,Pulpen,4585,3315,5164,pulpen,
+Makanan & Minuman,Kopi Susu,23587,20932,31214,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Martabak Manis,33611,29263,46592,martabak manis,
+Belanja,Paracetamol,9432,7715,10912,paracetamol,
+Belanja,Flashdisk 32GB,52024,40214,67828,flashdisk e2gb,
+Belanja,Topup OVO,100592,82517,117354,topup ovo,
+Belanja,Buku Tulis,7080,5608,8095,buku tulis,
+Hiburan,Skincare Facial Wash,41205,34447,47147,skincare facial wash,
+Hiburan,Netflix Mobile,69817,60728,94136,netflix mobile,netflix
+Makanan & Minuman,Martabak Manis,33111,26504,43262,martabak manis,
+Hiburan,Skincare Facial Wash,47788,38022,64447,skincare facial wash,
+Belanja,Print Tugas per lembar,530,410,739,print tugas per lembar,
+Hiburan,Netflix Mobile,71393,52982,94224,netflix mobile,netflix
+Belanja,Topup OVO,106012,75322,144137,topup ovo,
+Transport,Parkir Motor,3204,2434,4307,parkir motor,parkir
+Belanja,Topup OVO,114731,92884,137817,topup ovo,
+Tagihan,LPG 3kg,25236,21489,30720,lpg ekg,
+Belanja,Masker Medis,18694,16536,24495,masker medis,
+Belanja,Hand Sanitizer,15825,12101,21164,hand sanitizer,
+Belanja,Topup Gopay,55247,46513,68354,topup gopay,
+Transport,Tiket Kereta Lokal,44563,37396,52910,tiket kereta lokal,
+Transport,GrabBike,15562,13222,20551,grabbike,grabbike;grab
+Makanan & Minuman,Kopi Susu,23491,19148,30620,kopi susu,kopi;starbucks;kopi kenangan
+Belanja,Topup OVO,96296,86333,125553,topup ovo,
+Transport,Bensin Pertalite 1L,8788,7863,10140,bensin pertalite il,
+Makanan & Minuman,Nasi Goreng,19449,16143,24856,nasi goreng,
+Transport,Parkir Motor,2770,2004,3376,parkir motor,parkir
+Hiburan,Potong Rambut Pria,36009,26448,47660,potong rambut pria,
+Belanja,Topup Gopay,54165,47284,70148,topup gopay,
+Hiburan,Potong Rambut Pria,36608,28314,41586,potong rambut pria,
+Makanan & Minuman,Nasi Goreng,16945,14128,21230,nasi goreng,
+Makanan & Minuman,Martabak Manis,35766,29132,42279,martabak manis,
+Tagihan,Listrik PLN Bulanan,272075,200306,338803,listrik pln bulanan,pln;listrik
+Tagihan,LPG 3kg,20669,14986,24752,lpg ekg,
+Tagihan,Air PDAM Bulanan,116591,97953,142024,air pdam bulanan,pdam;air
+Belanja,Pulsa 25K,28211,22738,31573,pulsa 2sk,
+Belanja,Pulsa 25K,26304,22720,34077,pulsa 2sk,
+Belanja,Topup OVO,113970,100238,131544,topup ovo,
+Belanja,Vitamin C,21289,16806,25425,vitamin c,
+Makanan & Minuman,Bakso,16360,13587,18427,bakso,
+Hiburan,Skincare Facial Wash,48416,34710,55069,skincare facial wash,
+Hiburan,Canva Pro Sharing,28497,20925,39700,canva pro sharing,
+Tagihan,Listrik PLN Bulanan,231125,163921,319816,listrik pln bulanan,pln;listrik
+Belanja,Topup Shopeepay,104774,82665,133390,topup shopeepay,shopee;belanja online
+Tagihan,WiFi Indihome Bulanan,352379,316155,424840,wifi indihome bulanan,
+Belanja,Vitamin C,26409,21986,29404,vitamin c,
+Makanan & Minuman,Mie Ayam,13387,11662,15590,mie ayam,
+Transport,Tiket Kereta Lokal,50781,41556,60085,tiket kereta lokal,
+Tagihan,LPG 3kg,19190,14411,23306,lpg ekg,
+Transport,Parkir Motor,2960,2631,3856,parkir motor,parkir
+Tagihan,Air PDAM Bulanan,121292,86616,160081,air pdam bulanan,pdam;air
+Tagihan,Air PDAM Bulanan,127720,103801,165311,air pdam bulanan,pdam;air
+Belanja,Vitamin C,24397,17826,34100,vitamin c,
+Belanja,Flashdisk 32GB,47177,38719,52991,flashdisk e2gb,
+Makanan & Minuman,Es Teh,4414,3573,4942,es teh,
+Tagihan,Listrik PLN Bulanan,239711,183787,283332,listrik pln bulanan,pln;listrik
+Belanja,Topup OVO,93209,67072,129918,topup ovo,
+Transport,Parkir Motor,3406,2917,3872,parkir motor,parkir
+Belanja,Masker Medis,20532,17685,23173,masker medis,
+Hiburan,Potong Rambut Pria,35757,27046,42240,potong rambut pria,
+Makanan & Minuman,Ayam Geprek,16222,14426,19740,ayam geprek,
+Hiburan,Skincare Facial Wash,48257,43122,60779,skincare facial wash,
+Belanja,Hand Sanitizer,17875,12968,19713,hand sanitizer,
+Belanja,Vitamin C,26181,19073,33256,vitamin c,
+Hiburan,Spotify Premium,61904,51246,74968,spotify premium,spotify
+Belanja,Topup OVO,105346,82554,130348,topup ovo,
+Belanja,Print Tugas per lembar,544,435,643,print tugas per lembar,
+Belanja,Pulpen,4707,4102,6515,pulpen,
+Belanja,Print Tugas per lembar,551,455,618,print tugas per lembar,
+Transport,Bensin Pertalite 1L,8995,6399,11900,bensin pertalite il,
+Belanja,Hand Sanitizer,19665,13807,27226,hand sanitizer,
+Tagihan,Air PDAM Bulanan,119267,95771,166900,air pdam bulanan,pdam;air
+Belanja,Paracetamol,9716,7998,13342,paracetamol,
+Tagihan,Listrik PLN Bulanan,266062,223629,352505,listrik pln bulanan,pln;listrik
+Transport,Tiket Kereta Lokal,52761,37379,65138,tiket kereta lokal,
+Transport,Tiket Kereta Lokal,56056,41199,67834,tiket kereta lokal,
+Transport,Tiket Kereta Lokal,47799,33945,59684,tiket kereta lokal,
+Transport,Gojek Short Trip,17113,13135,22310,gojek short trip,
+Belanja,Pulsa 25K,28736,25045,34110,pulsa 2sk,
+Belanja,Print Tugas per lembar,464,325,598,print tugas per lembar,
+Belanja,Pulpen,5634,4990,7818,pulpen,
+Belanja,Paracetamol,11306,9932,15314,paracetamol,
+Makanan & Minuman,Kopi Susu,18738,14841,22288,kopi susu,kopi;starbucks;kopi kenangan
+Makanan & Minuman,Ayam Geprek,17188,14515,20980,ayam geprek,
+Makanan & Minuman,Nasi Goreng,16647,12310,20954,nasi goreng,
+Transport,Parkir Motor,2661,2122,3051,parkir motor,parkir
+Tagihan,WiFi Indihome Bulanan,321239,250268,382205,wifi indihome bulanan,
+Belanja,Pulpen,5054,3810,7059,pulpen,
+Tagihan,LPG 3kg,19768,15236,24318,lpg ekg,
+Hiburan,Skincare Facial Wash,47824,34535,56693,skincare facial wash,
+Transport,Parkir Motor,2928,2243,3248,parkir motor,parkir
+Tagihan,Air PDAM Bulanan,136141,121429,189900,air pdam bulanan,pdam;air
+Makanan & Minuman,Boba Drink,24918,19912,32506,boba drink,
+Transport,Gojek Short Trip,16129,13807,19676,gojek short trip,
+Tagihan,LPG 3kg,19567,17444,26177,lpg ekg,
+Transport,GrabBike,16205,11387,21152,grabbike,grabbike;grab
+Makanan & Minuman,Roti Tawar,19781,15546,25302,roti tawar,
+Makanan & Minuman,Boba Drink,24851,18798,27952,boba drink,
+Belanja,Pulpen,5176,4378,5983,pulpen,
+Hiburan,Skincare Facial Wash,39802,29959,52152,skincare facial wash,
+Tagihan,LPG 3kg,20009,16833,26871,lpg ekg,
+Tagihan,Air PDAM Bulanan,108792,94755,140197,air pdam bulanan,pdam;air
+Transport,GrabBike,15064,11753,17808,grabbike,grabbike;grab
+Transport,GrabBike,16624,13686,18739,grabbike,grabbike;grab
+Makanan & Minuman,Boba Drink,24304,18502,31351,boba drink,
+Transport,GrabBike,16164,12863,20252,grabbike,grabbike;grab
+Tagihan,Listrik PLN Bulanan,235321,177396,278659,listrik pln bulanan,pln;listrik
+Hiburan,Potong Rambut Pria,34139,26081,38039,potong rambut pria,
+Makanan & Minuman,Ayam Geprek,15581,13227,18129,ayam geprek,
+Belanja,Print Tugas per lembar,561,404,648,print tugas per lembar,
+Belanja,Print Tugas per lembar,475,343,617,print tugas per lembar,
+Tagihan,Air PDAM Bulanan,113923,96636,137666,air pdam bulanan,pdam;air
+Belanja,Pulsa 25K,26225,20306,33963,pulsa 2sk,
+Transport,Tiket Kereta Lokal,48260,42345,54975,tiket kereta lokal,
+Tagihan,Listrik PLN Bulanan,215577,192653,294308,listrik pln bulanan,pln;listrik
+Belanja,Topup OVO,90787,71644,102552,topup ovo,
+Belanja,Masker Medis,18808,14949,24982,masker medis,
+Belanja,Vitamin C,21578,15931,27299,vitamin c,
+Hiburan,Skincare Facial Wash,49771,43866,69308,skincare facial wash,
+Hiburan,Laundry Kiloan,7272,5261,8950,laundry kiloan,
+Belanja,Flashdisk 32GB,55392,49325,74073,flashdisk e2gb,
+Transport,Tiket Kereta Lokal,46612,41647,55323,tiket kereta lokal,
+Belanja,Paracetamol,10883,9128,14389,paracetamol,
+Belanja,Flashdisk 32GB,58047,50736,80770,flashdisk e2gb,
+Transport,Parkir Motor,3225,2505,4301,parkir motor,parkir
+Belanja,Print Tugas per lembar,456,319,579,print tugas per lembar,
+Belanja,Paracetamol,11137,9556,13772,paracetamol,
+Tagihan,WiFi Indihome Bulanan,329358,245064,432274,wifi indihome bulanan,
+Belanja,Paracetamol,9013,6391,10558,paracetamol,
+Makanan & Minuman,Roti Tawar,16099,14114,22187,roti tawar,
+Hiburan,Skincare Facial Wash,48923,40531,57469,skincare facial wash,
+Belanja,Topup OVO,101037,70754,121672,topup ovo,
+Belanja,Masker Medis,18947,16849,25866,masker medis,
+Hiburan,Potong Rambut Pria,31152,27403,37023,potong rambut pria,
+Makanan & Minuman,Roti Tawar,19705,17040,22971,roti tawar,
+Hiburan,Netflix Mobile,60241,42357,78144,netflix mobile,netflix
+Belanja,Pulsa 25K,22930,19471,27850,pulsa 2sk,
+Tagihan,WiFi Indihome Bulanan,388852,321526,492000,wifi indihome bulanan,
+Belanja,Paket Data 20GB,59552,44887,75898,paket data 2ogb,
+Belanja,Paket Data 20GB,58285,43500,76812,paket data 2ogb,
+Hiburan,Netflix Mobile,72842,52354,84092,netflix mobile,netflix
+Transport,GrabBike,15413,12301,20327,grabbike,grabbike;grab
+Tagihan,WiFi Indihome Bulanan,299709,219561,345660,wifi indihome bulanan,
+Belanja,Pulpen,4354,3110,5109,pulpen,
+Tagihan,LPG 3kg,19361,15592,25518,lpg ekg,
+Belanja,Topup Gopay,51549,39980,57024,topup gopay,
+Belanja,Topup Gopay,53951,44719,60054,topup gopay,
+Transport,Bensin Pertalite 1L,9302,8257,11905,bensin pertalite il,
+Belanja,Topup Gopay,56864,41014,75108,topup gopay,
+Hiburan,Skincare Facial Wash,47800,35394,59469,skincare facial wash,
+Belanja,Hand Sanitizer,19703,15003,24504,hand sanitizer,
