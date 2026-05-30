@@ -266,12 +266,13 @@ with cga:
     gauge = go.Figure(go.Indicator(
         mode="gauge+number", value=health,
         domain={"x": [0, 1], "y": [0, 1]}, title={"text": "Health Score"},
-        gauge={"axis": {"range": [0, 100]}, "bar": {"color": "#2c3e50"},
+        gauge={"axis": {"range": [0, 100], "tickvals": [0, 25, 50, 75, 100]},
+               "bar": {"color": "#2c3e50"},
                "steps": [{"range": [0, 30], "color": "#ffcccc"},
                          {"range": [30, 60], "color": "#fff3b0"},
                          {"range": [60, 100], "color": "#c6f6c4"}]},
     ))
-    gauge.update_layout(height=300, margin=dict(t=40, b=10, l=20, r=20))
+    gauge.update_layout(height=300, margin=dict(t=40, b=20, l=50, r=50))
     st.plotly_chart(gauge, use_container_width=True)
     if health >= 60:
         st.success("Keuangan sehat. Pertahankan!")
