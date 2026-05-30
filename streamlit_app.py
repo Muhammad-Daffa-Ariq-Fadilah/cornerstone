@@ -1,139 +1,81 @@
 """
-Cornerstone — Streamlit Dashboard (Integrated with real trained model)
-Auditor keuangan personal berbasis AI — Coding Camp 2026 (CC26-PRU462)
+Cornerstone — Streamlit Frontend (thin client)
+Memanggil Cornerstone API via HTTP. TIDAK load model lokal.
 
 Run:
     pip install -r requirements.txt
     streamlit run streamlit_app.py
 
-Required files in same folder:
-    - cornerstone_model.keras           (trained model, multi-input)
-    - cornerstone_preprocessing.py      (text cleaning module)
-    - benchmark_clean_final.csv         (market benchmark)
+Set API URL via sidebar, atau edit DEFAULT_API_URL di bawah.
 """
 
-import json
 from datetime import date
 from calendar import monthrange
 
-import numpy as np
+import requests
 import pandas as pd
 import streamlit as st
-import tensorflow as tf
-from tensorflow import keras
 import plotly.graph_objects as go
 
-from cornerstone_preprocessing import clean_transaction_name
+# Ganti dengan URL API kamu setelah deploy (mis. HF Space)
+DEFAULT_API_URL = "https://your-username-cornerstone-api.hf.space"
+
+LABEL_DISPLAY = {
+    "Bills": "Tagihan", "Entertainment": "Hiburan", "Food & Beverage": "Makanan & Minuman",
+    "Shopping": "Belanja", "Transport": "Transportasi",
+}
 
 st.set_page_config(page_title="Cornerstone", page_icon="💰", layout="wide")
 
-# =============================================================================
-# CONSTANTS
-# =============================================================================
-# Model output index -> category label.
-# IMPORTANT: derived from training data category_encoded, NOT from the
-# (incorrect) label list in cornerstone_v2_core_engine.py.
-MODEL_LABELS = {0: "Bills", 1: "Entertainment", 2: "Food & Beverage", 3: "Shopping", 4: "Transport"}
-
-# Bridge: model's English label -> benchmark's Indonesian category
-LABEL_TO_BENCHMARK_CAT = {
-    "Bills": "Tagihan",
-    "Entertainment": "Hiburan",
-    "Food & Beverage": "Makanan & Minuman",
-    "Shopping": "Belanja",
-    "Transport": "Transport",
-}
-
-# Friendly Indonesian display names for the model labels
-LABEL_DISPLAY = {
-    "Bills": "Tagihan",
-    "Entertainment": "Hiburan",
-    "Food & Beverage": "Makanan & Minuman",
-    "Shopping": "Belanja",
-    "Transport": "Transportasi",
-}
-
 
 # =============================================================================
-# LOADERS (cached)
+# API CLIENT
 # =============================================================================
-@st.cache_resource
-def load_model():
-    return keras.models.load_model("cornerstone_model.keras")
-
-
-@st.cache_data
-def load_benchmark():
+def call_api(base_url, endpoint, payload, timeout=60):
     """
-    Load item-level benchmark, aggregate to CATEGORY level using percentiles
-    (robust against outliers like big electronics purchases).
-    Returns dict: {benchmark_category: {min, avg, max}}
+    POST ke API dengan error handling.
+    Returns (data, error_message). Salah satu None.
     """
-    df = pd.read_csv("benchmark_clean_final.csv")
-    # column: item_category, avg_price
-    agg = df.groupby("item_category")["avg_price"].agg(
-        price_min=lambda s: float(s.quantile(0.10)),
-        price_avg=lambda s: float(s.median()),
-        price_max=lambda s: float(s.quantile(0.90)),
-    )
-    return {cat: row.to_dict() for cat, row in agg.iterrows()}
+    try:
+        resp = requests.post(f"{base_url.rstrip('/')}{endpoint}",
+                             json=payload, timeout=timeout)
+        if resp.status_code == 200:
+            return resp.json(), None
+        return None, f"API error {resp.status_code}: {resp.text[:200]}"
+    except requests.exceptions.Timeout:
+        return None, "API timeout. Kalau pakai free tier (HF Spaces), API mungkin lagi 'bangun' dari sleep — coba lagi dalam ~30 detik."
+    except requests.exceptions.ConnectionError:
+        return None, "Tidak bisa connect ke API. Cek URL-nya bener & API-nya running."
+    except Exception as e:
+        return None, f"Error: {e}"
+
+
+def check_api(base_url):
+    """Ping /health. Returns True if reachable."""
+    try:
+        resp = requests.get(f"{base_url.rstrip('/')}/health", timeout=10)
+        return resp.status_code == 200
+    except Exception:
+        return False
 
 
 # =============================================================================
-# INFERENCE
+# LOCAL MATH (no model needed — pure arithmetic)
 # =============================================================================
-def classify_transaction(model, raw_text, amount):
-    """
-    Clean text (CRITICAL — model trained on cleaned text), then predict.
-    Returns (label, confidence, cleaned_text).
-    """
-    cleaned = clean_transaction_name(raw_text)
-    text_input = tf.constant([cleaned], dtype=tf.string)
-    amount_input = tf.constant([[float(amount)]], dtype=tf.float32)
-    probs = model.predict(
-        {"transaction_text": text_input, "amount": amount_input}, verbose=0
-    )[0]
-    idx = int(np.argmax(probs))
-    return MODEL_LABELS[idx], float(probs[idx]), cleaned
-
-
-# =============================================================================
-# BUSINESS LOGIC
-# =============================================================================
-def detect_leakage(label, amount, benchmark):
-    """
-    Compare amount against category benchmark.
-    Returns (status, ratio_to_avg).
-    """
-    bench_cat = LABEL_TO_BENCHMARK_CAT.get(label)
-    if bench_cat is None or bench_cat not in benchmark:
-        return "unknown", 0.0
-    b = benchmark[bench_cat]
-    ratio = amount / b["price_avg"] if b["price_avg"] else 0.0
-    if amount <= b["price_max"]:
-        return "normal", ratio
-    if amount <= 2 * b["price_max"]:
-        return "high", ratio
-    return "extreme", ratio
-
-
 def compute_health_score(income, total_spending):
-    """Financial Health Score 0-100 (income-based, per original plan)."""
     if income <= 0:
         return 0.0
-    ratio = total_spending / income
-    return max(0.0, min(100.0, 100.0 * (1.0 - ratio)))
+    return max(0.0, min(100.0, 100.0 * (1.0 - total_spending / income)))
 
 
-def project_end_of_month(income, total_spending, today):
-    """Linear projection of end-of-month remaining balance."""
-    days_in_month = monthrange(today.year, today.month)[1]
+def project_eom(income, total_spending):
+    today = date.today()
     dom = today.day
+    days_in_month = monthrange(today.year, today.month)[1]
     if dom == 0:
         return income - total_spending
     avg_daily = total_spending / dom
-    projected = total_spending + avg_daily * (days_in_month - dom)
-    return income - projected
+    return income - (total_spending + avg_daily * (days_in_month - dom))
 
 
 # =============================================================================
@@ -143,9 +85,8 @@ if "transactions" not in st.session_state:
     st.session_state.transactions = []
 if "income" not in st.session_state:
     st.session_state.income = 5_000_000
-
-model = load_model()
-benchmark = load_benchmark()
+if "api_url" not in st.session_state:
+    st.session_state.api_url = DEFAULT_API_URL
 
 
 # =============================================================================
@@ -158,24 +99,32 @@ with st.sidebar:
         value=st.session_state.income, step=500_000,
     )
     st.divider()
+    st.subheader("🔌 Koneksi API")
+    st.session_state.api_url = st.text_input("API URL", value=st.session_state.api_url)
+    if st.button("Cek koneksi"):
+        if check_api(st.session_state.api_url):
+            st.success("API terhubung ✓")
+        else:
+            st.error("API tidak terjangkau. Cek URL / status Space.")
+    st.divider()
     st.caption(f"📅 {date.today().strftime('%d %B %Y')}")
     if st.button("🗑️ Reset transaksi"):
         st.session_state.transactions = []
         st.rerun()
     st.divider()
-    st.caption("ℹ️ Data tidak disimpan ke database. Hilang otomatis saat halaman di-refresh (stateless).")
+    st.caption("ℹ️ Data tidak disimpan ke database (stateless).")
 
 
 # =============================================================================
 # HEADER
 # =============================================================================
 st.title("💰 Cornerstone")
-st.markdown("**Auditor keuangan personal berbasis AI** — mendeteksi apakah pengeluaranmu efisien, bukan sekadar mencatat.")
+st.markdown("**Auditor keuangan personal berbasis AI** — mendeteksi apakah pengeluaranmu efisien.")
 st.caption("Coding Camp 2026 powered by DBS Foundation • CC26-PRU462")
 
 
 # =============================================================================
-# INPUT — manual + CSV upload
+# INPUT
 # =============================================================================
 tab_manual, tab_csv = st.tabs(["➕ Input Manual", "📁 Upload CSV"])
 
@@ -192,20 +141,23 @@ with tab_manual:
             submitted = st.form_submit_button("Tambah", type="primary")
     if submitted:
         if desc and amt > 0:
-            label, conf, cleaned = classify_transaction(model, desc, amt)
-            status, ratio = detect_leakage(label, amt, benchmark)
-            st.session_state.transactions.append({
-                "description": desc, "cleaned": cleaned, "category": label,
-                "amount": amt, "confidence": conf,
-                "leakage_status": status, "leakage_ratio": ratio,
-            })
-            st.success(f"Ditambahkan → **{LABEL_DISPLAY[label]}** ({conf*100:.1f}% confidence)")
+            with st.spinner("Mengklasifikasi via API..."):
+                data, err = call_api(st.session_state.api_url, "/leakage",
+                                     {"description": desc, "amount": amt})
+            if err:
+                st.error(err)
+            else:
+                st.session_state.transactions.append({
+                    "description": desc, "category": data["category"],
+                    "amount": amt, "leakage_status": data["leakage_status"],
+                    "leakage_ratio": data["ratio_to_avg"],
+                })
+                st.success(f"Ditambahkan → **{LABEL_DISPLAY.get(data['category'], data['category'])}**")
         else:
             st.error("Deskripsi & jumlah wajib diisi.")
 
 with tab_csv:
     st.caption("Format CSV: kolom `description` dan `amount`.")
-    # Downloadable template
     template = pd.DataFrame({
         "description": ["N3TFL1X*SUBSCRIPTION - <ID>", "GOFOOD MCDONALDS", "TAGIHAN LISTRIK PLN"],
         "amount": [98000, 55000, 350000],
@@ -219,16 +171,26 @@ with tab_csv:
             if "description" not in up_df.columns or "amount" not in up_df.columns:
                 st.error("CSV harus punya kolom 'description' dan 'amount'.")
             else:
-                with st.spinner("Mengklasifikasi transaksi..."):
-                    for _, row in up_df.iterrows():
-                        label, conf, cleaned = classify_transaction(model, row["description"], row["amount"])
-                        status, ratio = detect_leakage(label, float(row["amount"]), benchmark)
+                # Kirim batch ke /analyze (1 call untuk semua)
+                payload = {
+                    "income": float(st.session_state.income),
+                    "transactions": [
+                        {"description": str(r["description"]), "amount": float(r["amount"])}
+                        for _, r in up_df.iterrows()
+                    ],
+                }
+                with st.spinner("Memproses batch via API..."):
+                    data, err = call_api(st.session_state.api_url, "/analyze", payload, timeout=120)
+                if err:
+                    st.error(err)
+                else:
+                    for t in data["transactions"]:
                         st.session_state.transactions.append({
-                            "description": row["description"], "cleaned": cleaned,
-                            "category": label, "amount": float(row["amount"]),
-                            "confidence": conf, "leakage_status": status, "leakage_ratio": ratio,
+                            "description": t["description"], "category": t["category"],
+                            "amount": t["amount"], "leakage_status": t["leakage_status"],
+                            "leakage_ratio": t["ratio_to_avg"],
                         })
-                st.success(f"{len(up_df)} transaksi diproses.")
+                    st.success(f"{len(data['transactions'])} transaksi diproses.")
         except Exception as e:
             st.error(f"Gagal baca CSV: {e}")
 
@@ -246,9 +208,8 @@ df = pd.DataFrame(st.session_state.transactions)
 total_spending = float(df["amount"].sum())
 income = float(st.session_state.income)
 health = compute_health_score(income, total_spending)
-projected = project_end_of_month(income, total_spending, date.today())
+projected = project_eom(income, total_spending)
 
-# --- Metrics ---
 m1, m2, m3, m4 = st.columns(4)
 m1.metric("Pemasukan", f"Rp {income:,.0f}")
 m2.metric("Total Pengeluaran", f"Rp {total_spending:,.0f}")
@@ -259,7 +220,6 @@ m4.metric("Proyeksi Akhir Bulan", f"Rp {projected:,.0f}",
 
 st.divider()
 
-# --- Health gauge + category pie ---
 cga, cgb = st.columns(2)
 with cga:
     st.subheader("📊 Financial Health Meter")
@@ -283,7 +243,7 @@ with cga:
 
 with cgb:
     st.subheader("📈 Pengeluaran per Kategori")
-    df["category_display"] = df["category"].map(LABEL_DISPLAY)
+    df["category_display"] = df["category"].map(lambda c: LABEL_DISPLAY.get(c, c))
     breakdown = df.groupby("category_display")["amount"].sum().reset_index()
     pie = go.Figure(go.Pie(labels=breakdown["category_display"],
                            values=breakdown["amount"], hole=0.45))
@@ -292,7 +252,6 @@ with cgb:
 
 st.divider()
 
-# --- Spending Leakage ---
 st.subheader("⚠️ Spending Leakage Detection")
 leaks = df[df["leakage_status"].isin(["high", "extreme"])]
 if len(leaks) > 0:
@@ -300,21 +259,20 @@ if len(leaks) > 0:
         icon = "🔴" if r["leakage_status"] == "extreme" else "🟡"
         sev = "EXTREME OVERPRICED" if r["leakage_status"] == "extreme" else "HIGH"
         st.warning(f"{icon} **{sev}** — `{r['description']}` (Rp {r['amount']:,.0f}) "
-                   f"≈ **{r['leakage_ratio']:.1f}x** rata-rata kategori {LABEL_DISPLAY[r['category']]}.")
+                   f"≈ **{r['leakage_ratio']:.1f}x** rata-rata kategori "
+                   f"{LABEL_DISPLAY.get(r['category'], r['category'])}.")
 else:
     st.success("✅ Tidak ada spending leakage terdeteksi.")
 
 st.divider()
 
-# --- Transactions table ---
 st.subheader("📝 Riwayat Transaksi")
 show = df.copy()
-show["category_display"] = show["category"].map(LABEL_DISPLAY)
+show["category_display"] = show["category"].map(lambda c: LABEL_DISPLAY.get(c, c))
 show["amount"] = show["amount"].apply(lambda x: f"Rp {x:,.0f}")
-show["confidence"] = show["confidence"].apply(lambda x: f"{x*100:.0f}%")
-show = show[["description", "category_display", "amount", "confidence", "leakage_status"]]
-show.columns = ["Deskripsi", "Kategori (AI)", "Jumlah", "Confidence", "Leakage"]
+show = show[["description", "category_display", "amount", "leakage_status"]]
+show.columns = ["Deskripsi", "Kategori (AI)", "Jumlah", "Leakage"]
 st.dataframe(show, use_container_width=True, hide_index=True)
 
-st.caption("🤖 Klasifikasi oleh model Deep Learning (TensorFlow, 94.68% akurasi test). "
-           "Health Score & Predictive Insight berbasis rule/matematis.")
+st.caption("🤖 Klasifikasi via Cornerstone API (model Deep Learning TensorFlow, 94.68% akurasi). "
+           "Health Score & proyeksi dihitung lokal (rule-based).")
