@@ -17,8 +17,7 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 
-# Ganti dengan URL API kamu setelah deploy (mis. HF Space)
-DEFAULT_API_URL = "https://your-username-cornerstone-api.hf.space"
+DEFAULT_API_URL = "https://noname3214-cornerstone-api.hf.space"
 
 LABEL_DISPLAY = {
     "Bills": "Tagihan", "Entertainment": "Hiburan", "Food & Beverage": "Makanan & Minuman",
