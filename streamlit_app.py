@@ -1,12 +1,11 @@
 """
-Cornerstone — Streamlit Frontend (thin client)
-Memanggil Cornerstone API via HTTP. TIDAK load model lokal.
+Cornerstone — Streamlit Frontend (thin client) v2
+Tambahan: tipe transaksi (Pengeluaran/Pemasukan/Transfer), frekuensi langganan,
+hapus transaksi, penamaan & UX lebih ramah. Memanggil Cornerstone API via HTTP.
 
 Run:
     pip install -r requirements.txt
     streamlit run streamlit_app.py
-
-Set API URL via sidebar, atau edit DEFAULT_API_URL di bawah.
 """
 
 from datetime import date
@@ -19,10 +18,14 @@ import plotly.graph_objects as go
 
 DEFAULT_API_URL = "https://noname3214-cornerstone-api.hf.space"
 
+# Kategori AI (Pengeluaran) — display Indonesia (model v2: label lowercase)
 LABEL_DISPLAY = {
-    "Bills": "Tagihan", "Entertainment": "Hiburan", "Food & Beverage": "Makanan & Minuman",
-    "Shopping": "Belanja", "Transport": "Transportasi",
+    "bill": "Tagihan", "entertainment": "Hiburan", "food": "Makanan & Minuman",
+    "shopping": "Belanja", "transport": "Transportasi",
 }
+INCOME_CATEGORIES = ["Gaji", "Bonus", "Freelance", "Hadiah", "Lainnya"]
+TRANSFER_CATEGORIES = ["Tabungan", "Investasi", "Kirim ke Orang", "Lainnya"]
+PERIODS = ["Sekali", "Mingguan", "Bulanan", "Tahunan"]
 
 st.set_page_config(page_title="Cornerstone", page_icon="💰", layout="wide")
 
@@ -31,50 +34,53 @@ st.set_page_config(page_title="Cornerstone", page_icon="💰", layout="wide")
 # API CLIENT
 # =============================================================================
 def call_api(base_url, endpoint, payload, timeout=60):
-    """
-    POST ke API dengan error handling.
-    Returns (data, error_message). Salah satu None.
-    """
     try:
-        resp = requests.post(f"{base_url.rstrip('/')}{endpoint}",
-                             json=payload, timeout=timeout)
+        resp = requests.post(f"{base_url.rstrip('/')}{endpoint}", json=payload, timeout=timeout)
         if resp.status_code == 200:
             return resp.json(), None
         return None, f"API error {resp.status_code}: {resp.text[:200]}"
     except requests.exceptions.Timeout:
-        return None, "API timeout. Kalau pakai free tier (HF Spaces), API mungkin lagi 'bangun' dari sleep — coba lagi dalam ~30 detik."
+        return None, "API timeout. Kalau pakai free tier (HF Spaces), API mungkin lagi 'bangun' dari sleep — coba lagi ~30 detik."
     except requests.exceptions.ConnectionError:
-        return None, "Tidak bisa connect ke API. Cek URL-nya bener & API-nya running."
+        return None, "Tidak bisa connect ke API. Cek URL & status Space."
     except Exception as e:
         return None, f"Error: {e}"
 
 
 def check_api(base_url):
-    """Ping /health. Returns True if reachable."""
     try:
-        resp = requests.get(f"{base_url.rstrip('/')}/health", timeout=10)
-        return resp.status_code == 200
+        return requests.get(f"{base_url.rstrip('/')}/health", timeout=10).status_code == 200
     except Exception:
         return False
 
 
 # =============================================================================
-# LOCAL MATH (no model needed — pure arithmetic)
+# HELPERS
 # =============================================================================
-def compute_health_score(income, total_spending):
+def monthly_equiv(amount, period):
+    """Normalisasi nominal ke per-bulan untuk pengecekan leakage yang adil."""
+    if period == "Mingguan":
+        return amount * 4.33
+    if period == "Tahunan":
+        return amount / 12
+    return amount  # Sekali, Bulanan
+
+
+def compute_health_score(income, total_expense):
     if income <= 0:
         return 0.0
-    return max(0.0, min(100.0, 100.0 * (1.0 - total_spending / income)))
+    return max(0.0, min(100.0, 100.0 * (1.0 - total_expense / income)))
 
 
-def project_eom(income, total_spending):
+def project_eom(income, total_expense):
     today = date.today()
     dom = today.day
-    days_in_month = monthrange(today.year, today.month)[1]
-    if dom == 0:
-        return income - total_spending
-    avg_daily = total_spending / dom
-    return income - (total_spending + avg_daily * (days_in_month - dom))
+    dim = monthrange(today.year, today.month)[1]
+    # Guard: di awal bulan (dom < 7) ekstrapolasi harian terlalu liar,
+    # jadi pakai pengeluaran aktual saja (konservatif).
+    if dom < 7:
+        return income - total_expense
+    return income - (total_expense + (total_expense / dom) * (dim - dom))
 
 
 # =============================================================================
@@ -82,10 +88,22 @@ def project_eom(income, total_spending):
 # =============================================================================
 if "transactions" not in st.session_state:
     st.session_state.transactions = []
-if "income" not in st.session_state:
-    st.session_state.income = 5_000_000
+if "base_income" not in st.session_state:
+    st.session_state.base_income = 5_000_000
 if "api_url" not in st.session_state:
     st.session_state.api_url = DEFAULT_API_URL
+if "next_id" not in st.session_state:
+    st.session_state.next_id = 1
+
+
+def add_transaction(tx):
+    tx["id"] = st.session_state.next_id
+    st.session_state.next_id += 1
+    st.session_state.transactions.append(tx)
+
+
+def delete_transaction(tx_id):
+    st.session_state.transactions = [t for t in st.session_state.transactions if t["id"] != tx_id]
 
 
 # =============================================================================
@@ -93,9 +111,10 @@ if "api_url" not in st.session_state:
 # =============================================================================
 with st.sidebar:
     st.header("👤 Profil")
-    st.session_state.income = st.number_input(
-        "Pemasukan bulanan (Rp)", min_value=0,
-        value=st.session_state.income, step=500_000,
+    st.session_state.base_income = st.number_input(
+        "Pemasukan bulanan tetap (Rp)", min_value=0,
+        value=st.session_state.base_income, step=500_000,
+        help="Gaji pokok bulanan. Pemasukan tambahan bisa dicatat sebagai transaksi.",
     )
     st.divider()
     st.subheader("🔌 Koneksi API")
@@ -104,13 +123,12 @@ with st.sidebar:
         if check_api(st.session_state.api_url):
             st.success("API terhubung ✓")
         else:
-            st.error("API tidak terjangkau. Cek URL / status Space.")
+            st.error("API tidak terjangkau.")
     st.divider()
     st.caption(f"📅 {date.today().strftime('%d %B %Y')}")
-    if st.button("🗑️ Reset transaksi"):
+    if st.button("🗑️ Reset semua transaksi"):
         st.session_state.transactions = []
         st.rerun()
-    st.divider()
     st.caption("ℹ️ Data tidak disimpan ke database (stateless).")
 
 
@@ -123,75 +141,85 @@ st.caption("Coding Camp 2026 powered by DBS Foundation • CC26-PRU462")
 
 
 # =============================================================================
-# INPUT
+# INPUT — pilih tipe dulu, field menyesuaikan
 # =============================================================================
-tab_manual, tab_csv = st.tabs(["➕ Input Manual", "📁 Upload CSV"])
+st.subheader("➕ Catat Transaksi")
+tx_type = st.radio("Tipe transaksi", ["Pengeluaran", "Pemasukan", "Transfer"], horizontal=True)
 
-with tab_manual:
-    with st.form("add_tx", clear_on_submit=True):
-        c1, c2, c3 = st.columns([3, 2, 1])
-        with c1:
-            desc = st.text_input("Deskripsi transaksi",
-                                 placeholder="contoh: N3TFL1X*SUBSCRIPTION, gofood mcd, bayar pln")
-        with c2:
-            amt = st.number_input("Jumlah (Rp)", min_value=0, value=0, step=1_000)
-        with c3:
-            st.write(""); st.write("")
-            submitted = st.form_submit_button("Tambah", type="primary")
-    if submitted:
-        if desc and amt > 0:
+if tx_type == "Pengeluaran":
+    st.caption("Pengeluaran diklasifikasi otomatis oleh AI & dicek spending leakage.")
+    c1, c2, c3, c4 = st.columns([3, 2, 2, 1])
+    with c1:
+        desc = st.text_input("Deskripsi", placeholder="contoh: netflix subscription, gofood mcd, bayar pln", key="exp_desc")
+    with c2:
+        nominal = st.number_input("Nominal (Rp)", min_value=0, value=0, step=1_000, key="exp_amt")
+    with c3:
+        period = st.selectbox("Frekuensi", PERIODS, key="exp_period",
+                              help="Langganan tahunan/mingguan dinormalisasi ke per-bulan saat cek leakage.")
+    with c4:
+        st.write(""); st.write("")
+        add_exp = st.button("Tambah", type="primary", key="add_exp")
+    if add_exp:
+        if desc and nominal > 0:
+            eq = monthly_equiv(nominal, period)
             with st.spinner("Mengklasifikasi via API..."):
                 data, err = call_api(st.session_state.api_url, "/leakage",
-                                     {"description": desc, "amount": amt})
+                                     {"description": desc, "amount": eq})
             if err:
                 st.error(err)
             else:
-                st.session_state.transactions.append({
-                    "description": desc, "category": data["category"],
-                    "amount": amt, "leakage_status": data["leakage_status"],
-                    "leakage_ratio": data["ratio_to_avg"],
+                add_transaction({
+                    "type": "Pengeluaran", "description": desc, "amount": nominal,
+                    "period": period, "category": data["category"],
+                    "leakage_status": data["leakage_status"], "leakage_ratio": data["ratio_to_avg"],
                 })
-                st.success(f"Ditambahkan → **{LABEL_DISPLAY.get(data['category'], data['category'])}**")
+                st.rerun()
         else:
-            st.error("Deskripsi & jumlah wajib diisi.")
+            st.error("Deskripsi & nominal wajib diisi.")
 
-with tab_csv:
-    st.caption("Format CSV: kolom `description` dan `amount`.")
-    template = pd.DataFrame({
-        "description": ["N3TFL1X*SUBSCRIPTION - <ID>", "GOFOOD MCDONALDS", "TAGIHAN LISTRIK PLN"],
-        "amount": [98000, 55000, 350000],
-    })
-    st.download_button("⬇️ Download template CSV",
-                       template.to_csv(index=False), "cornerstone_template.csv", "text/csv")
-    uploaded = st.file_uploader("Upload CSV transaksi", type="csv")
-    if uploaded is not None:
-        try:
-            up_df = pd.read_csv(uploaded)
-            if "description" not in up_df.columns or "amount" not in up_df.columns:
-                st.error("CSV harus punya kolom 'description' dan 'amount'.")
-            else:
-                # Kirim batch ke /analyze (1 call untuk semua)
-                payload = {
-                    "income": float(st.session_state.income),
-                    "transactions": [
-                        {"description": str(r["description"]), "amount": float(r["amount"])}
-                        for _, r in up_df.iterrows()
-                    ],
-                }
-                with st.spinner("Memproses batch via API..."):
-                    data, err = call_api(st.session_state.api_url, "/analyze", payload, timeout=120)
-                if err:
-                    st.error(err)
-                else:
-                    for t in data["transactions"]:
-                        st.session_state.transactions.append({
-                            "description": t["description"], "category": t["category"],
-                            "amount": t["amount"], "leakage_status": t["leakage_status"],
-                            "leakage_ratio": t["ratio_to_avg"],
-                        })
-                    st.success(f"{len(data['transactions'])} transaksi diproses.")
-        except Exception as e:
-            st.error(f"Gagal baca CSV: {e}")
+elif tx_type == "Pemasukan":
+    st.caption("Pemasukan menambah total income — tidak melewati AI.")
+    c1, c2, c3, c4 = st.columns([3, 2, 2, 1])
+    with c1:
+        desc = st.text_input("Deskripsi", placeholder="contoh: gaji bulan Mei", key="inc_desc")
+    with c2:
+        nominal = st.number_input("Nominal (Rp)", min_value=0, value=0, step=100_000, key="inc_amt")
+    with c3:
+        sub = st.selectbox("Kategori", INCOME_CATEGORIES, key="inc_cat")
+    with c4:
+        st.write(""); st.write("")
+        add_inc = st.button("Tambah", type="primary", key="add_inc")
+    if add_inc:
+        if nominal > 0:
+            add_transaction({
+                "type": "Pemasukan", "description": desc or sub, "amount": nominal,
+                "period": "Sekali", "category": sub, "leakage_status": "-", "leakage_ratio": 0,
+            })
+            st.rerun()
+        else:
+            st.error("Nominal wajib diisi.")
+
+else:  # Transfer
+    st.caption("Transfer dicatat terpisah — tidak dihitung sebagai pengeluaran konsumsi.")
+    c1, c2, c3, c4 = st.columns([3, 2, 2, 1])
+    with c1:
+        desc = st.text_input("Deskripsi", placeholder="contoh: transfer ke tabungan", key="trf_desc")
+    with c2:
+        nominal = st.number_input("Nominal (Rp)", min_value=0, value=0, step=100_000, key="trf_amt")
+    with c3:
+        sub = st.selectbox("Tujuan", TRANSFER_CATEGORIES, key="trf_cat")
+    with c4:
+        st.write(""); st.write("")
+        add_trf = st.button("Tambah", type="primary", key="add_trf")
+    if add_trf:
+        if nominal > 0:
+            add_transaction({
+                "type": "Transfer", "description": desc or sub, "amount": nominal,
+                "period": "Sekali", "category": sub, "leakage_status": "-", "leakage_ratio": 0,
+            })
+            st.rerun()
+        else:
+            st.error("Nominal wajib diisi.")
 
 st.divider()
 
@@ -199,26 +227,36 @@ st.divider()
 # =============================================================================
 # DASHBOARD
 # =============================================================================
-if not st.session_state.transactions:
-    st.info("👆 Belum ada transaksi. Tambah manual atau upload CSV untuk melihat analisis.")
+txs = st.session_state.transactions
+if not txs:
+    st.info("👆 Belum ada transaksi. Catat Pengeluaran, Pemasukan, atau Transfer di atas.")
     st.stop()
 
-df = pd.DataFrame(st.session_state.transactions)
-total_spending = float(df["amount"].sum())
-income = float(st.session_state.income)
-health = compute_health_score(income, total_spending)
-projected = project_eom(income, total_spending)
+df = pd.DataFrame(txs)
+expenses = df[df["type"] == "Pengeluaran"]
+incomes = df[df["type"] == "Pemasukan"]
+transfers = df[df["type"] == "Transfer"]
 
+total_expense = float(expenses["amount"].sum()) if len(expenses) else 0.0
+total_income = float(st.session_state.base_income) + (float(incomes["amount"].sum()) if len(incomes) else 0.0)
+total_transfer = float(transfers["amount"].sum()) if len(transfers) else 0.0
+health = compute_health_score(total_income, total_expense)
+projected = project_eom(total_income, total_expense)
+
+# --- Metrics ---
 m1, m2, m3, m4 = st.columns(4)
-m1.metric("Pemasukan", f"Rp {income:,.0f}")
-m2.metric("Total Pengeluaran", f"Rp {total_spending:,.0f}")
-m3.metric("Sisa Saat Ini", f"Rp {income - total_spending:,.0f}")
+m1.metric("Total Pemasukan", f"Rp {total_income:,.0f}")
+m2.metric("Total Pengeluaran", f"Rp {total_expense:,.0f}")
+m3.metric("Sisa Saat Ini", f"Rp {total_income - total_expense:,.0f}")
 m4.metric("Proyeksi Akhir Bulan", f"Rp {projected:,.0f}",
           delta="⚠️ Defisit" if projected < 0 else "Aman",
           delta_color="inverse" if projected < 0 else "normal")
+if total_transfer > 0:
+    st.caption(f"💸 Total transfer (tidak dihitung sebagai konsumsi): Rp {total_transfer:,.0f}")
 
 st.divider()
 
+# --- Health + pie (expense only) ---
 cga, cgb = st.columns(2)
 with cga:
     st.subheader("📊 Financial Health Meter")
@@ -242,36 +280,54 @@ with cga:
 
 with cgb:
     st.subheader("📈 Pengeluaran per Kategori")
-    df["category_display"] = df["category"].map(lambda c: LABEL_DISPLAY.get(c, c))
-    breakdown = df.groupby("category_display")["amount"].sum().reset_index()
-    pie = go.Figure(go.Pie(labels=breakdown["category_display"],
-                           values=breakdown["amount"], hole=0.45))
-    pie.update_layout(height=300, margin=dict(t=40, b=10, l=20, r=20))
-    st.plotly_chart(pie, use_container_width=True)
+    if len(expenses):
+        exp = expenses.copy()
+        exp["cat_display"] = exp["category"].map(lambda c: LABEL_DISPLAY.get(c, c))
+        bd = exp.groupby("cat_display")["amount"].sum().reset_index()
+        pie = go.Figure(go.Pie(labels=bd["cat_display"], values=bd["amount"], hole=0.45))
+        pie.update_layout(height=300, margin=dict(t=40, b=10, l=20, r=20))
+        st.plotly_chart(pie, use_container_width=True)
+    else:
+        st.info("Belum ada pengeluaran untuk divisualisasi.")
 
 st.divider()
 
+# --- Leakage (expense only) ---
 st.subheader("⚠️ Spending Leakage Detection")
-leaks = df[df["leakage_status"].isin(["high", "extreme"])]
+leaks = expenses[expenses["leakage_status"].isin(["high", "extreme"])] if len(expenses) else expenses
 if len(leaks) > 0:
     for _, r in leaks.iterrows():
         icon = "🔴" if r["leakage_status"] == "extreme" else "🟡"
         sev = "EXTREME OVERPRICED" if r["leakage_status"] == "extreme" else "HIGH"
-        st.warning(f"{icon} **{sev}** — `{r['description']}` (Rp {r['amount']:,.0f}) "
-                   f"≈ **{r['leakage_ratio']:.1f}x** rata-rata kategori "
-                   f"{LABEL_DISPLAY.get(r['category'], r['category'])}.")
+        per = f" ({r['period']})" if r["period"] != "Sekali" else ""
+        st.warning(f"{icon} **{sev}** — `{r['description']}`{per} (Rp {r['amount']:,.0f}) "
+                   f"≈ **{r['leakage_ratio']:.1f}x** rata-rata kategori {LABEL_DISPLAY.get(r['category'], r['category'])}.")
 else:
     st.success("✅ Tidak ada spending leakage terdeteksi.")
 
 st.divider()
 
+# --- History with delete buttons ---
 st.subheader("📝 Riwayat Transaksi")
-show = df.copy()
-show["category_display"] = show["category"].map(lambda c: LABEL_DISPLAY.get(c, c))
-show["amount"] = show["amount"].apply(lambda x: f"Rp {x:,.0f}")
-show = show[["description", "category_display", "amount", "leakage_status"]]
-show.columns = ["Deskripsi", "Kategori (AI)", "Jumlah", "Leakage"]
-st.dataframe(show, use_container_width=True, hide_index=True)
+st.caption("Klik 🗑️ untuk menghapus transaksi yang salah input.")
+# header row
+h = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
+for col, txt in zip(h, ["Tipe", "Deskripsi", "Kategori", "Nominal", "Leakage", ""]):
+    col.markdown(f"**{txt}**")
+for t in txs:
+    row = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
+    row[0].write(t["type"])
+    desc_txt = t["description"]
+    if t["type"] == "Pengeluaran" and t["period"] != "Sekali":
+        desc_txt += f" ({t['period']})"
+    row[1].write(desc_txt)
+    cat = LABEL_DISPLAY.get(t["category"], t["category"]) if t["type"] == "Pengeluaran" else t["category"]
+    row[2].write(cat)
+    row[3].write(f"Rp {t['amount']:,.0f}")
+    row[4].write(t["leakage_status"])
+    if row[5].button("🗑️", key=f"del_{t['id']}"):
+        delete_transaction(t["id"])
+        st.rerun()
 
-st.caption("🤖 Klasifikasi via Cornerstone API (model Deep Learning TensorFlow, 94.68% akurasi). "
-           "Health Score & proyeksi dihitung lokal (rule-based).")
+st.caption("🤖 Pengeluaran diklasifikasi via Cornerstone API (model Deep Learning, akurasi 94.68%). "
+           "Pemasukan & Transfer dicatat manual. Health Score & proyeksi dihitung lokal.")
