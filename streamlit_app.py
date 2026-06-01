@@ -89,7 +89,7 @@ def project_eom(income, total_expense):
 if "transactions" not in st.session_state:
     st.session_state.transactions = []
 if "base_income" not in st.session_state:
-    st.session_state.base_income = 5_000_000
+    st.session_state.base_income = 0
 if "api_url" not in st.session_state:
     st.session_state.api_url = DEFAULT_API_URL
 if "next_id" not in st.session_state:
@@ -314,23 +314,26 @@ st.divider()
 cga, cgb = st.columns(2)
 with cga:
     st.subheader("📊 Financial Health Meter")
-    gauge = go.Figure(go.Indicator(
-        mode="gauge+number", value=health,
-        domain={"x": [0, 1], "y": [0, 1]}, title={"text": "Health Score"},
-        gauge={"axis": {"range": [0, 100], "tickvals": [0, 25, 50, 75, 100]},
-               "bar": {"color": "#2c3e50"},
-               "steps": [{"range": [0, 30], "color": "#ffcccc"},
-                         {"range": [30, 60], "color": "#fff3b0"},
-                         {"range": [60, 100], "color": "#c6f6c4"}]},
-    ))
-    gauge.update_layout(height=300, margin=dict(t=40, b=20, l=50, r=50))
-    st.plotly_chart(gauge, use_container_width=True)
-    if health >= 60:
-        st.success("Keuangan sehat. Pertahankan!")
-    elif health >= 30:
-        st.warning("Cukup, tapi perlu evaluasi.")
+    if total_income <= 0:
+        st.info("Isi **Pemasukan bulanan** di sidebar untuk melihat Health Score.")
     else:
-        st.error("Butuh perhatian serius.")
+        gauge = go.Figure(go.Indicator(
+            mode="gauge+number", value=health,
+            domain={"x": [0, 1], "y": [0, 1]}, title={"text": "Health Score"},
+            gauge={"axis": {"range": [0, 100], "tickvals": [0, 25, 50, 75, 100]},
+                   "bar": {"color": "#2c3e50"},
+                   "steps": [{"range": [0, 30], "color": "#ffcccc"},
+                             {"range": [30, 60], "color": "#fff3b0"},
+                             {"range": [60, 100], "color": "#c6f6c4"}]},
+        ))
+        gauge.update_layout(height=300, margin=dict(t=40, b=20, l=50, r=50))
+        st.plotly_chart(gauge, use_container_width=True)
+        if health >= 60:
+            st.success("Keuangan sehat. Pertahankan!")
+        elif health >= 30:
+            st.warning("Cukup, tapi perlu evaluasi.")
+        else:
+            st.error("Butuh perhatian serius.")
 
 with cgb:
     st.subheader("📈 Pengeluaran per Kategori")
