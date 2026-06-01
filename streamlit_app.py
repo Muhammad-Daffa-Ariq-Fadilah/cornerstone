@@ -223,38 +223,57 @@ else:  # Transfer
 
 # --- CSV bulk upload (semua baris diperlakukan sebagai Pengeluaran) ---
 with st.expander("📁 Upload CSV (bulk pengeluaran)"):
-    st.caption("Format CSV: kolom `description` dan `amount`. Semua baris dicatat sebagai Pengeluaran (frekuensi Sekali).")
+    st.caption("Format CSV: kolom `description`, `amount`, dan opsional `period` "
+               "(Sekali/Mingguan/Bulanan/Tahunan — kosong = Sekali). Semua baris dicatat sebagai Pengeluaran.")
     template = pd.DataFrame({
         "description": ["NETFLIX*SUBSCRIPTION", "GOFOOD MCDONALDS", "TAGIHAN LISTRIK PLN"],
-        "amount": [98000, 55000, 350000],
+        "amount": [1200000, 55000, 350000],
+        "period": ["Tahunan", "Sekali", "Bulanan"],
     })
     st.download_button("⬇️ Download template CSV", template.to_csv(index=False),
                        "cornerstone_template.csv", "text/csv")
     uploaded = st.file_uploader("Upload CSV transaksi", type="csv")
-    if uploaded is not None:
-        try:
-            up_df = pd.read_csv(uploaded)
-            if "description" not in up_df.columns or "amount" not in up_df.columns:
-                st.error("CSV harus punya kolom 'description' dan 'amount'.")
-            else:
-                payload = {"income": float(st.session_state.base_income),
-                           "transactions": [{"description": str(r["description"]), "amount": float(r["amount"])}
-                                            for _, r in up_df.iterrows()]}
-                with st.spinner("Memproses batch via API..."):
-                    data, err = call_api(st.session_state.api_url, "/analyze", payload, timeout=120)
-                if err:
-                    st.error(err)
+    if uploaded is None:
+        st.session_state.last_upload_sig = None
+    else:
+        sig = (uploaded.name, uploaded.size)
+        if st.session_state.get("last_upload_sig") == sig:
+            st.info("File ini sudah diproses. Hapus file di atas, lalu upload lagi untuk memproses ulang.")
+        else:
+            try:
+                up_df = pd.read_csv(uploaded)
+                if "description" not in up_df.columns or "amount" not in up_df.columns:
+                    st.error("CSV harus punya kolom 'description' dan 'amount'.")
                 else:
-                    for t in data["transactions"]:
-                        add_transaction({
-                            "type": "Pengeluaran", "description": t["description"], "amount": t["amount"],
-                            "period": "Sekali", "category": t["category"],
-                            "leakage_status": t["leakage_status"], "leakage_ratio": t["ratio_to_avg"],
-                        })
-                    st.success(f"{len(data['transactions'])} transaksi ditambahkan.")
-                    st.rerun()
-        except Exception as e:
-            st.error(f"Gagal baca CSV: {e}")
+                    has_period = "period" in up_df.columns
+                    parsed = []
+                    for _, r in up_df.iterrows():
+                        p = "Sekali"
+                        if has_period and pd.notna(r.get("period")):
+                            cand = str(r["period"]).strip().capitalize()
+                            if cand in PERIODS:
+                                p = cand
+                        parsed.append({"description": str(r["description"]),
+                                       "amount": float(r["amount"]), "period": p})
+                    payload = {"income": float(st.session_state.base_income),
+                               "transactions": [{"description": x["description"],
+                                                 "amount": monthly_equiv(x["amount"], x["period"])}
+                                                for x in parsed]}
+                    with st.spinner("Memproses batch via API..."):
+                        data, err = call_api(st.session_state.api_url, "/analyze", payload, timeout=120)
+                    if err:
+                        st.error(err)
+                    else:
+                        for x, t in zip(parsed, data["transactions"]):
+                            add_transaction({
+                                "type": "Pengeluaran", "description": x["description"], "amount": x["amount"],
+                                "period": x["period"], "category": t["category"],
+                                "leakage_status": t["leakage_status"], "leakage_ratio": t["ratio_to_avg"],
+                            })
+                        st.session_state.last_upload_sig = sig
+                        st.success(f"{len(parsed)} transaksi ditambahkan.")
+            except Exception as e:
+                st.error(f"Gagal baca CSV: {e}")
 
 st.divider()
 
