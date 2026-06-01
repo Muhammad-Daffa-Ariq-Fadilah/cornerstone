@@ -221,6 +221,41 @@ else:  # Transfer
         else:
             st.error("Nominal wajib diisi.")
 
+# --- CSV bulk upload (semua baris diperlakukan sebagai Pengeluaran) ---
+with st.expander("📁 Upload CSV (bulk pengeluaran)"):
+    st.caption("Format CSV: kolom `description` dan `amount`. Semua baris dicatat sebagai Pengeluaran (frekuensi Sekali).")
+    template = pd.DataFrame({
+        "description": ["NETFLIX*SUBSCRIPTION", "GOFOOD MCDONALDS", "TAGIHAN LISTRIK PLN"],
+        "amount": [98000, 55000, 350000],
+    })
+    st.download_button("⬇️ Download template CSV", template.to_csv(index=False),
+                       "cornerstone_template.csv", "text/csv")
+    uploaded = st.file_uploader("Upload CSV transaksi", type="csv")
+    if uploaded is not None:
+        try:
+            up_df = pd.read_csv(uploaded)
+            if "description" not in up_df.columns or "amount" not in up_df.columns:
+                st.error("CSV harus punya kolom 'description' dan 'amount'.")
+            else:
+                payload = {"income": float(st.session_state.base_income),
+                           "transactions": [{"description": str(r["description"]), "amount": float(r["amount"])}
+                                            for _, r in up_df.iterrows()]}
+                with st.spinner("Memproses batch via API..."):
+                    data, err = call_api(st.session_state.api_url, "/analyze", payload, timeout=120)
+                if err:
+                    st.error(err)
+                else:
+                    for t in data["transactions"]:
+                        add_transaction({
+                            "type": "Pengeluaran", "description": t["description"], "amount": t["amount"],
+                            "period": "Sekali", "category": t["category"],
+                            "leakage_status": t["leakage_status"], "leakage_ratio": t["ratio_to_avg"],
+                        })
+                    st.success(f"{len(data['transactions'])} transaksi ditambahkan.")
+                    st.rerun()
+        except Exception as e:
+            st.error(f"Gagal baca CSV: {e}")
+
 st.divider()
 
 
@@ -299,35 +334,63 @@ if len(leaks) > 0:
     for _, r in leaks.iterrows():
         icon = "🔴" if r["leakage_status"] == "extreme" else "🟡"
         sev = "EXTREME OVERPRICED" if r["leakage_status"] == "extreme" else "HIGH"
+        deg = "jauh melebihi" if r["leakage_status"] == "extreme" else "melebihi"
         per = f" ({r['period']})" if r["period"] != "Sekali" else ""
         st.warning(f"{icon} **{sev}** — `{r['description']}`{per} (Rp {r['amount']:,.0f}) "
-                   f"≈ **{r['leakage_ratio']:.1f}x** rata-rata kategori {LABEL_DISPLAY.get(r['category'], r['category'])}.")
+                   f"{deg} rentang harga wajar kategori {LABEL_DISPLAY.get(r['category'], r['category'])}.")
 else:
     st.success("✅ Tidak ada spending leakage terdeteksi.")
 
 st.divider()
 
-# --- History with delete buttons ---
+# --- History with filter, scroll, delete, download ---
 st.subheader("📝 Riwayat Transaksi")
-st.caption("Klik 🗑️ untuk menghapus transaksi yang salah input.")
-# header row
-h = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
-for col, txt in zip(h, ["Tipe", "Deskripsi", "Kategori", "Nominal", "Leakage", ""]):
-    col.markdown(f"**{txt}**")
-for t in txs:
-    row = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
-    row[0].write(t["type"])
-    desc_txt = t["description"]
-    if t["type"] == "Pengeluaran" and t["period"] != "Sekali":
-        desc_txt += f" ({t['period']})"
-    row[1].write(desc_txt)
-    cat = LABEL_DISPLAY.get(t["category"], t["category"]) if t["type"] == "Pengeluaran" else t["category"]
-    row[2].write(cat)
-    row[3].write(f"Rp {t['amount']:,.0f}")
-    row[4].write(t["leakage_status"])
-    if row[5].button("🗑️", key=f"del_{t['id']}"):
-        delete_transaction(t["id"])
-        st.rerun()
 
-st.caption("🤖 Pengeluaran diklasifikasi via Cornerstone API (model Deep Learning, akurasi 94.68%). "
-           "Pemasukan & Transfer dicatat manual. Health Score & proyeksi dihitung lokal.")
+# Filter controls
+fc1, fc2, fc3 = st.columns([2, 2, 2])
+with fc1:
+    f_type = st.selectbox("Filter tipe", ["Semua", "Pengeluaran", "Pemasukan", "Transfer"])
+with fc2:
+    cats_present = sorted({(LABEL_DISPLAY.get(t["category"], t["category"]) if t["type"] == "Pengeluaran" else t["category"]) for t in txs})
+    f_cat = st.selectbox("Filter kategori", ["Semua"] + cats_present)
+
+def cat_display(t):
+    return LABEL_DISPLAY.get(t["category"], t["category"]) if t["type"] == "Pengeluaran" else t["category"]
+
+filtered = [t for t in txs
+            if (f_type == "Semua" or t["type"] == f_type)
+            and (f_cat == "Semua" or cat_display(t) == f_cat)]
+
+# Download (full history, unfiltered)
+dl_df = pd.DataFrame([{
+    "Tipe": t["type"], "Deskripsi": t["description"], "Kategori": cat_display(t),
+    "Frekuensi": t["period"], "Nominal": t["amount"], "Leakage": t["leakage_status"],
+} for t in txs])
+with fc3:
+    st.write(""); st.write("")
+    st.download_button("⬇️ Download riwayat (CSV)", dl_df.to_csv(index=False),
+                       "riwayat_cornerstone.csv", "text/csv")
+
+st.caption(f"Menampilkan {len(filtered)} dari {len(txs)} transaksi. Klik 🗑️ untuk hapus.")
+
+# Scrollable container (tinggi tetap walau banyak transaksi)
+with st.container(height=360):
+    h = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
+    for col, txt in zip(h, ["Tipe", "Deskripsi", "Kategori", "Nominal", "Leakage", ""]):
+        col.markdown(f"**{txt}**")
+    for t in filtered:
+        row = st.columns([1.2, 3, 2, 2, 1.5, 0.8])
+        row[0].write(t["type"])
+        desc_txt = t["description"]
+        if t["type"] == "Pengeluaran" and t["period"] != "Sekali":
+            desc_txt += f" ({t['period']})"
+        row[1].write(desc_txt)
+        row[2].write(cat_display(t))
+        row[3].write(f"Rp {t['amount']:,.0f}")
+        row[4].write(t["leakage_status"])
+        if row[5].button("🗑️", key=f"del_{t['id']}"):
+            delete_transaction(t["id"])
+            st.rerun()
+
+st.caption("🤖 Pengeluaran diklasifikasi via Cornerstone API (model Deep Learning, akurasi 99.84%). "
+           "Pemasukan & Transfer dicatat manual; Health Score & proyeksi dihitung lokal.")
