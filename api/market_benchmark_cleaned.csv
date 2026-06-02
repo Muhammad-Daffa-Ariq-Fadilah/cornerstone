@@ -1,0 +1,306 @@
+item_category,item_name,avg_price,lower_bound,upper_bound
+Belanja,Baju Kaos Polos Katun,45000.0,18000.0,72000.0
+Belanja,Baterai Aa Alkaline 4Pcs,20000.0,8000.0,32000.0
+Belanja,Baterai Aa Remote/Mouse,15000.0,6000.0,24000.0
+Belanja,Beli Buku Pemrograman Python/Sql,85000.0,34000.0,136000.0
+Belanja,Beras Premium 5Kg,75000.0,30000.0,120000.0
+Belanja,Buku Tulis,4500.0,1800.0,7200.0
+Belanja,Celana Jeans Kasual,150000.0,60000.0,240000.0
+Belanja,Deterjen Cair Pakaian,30000.0,12000.0,48000.0
+Belanja,Deterjen Cair Sachet,10000.0,4000.0,16000.0
+Belanja,Flashdisk 32Gb,65000.0,26000.0,104000.0
+Belanja,Flashdisk 64Gb,75000.0,30000.0,120000.0
+Belanja,Fotocopy Modul Kuliah,15000.0,6000.0,24000.0
+Belanja,Gula Pasir 1Kg,16000.0,6400.0,25600.0
+Belanja,Hand Sanitizer,15000.0,6000.0,24000.0
+Belanja,Headset Kabel Murah,25000.0,10000.0,40000.0
+Belanja,Jaket Hoodie Polos,85000.0,34000.0,136000.0
+Belanja,Jas Laboratorium Praktikum,85000.0,34000.0,136000.0
+Belanja,Jilid Skripsi Hardcover,45000.0,18000.0,72000.0
+Belanja,Kabel Data Type C Fast Charging,25000.0,10000.0,40000.0
+Belanja,Kertas Hvs A4 Satu Rim,45000.0,18000.0,72000.0
+Belanja,Kopi Bubuk Murni,25000.0,10000.0,40000.0
+Belanja,Kuota Internet Indosat,55000.0,22000.0,88000.0
+Belanja,Kuota Internet Telkomsel,75000.0,30000.0,120000.0
+Belanja,Kuota Internet Xl,60000.0,24000.0,96000.0
+Belanja,Lampu Led 9 Watt,35000.0,14000.0,56000.0
+Belanja,Masker Medis,2500.0,1000.0,4000.0
+Belanja,Minyak Goreng 2L,35000.0,14000.0,56000.0
+Belanja,Mouse Wireless Standard,45000.0,18000.0,72000.0
+Belanja,Obat Nyamuk Elektrik,15000.0,6000.0,24000.0
+Belanja,Obat Sakit Kepala,8000.0,3200.0,12800.0
+Belanja,Paket Data 20Gb,65000.0,26000.0,104000.0
+Belanja,Paracetamol,8000.0,3200.0,12800.0
+Belanja,Pasta Gigi Jumbo,15000.0,6000.0,24000.0
+Belanja,Payung Lipat,35000.0,14000.0,56000.0
+Belanja,Pewangi Pakaian Refill,18000.0,7200.0,28800.0
+Belanja,Pewangi Pakaian Sachet,10000.0,4000.0,16000.0
+Belanja,Pomade Atau Wax Rambut,30000.0,12000.0,48000.0
+Belanja,Print Laporan Tugas Akhir,30000.0,12000.0,48000.0
+Belanja,Print Tugas Per Lembar,700.0,280.0,1120.0
+Belanja,Pulpen,4000.0,1600.0,6400.0
+Belanja,Pulsa,26000.0,10400.0,41600.0
+Belanja,Ransel Laptop Kanvas,120000.0,48000.0,192000.0
+Belanja,Sabun Cuci Muka Pria,25000.0,10000.0,40000.0
+Belanja,Sabun Cuci Piring Refill,10000.0,4000.0,16000.0
+Belanja,Sabun Mandi Cair 400Ml,25000.0,10000.0,40000.0
+Belanja,Sampo Botol Sedang,30000.0,12000.0,48000.0
+Belanja,Sandal Jepit Karet,15000.0,6000.0,24000.0
+Belanja,Susu Uht 1L,18000.0,7200.0,28800.0
+Belanja,Teh Celup Kotak,8000.0,3200.0,12800.0
+Belanja,Telur Ayam 1Kg,28000.0,11200.0,44800.0
+Belanja,Tinta Printer Hitam Refill,35000.0,14000.0,56000.0
+Belanja,Tisu Basah Antiseptik,10000.0,4000.0,16000.0
+Belanja,Tisu Toilet Roll,20000.0,8000.0,32000.0
+Belanja,Tisu Wajah 250S,12000.0,4800.0,19200.0
+Belanja,Tolak Angin Cair,18000.0,7200.0,28800.0
+Belanja,Topup Gopay,50000.0,20000.0,80000.0
+Belanja,Topup Ovo,50000.0,20000.0,80000.0
+Belanja,Topup Saldo Dana,50000.0,20000.0,80000.0
+Belanja,Topup Saldo Linkaja,50000.0,20000.0,80000.0
+Belanja,Topup Shopeepay,50000.0,20000.0,80000.0
+Belanja,Tumbler Minum Plastik,40000.0,16000.0,64000.0
+Belanja,Vitamin C,30000.0,12000.0,48000.0
+Hiburan,Beli Game Steam Diskon,85000.0,38250.0,131750.0
+Hiburan,Beli Game Steam Promo,120000.0,54000.0,186000.0
+Hiburan,Beli Skin Valorant Promo,75000.0,33750.0,116250.0
+Hiburan,Board Game Cafe Per Jam,20000.0,9000.0,31000.0
+Hiburan,Canva Pro Sharing,20000.0,9000.0,31000.0
+Hiburan,Gym Harian Mahasiswa,25000.0,11250.0,38750.0
+Hiburan,Gym Membership,300000.0,135000.0,465000.0
+Hiburan,Karaoke 1 Jam,60000.0,27000.0,93000.0
+Hiburan,Langganan Apple Music,55000.0,24750.0,85250.0
+Hiburan,Langganan Canva Pro Patungan,25000.0,11250.0,38750.0
+Hiburan,Langganan Chatgpt Plus Patungan,65000.0,29250.0,100750.0
+Hiburan,Langganan Disney+ Hotstar,39000.0,17550.0,60450.0
+Hiburan,Langganan Hbo Go,60000.0,27000.0,93000.0
+Hiburan,Langganan Pc Game Pass,49000.0,22050.0,75950.0
+Hiburan,Langganan Spotify Family,87000.0,39150.0,134850.0
+Hiburan,Langganan Vidio Premier,39000.0,17550.0,60450.0
+Hiburan,Langganan Viu Premium,33000.0,14850.0,51150.0
+Hiburan,Langganan Wetv Vip,25000.0,11250.0,38750.0
+Hiburan,Langganan Youtube Premium,59000.0,26550.0,91450.0
+Hiburan,Langganan Youtube Premium Student,35000.0,15750.0,54250.0
+Hiburan,Laundry Kiloan,8000.0,3600.0,12400.0
+Hiburan,Main Biliar 1 Jam,45000.0,20250.0,69750.0
+Hiburan,Main Biliar Patungan,25000.0,11250.0,38750.0
+Hiburan,Main Bowling 1 Game,45000.0,20250.0,69750.0
+Hiburan,Netflix,59000.0,26550.0,91450.0
+Hiburan,Nongkrong Kafe Nugas,45000.0,20250.0,69750.0
+Hiburan,Nonton Stand Up Comedy Lokal,75000.0,33750.0,116250.0
+Hiburan,Patungan Netflix Akun Sharing,35000.0,15750.0,54250.0
+Hiburan,Photobox Bareng Temen,35000.0,15750.0,54250.0
+Hiburan,Photobox Studio,35000.0,15750.0,54250.0
+Hiburan,Potong Rambut Pria,25000.0,11250.0,38750.0
+Hiburan,Rental Kamera Mirrorless Harian,150000.0,67500.0,232500.0
+Hiburan,Sewa Lapangan Badminton,50000.0,22500.0,77500.0
+Hiburan,Sewa Lapangan Futsal,120000.0,54000.0,186000.0
+Hiburan,Sewa Lapangan Futsal Patungan,30000.0,13500.0,46500.0
+Hiburan,Sewa Ps4 Harian Kosan,75000.0,33750.0,116250.0
+Hiburan,Sewa Ps5 Harian,150000.0,67500.0,232500.0
+Hiburan,Sewa Raket Badminton,15000.0,6750.0,23250.0
+Hiburan,Sewa Studio Musik Per Jam,40000.0,18000.0,62000.0
+Hiburan,Skincare Facial Wash,55000.0,24750.0,85250.0
+Hiburan,Spotify Premium,55000.0,24750.0,85250.0
+Hiburan,Spotify Premium Student,27500.0,12375.0,42625.0
+Hiburan,Straps Pull-Up Workout,45000.0,20250.0,69750.0
+Hiburan,Tiket Bioskop Studio Reguler,45000.0,20250.0,69750.0
+Hiburan,Tiket Dufan Reguler,250000.0,112500.0,387500.0
+Hiburan,Tiket Konser Indie Lokal,150000.0,67500.0,232500.0
+Hiburan,Tiket Konser Lokal,350000.0,157500.0,542500.0
+Hiburan,Tiket Masuk Kolam Renang,25000.0,11250.0,38750.0
+Hiburan,Tiket Masuk Museum,15000.0,6750.0,23250.0
+Hiburan,Tiket Pameran Distro Clothing,35000.0,15750.0,54250.0
+Hiburan,Tiket Pameran Seni,50000.0,22500.0,77500.0
+Hiburan,Tiket Trampoline Park,100000.0,45000.0,155000.0
+Hiburan,Tiket Waterpark Reguler,85000.0,38250.0,131750.0
+Hiburan,Topup Diamond Ml Mahasiswa,25000.0,11250.0,38750.0
+Hiburan,Topup Diamond Mobile Legends,50000.0,22500.0,77500.0
+Hiburan,Topup Saldo Steam Wallet,60000.0,27000.0,93000.0
+Hiburan,Topup Valorant Points,75000.0,33750.0,116250.0
+Makanan & Minuman,Air Mineral 600Ml,4500.0,1800.0,7200.0
+Makanan & Minuman,Air Mineral Botol 1.5L,6000.0,2400.0,9600.0
+Makanan & Minuman,Ayam Geprek,17000.0,6800.0,27200.0
+Makanan & Minuman,Ayam Penyet Sambal Ijo,18000.0,7200.0,28800.0
+Makanan & Minuman,Bakso,15000.0,6000.0,24000.0
+Makanan & Minuman,Bakso Urat,20000.0,8000.0,32000.0
+Makanan & Minuman,Boba Drink,22000.0,8800.0,35200.0
+Makanan & Minuman,Bubur Ayam Spesial,15000.0,6000.0,24000.0
+Makanan & Minuman,Burger Cepat Saji,35000.0,14000.0,56000.0
+Makanan & Minuman,Cilok Bumbu Kacang,5000.0,2000.0,8000.0
+Makanan & Minuman,Cimol Bojot,8000.0,3200.0,12800.0
+Makanan & Minuman,Croissant Butter,25000.0,10000.0,40000.0
+Makanan & Minuman,Dimsum Kaki Lima,15000.0,6000.0,24000.0
+Makanan & Minuman,Dimsum Porsi,20000.0,8000.0,32000.0
+Makanan & Minuman,Es Jeruk Peras,10000.0,4000.0,16000.0
+Makanan & Minuman,Es Teh,6000.0,2400.0,9600.0
+Makanan & Minuman,Es Teh Jumbo,5000.0,2000.0,8000.0
+Makanan & Minuman,Gelato 2 Rasa,35000.0,14000.0,56000.0
+Makanan & Minuman,Gorengan Tempe Tahu,5000.0,2000.0,8000.0
+Makanan & Minuman,Jus Alpukat,15000.0,6000.0,24000.0
+Makanan & Minuman,Kebab Daging Sapi,22000.0,8800.0,35200.0
+Makanan & Minuman,Kebab Turki Mini,12000.0,4800.0,19200.0
+Makanan & Minuman,Keripik Pedas Kiloan,12000.0,4800.0,19200.0
+Makanan & Minuman,Kopi Hitam Sachet Seduh,4000.0,1600.0,6400.0
+Makanan & Minuman,Kopi Susu,18000.0,7200.0,28800.0
+Makanan & Minuman,Kopi Susu Gula Aren,22000.0,8800.0,35200.0
+Makanan & Minuman,Kopi Susu Gula Aren Literan,45000.0,18000.0,72000.0
+Makanan & Minuman,Martabak Manis,45000.0,18000.0,72000.0
+Makanan & Minuman,Martabak Mini Manis,15000.0,6000.0,24000.0
+Makanan & Minuman,Martabak Telur Spesial,45000.0,18000.0,72000.0
+Makanan & Minuman,Matcha Latte,25000.0,10000.0,40000.0
+Makanan & Minuman,Mie Ayam,15000.0,6000.0,24000.0
+Makanan & Minuman,Mie Dokdok Warkop,12000.0,4800.0,19200.0
+Makanan & Minuman,Mie Gacoan,25000.0,10000.0,40000.0
+Makanan & Minuman,Mie Instan,4000.0,1600.0,6400.0
+Makanan & Minuman,Nasi Ayam Geprek Kampus,15000.0,6000.0,24000.0
+Makanan & Minuman,Nasi Bakar Tongkol,12000.0,4800.0,19200.0
+Makanan & Minuman,Nasi Campur Bali,35000.0,14000.0,56000.0
+Makanan & Minuman,Nasi Goreng,18000.0,7200.0,28800.0
+Makanan & Minuman,Nasi Goreng Gila,20000.0,8000.0,32000.0
+Makanan & Minuman,Nasi Kuning Bento,18000.0,7200.0,28800.0
+Makanan & Minuman,Nasi Padang,25000.0,10000.0,40000.0
+Makanan & Minuman,Nasi Padang Lauk Telur,14000.0,5600.0,22400.0
+Makanan & Minuman,Nasi Rames Warteg,15000.0,6000.0,24000.0
+Makanan & Minuman,Nasi Telor Dadar Burjo,12000.0,4800.0,19200.0
+Makanan & Minuman,Pempek Kapal Selam,20000.0,8000.0,32000.0
+Makanan & Minuman,Pizza Ukuran Sedang,85000.0,34000.0,136000.0
+Makanan & Minuman,Roti Bakar Bandung,18000.0,7200.0,28800.0
+Makanan & Minuman,Roti Pancong Lumer,10000.0,4000.0,16000.0
+Makanan & Minuman,Roti Tawar,18000.0,7200.0,28800.0
+Makanan & Minuman,Sate Ayam,25000.0,10000.0,40000.0
+Makanan & Minuman,Sate Padang,25000.0,10000.0,40000.0
+Makanan & Minuman,Seblak Prasmanan,18000.0,7200.0,28800.0
+Makanan & Minuman,Siomay Bandung,15000.0,6000.0,24000.0
+Makanan & Minuman,Snack Chiki Begadang,15000.0,6000.0,24000.0
+Makanan & Minuman,Sosis Bakar Jumbo,15000.0,6000.0,24000.0
+Makanan & Minuman,Soto Ayam,18000.0,7200.0,28800.0
+Makanan & Minuman,Soto Ayam Nasi Pisah,15000.0,6000.0,24000.0
+Makanan & Minuman,Sushi Roll,45000.0,18000.0,72000.0
+Makanan & Minuman,Susu Segar Murni,10000.0,4000.0,16000.0
+Makanan & Minuman,Takoyaki Isi 8,20000.0,8000.0,32000.0
+Makanan & Minuman,Teh Tarik Dingin,8000.0,3200.0,12800.0
+Tagihan,Air Pdam Bulanan,120000.0,84000.0,156000.0
+Tagihan,Biaya Admin Bank,15000.0,10500.0,19500.0
+Tagihan,Biaya Admin Transfer Beda Bank,2500.0,1750.0,3250.0
+Tagihan,Biaya Pendaftaran Webinar It,50000.0,35000.0,65000.0
+Tagihan,Bpjs Kesehatan Kelas 1,150000.0,105000.0,195000.0
+Tagihan,Bpjs Kesehatan Kelas 2,100000.0,70000.0,130000.0
+Tagihan,Cicilan Gopaylater,150000.0,105000.0,195000.0
+Tagihan,Cicilan Kredit Motor,850000.0,595000.0,1105000.0
+Tagihan,Cicilan Laptop,750000.0,525000.0,975000.0
+Tagihan,Cicilan Spaylater,250000.0,175000.0,325000.0
+Tagihan,Cicilan Spaylater Buku/Laptop,150000.0,105000.0,195000.0
+Tagihan,Denda Keterlambatan Krs,50000.0,35000.0,65000.0
+Tagihan,Denda Telat Bayar,25000.0,17500.0,32500.0
+Tagihan,Denda Telat Bayar Buku Perpus,10000.0,7000.0,13000.0
+Tagihan,Donasi Danus Mahasiswa,15000.0,10500.0,19500.0
+Tagihan,Galon Air Minum Isi Ulang,18000.0,12600.0,23400.0
+Tagihan,Infaq Kas Masjid,20000.0,14000.0,26000.0
+Tagihan,Ipl Apartemen Bulanan,450000.0,315000.0,585000.0
+Tagihan,Iuran Bulanan Kosan,850000.0,595000.0,1105000.0
+Tagihan,Iuran Kebersihan Kosan,20000.0,14000.0,26000.0
+Tagihan,Iuran Kegiatan Makrab,150000.0,105000.0,195000.0
+Tagihan,Iuran Sampah Keamanan,50000.0,35000.0,65000.0
+Tagihan,Kuota Internet By.U,55000.0,38500.0,71500.0
+Tagihan,Kuota Internet Telkomsel,85000.0,59500.0,110500.0
+Tagihan,Kuota Internet Tri 30Gb,65000.0,45500.0,84500.0
+Tagihan,Langganan Cloud Storage,35000.0,24500.0,45500.0
+Tagihan,Langganan Domain Hosting Tahunan,150000.0,105000.0,195000.0
+Tagihan,Laundry Cuci Sepatu Kets,35000.0,24500.0,45500.0
+Tagihan,Laundry Kiloan Pakaian Reguler,25000.0,17500.0,32500.0
+Tagihan,Listrik Pln Bulanan,350000.0,245000.0,455000.0
+Tagihan,Lpg 3Kg,22000.0,15400.0,28600.0
+Tagihan,Pajak Motor Tahunan,250000.0,175000.0,325000.0
+Tagihan,Patungan Kado Dosen Atau Teman,35000.0,24500.0,45500.0
+Tagihan,Patungan Konsumsi Rapat Panitia,35000.0,24500.0,45500.0
+Tagihan,Patungan Server Cloud Capstone,50000.0,35000.0,65000.0
+Tagihan,Pbb Tahunan Rumah,350000.0,245000.0,455000.0
+Tagihan,Pembayaran Sertifikasi Internasional,750000.0,525000.0,975000.0
+Tagihan,Pembayaran Sks Semester Pendek,300000.0,210000.0,390000.0
+Tagihan,Tagihan Biznet Home,450000.0,315000.0,585000.0
+Tagihan,Tagihan Bpjs Kesehatan Mandiri,100000.0,70000.0,130000.0
+Tagihan,Tagihan First Media,380000.0,266000.0,494000.0
+Tagihan,Tagihan Gas Pgn,75000.0,52500.0,97500.0
+Tagihan,Tagihan Kartu Kredit,1500000.0,1050000.0,1950000.0
+Tagihan,Tagihan Kredivo,350000.0,245000.0,455000.0
+Tagihan,Tagihan Myrepublic,350000.0,245000.0,455000.0
+Tagihan,Tagihan Pasca Bayar Halo,120000.0,84000.0,156000.0
+Tagihan,Tagihan Pasca Bayar Xl,100000.0,70000.0,130000.0
+Tagihan,Tagihan Xl Home,320000.0,224000.0,416000.0
+Tagihan,Token Listrik Kosan 50Rb,52000.0,36400.0,67600.0
+Tagihan,Topup Saldo Flazz E-Money,50000.0,35000.0,65000.0
+Tagihan,Uang Kas Himpunan Mahasiswa,15000.0,10500.0,19500.0
+Tagihan,Uang Kas Rt,25000.0,17500.0,32500.0
+Tagihan,Wifi Indihome Bulanan,280000.0,196000.0,364000.0
+Tagihan,Zakat Profesi Bulanan,120000.0,84000.0,156000.0
+Transportasi,Angkot Dalam Kota,5000.0,3000.0,7000.0
+Transportasi,Beli Jas Hujan Ponco,25000.0,15000.0,35000.0
+Transportasi,Beli Masker Motor Duckbill,15000.0,9000.0,21000.0
+Transportasi,Bensin Eceran Botolan,12000.0,7200.0,16800.0
+Transportasi,Bensin Pertalite 1 Liter,10000.0,6000.0,14000.0
+Transportasi,Bensin,10000.0,6000.0,14000.0
+Transportasi,Bensin Pertamax 1 Liter,12950.0,7770.0,18130.0
+Transportasi,Bensin Shell Super 1L,14500.0,8700.0,20300.0
+Transportasi,Cuci Mobil Hidrolik,50000.0,30000.0,70000.0
+Transportasi,Cuci Motor Cepat,15000.0,9000.0,21000.0
+Transportasi,Cuci Motor Salju,20000.0,12000.0,28000.0
+Transportasi,Ganti Busi Motor,25000.0,15000.0,35000.0
+Transportasi,Ganti Oli Gardan Motor Matik,20000.0,12000.0,28000.0
+Transportasi,Ganti Oli Motor,45000.0,27000.0,63000.0
+Transportasi,Gocar Rombongan,45000.0,27000.0,63000.0
+Transportasi,Gocar Trip Pendek,35000.0,21000.0,49000.0
+Transportasi,Go-Ride,15000.0,9000.0,21000.0
+Transportasi,Goride Pp Kampus,25000.0,15000.0,35000.0
+Transportasi,Grabbike,15000.0,9000.0,21000.0
+Transportasi,Grabbike Pp Kampus,25000.0,15000.0,35000.0
+Transportasi,Grabcar Rombongan,45000.0,27000.0,63000.0
+Transportasi,Grabcar Trip Pendek,35000.0,21000.0,49000.0
+Transportasi,Indriver Mobil,30000.0,18000.0,42000.0
+Transportasi,Isi Angin Nitrogen,5000.0,3000.0,7000.0
+Transportasi,Maxim Motor Jarak Dekat,10000.0,6000.0,14000.0
+Transportasi,Maxim Motor Reguler,12000.0,7200.0,16800.0
+Transportasi,Parkir Mobil Mall Jam,5000.0,3000.0,7000.0
+Transportasi,Parkir Motor,3000.0,1800.0,4200.0
+Transportasi,Parkir Motor Kampus Unpam,3000.0,1800.0,4200.0
+Transportasi,Parkir Stasiun Harian,8000.0,4800.0,11200.0
+Transportasi,Servis Rutin Motor,65000.0,39000.0,91000.0
+Transportasi,Sewa Mobil Harian,350000.0,210000.0,490000.0
+Transportasi,Sewa Motor Harian,75000.0,45000.0,105000.0
+Transportasi,Sewa Motor Harian Cepat,60000.0,36000.0,84000.0
+Transportasi,Shuttle Travel Jasa/Baraya,110000.0,66000.0,154000.0
+Transportasi,Shuttle Travel Luar Kota,120000.0,72000.0,168000.0
+Transportasi,Taksi Bluebird Reguler,45000.0,27000.0,63000.0
+Transportasi,Tambal Ban Motor Bocor,15000.0,9000.0,21000.0
+Transportasi,Tambal Ban Tubeless,20000.0,12000.0,28000.0
+Transportasi,Tiket Bus Akap,200000.0,120000.0,280000.0
+Transportasi,Tiket Bus Damri Mahasiswa,40000.0,24000.0,56000.0
+Transportasi,Tiket Kapal Feri,25000.0,15000.0,35000.0
+Transportasi,Tiket Kereta Lokal,10000.0,6000.0,14000.0
+Transportasi,Tiket Krl Commuter,4000.0,2400.0,5600.0
+Transportasi,Tiket Krl Commuter Line,4000.0,2400.0,5600.0
+Transportasi,Tiket Lrt Jabodebek,10000.0,6000.0,14000.0
+Transportasi,Tiket Lrt Reguler,10000.0,6000.0,14000.0
+Transportasi,Tiket Mrt Jakarta,8000.0,4800.0,11200.0
+Transportasi,Tiket Mrt Reguler,7000.0,4200.0,9800.0
+Transportasi,Tiket Transjakarta,3500.0,2100.0,4900.0
+Transportasi,Tip Ojol,5000.0,3000.0,7000.0
+Transportasi,Tol Dalam Kota,10500.0,6300.0,14700.0
+Transportasi,Tol Patungan Bawa Mobil,25000.0,15000.0,35000.0
+Transportasi,Tol Trans Jawa Ruas,85000.0,51000.0,119000.0
+Makanan & Minuman,Grabfood,50000.0,20000.0,80000.0
+Makanan & Minuman,Gofood,50000.0,20000.0,80000.0
+Belanja,Shopee,150000.0,60000.0,240000.0
+Belanja,Tokopedia,150000.0,60000.0,240000.0
+Hiburan,Tiket Bioskop,50000.0,22500.0,77500.0
+Hiburan,Disney Hotstar,39000.0,17550.0,60450.0
+Belanja,Belanja Elektronik,500000.0,200000.0,800000.0
+Belanja,Ikea,500000.0,200000.0,800000.0
+Belanja,Belanja Fashion,200000.0,80000.0,320000.0
+Makanan & Minuman,Kopi Kenangan,25000.0,10000.0,40000.0
+Makanan & Minuman,Grocery Indomaret,75000.0,30000.0,120000.0
+Makanan & Minuman,Makan Di Restoran,150000.0,60000.0,240000.0
+Makanan & Minuman,Mcdonalds,60000.0,24000.0,96000.0
+Transportasi,Tiket Bus Damri,50000.0,30000.0,70000.0
+Transportasi,Destinasi Traveloka,500000.0,250000.0,750000.0
+Transportasi,Tiket Pesawat,1000000.0,600000.0,1400000.0
