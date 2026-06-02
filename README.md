@@ -1,30 +1,30 @@
 # Cornerstone 💰
 
-> **Auditor Keuangan Personal Berbasis AI** — Coding Camp 2026 powered by DBS Foundation
+> **Auditor Keuangan Personal Berbasis AI** - Coding Camp 2026 powered by DBS Foundation
 > **Tim:** CC26-PRU462
 
 Cornerstone bukan sekadar pencatat transaksi, tapi **mengaudit** apakah pengeluaranmu efisien. Sistem mengklasifikasikan transaksi secara otomatis menggunakan Deep Learning, lalu membandingkannya dengan benchmark harga pasar untuk mendeteksi *spending leakage* (pembelian yang harganya tidak wajar).
 
 ## 🔗 Demo
 
-- **Dashboard (live):** https://cornerstone-8wvwszs2egddb8vwckasc5.streamlit.app
+- **Dashboard (live):** https://cornerstone-8wvwszs2egddb8vwckasc.streamlit.app
 - **REST API (live):** https://noname3214-cornerstone-api.hf.space/docs
 
 ## 📦 Akses Model
 
 Model AI (`cornerstone_model_v2.keras`) tersedia di:
 - Repository ini (folder `model/`), dan
-- **Google Drive:** [ISI: link Google Drive model] — sudah diberi akses untuk `capstone@student.devacademy.id`
+- **Google Drive:** https://drive.google.com/drive/u/0/folders/1vPCnc-uW6sAQrTrKBi-xki7A8osmp4w5 - sudah diberi akses untuk `capstone@student.devacademy.id`
 
 ## ✨ Fitur
 
-1. **Klasifikasi Transaksi Otomatis** — model Deep Learning mengkategorikan transaksi pengeluaran ke 5 kategori: Tagihan, Hiburan, Makanan & Minuman, Belanja, Transportasi.
-2. **Tipe Transaksi** — Pengeluaran (diklasifikasi AI), Pemasukan, dan Transfer (dicatat manual) dipisahkan agar AI hanya menilai pengeluaran.
-3. **Financial Health Meter** — skor 0–100 berdasarkan rasio pengeluaran terhadap pemasukan.
-4. **Spending Leakage Detection** — peringatan ketika pembelian melebihi rentang harga wajar kategori.
-5. **Frekuensi Langganan** — transaksi Mingguan/Bulanan/Tahunan dinormalisasi ke per-bulan agar leakage adil (mis. langganan tahunan tidak salah dianggap boros).
-6. **Predictive Insight** — proyeksi sisa saldo akhir bulan.
-7. **Upload CSV** — input transaksi massal sekaligus.
+1. **Klasifikasi Transaksi Otomatis** - model Deep Learning mengkategorikan transaksi pengeluaran ke 5 kategori: Tagihan, Hiburan, Makanan & Minuman, Belanja, Transportasi.
+2. **Tipe Transaksi** - Pengeluaran (diklasifikasi AI), Pemasukan, dan Transfer (dicatat manual) dipisahkan agar AI hanya menilai pengeluaran.
+3. **Financial Health Meter** - skor 0–100 berdasarkan rasio pengeluaran terhadap pemasukan.
+4. **Spending Leakage Detection** - peringatan ketika pembelian melebihi rentang harga wajar kategori.
+5. **Frekuensi Langganan** - transaksi Mingguan/Bulanan/Tahunan dinormalisasi ke per-bulan agar leakage adil (mis. langganan tahunan tidak salah dianggap boros).
+6. **Predictive Insight** - proyeksi sisa saldo akhir bulan.
+7. **Upload CSV** - input transaksi massal sekaligus.
 
 ## 🏗️ Arsitektur
 
@@ -138,8 +138,8 @@ Buka `http://127.0.0.1:8000/docs` untuk Swagger UI. Model `cornerstone_model_v2.
 
 | Nama | Role |
 |---|---|
-| Muhammad Daffa Ariq Fadilah | AI Engineer (Deployment & Integration) |
-| Ajie Iskandar Zulkarnain | AI Engineer (Model Architect) |
+| Muhammad Daffa Ariq Fadilah | AI Engineer |
+| Ajie Iskandar Zulkarnain | AI Engineer |
 | Devan Haidar Wirya Hidayat | Data Scientist |
 | Sebastian Wibowo | Data Scientist |
 | Innayatul Laili Husnaini | Data Scientist |
