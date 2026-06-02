@@ -58,7 +58,7 @@ Arsitektur **decoupled**: frontend (Streamlit) memanggil REST API (FastAPI) via 
 ```
 cornerstone/
 ├── frontend/
-│   ├── streamlit_app.py          # Dashboard (thin client → API)
+│   ├── streamlit_app.py          # Dashboard (thin client -> API)
 │   └── requirements.txt
 ├── api/
 │   ├── api.py                    # REST API (FastAPI)
@@ -100,20 +100,20 @@ Buka `http://127.0.0.1:8000/docs` untuk Swagger UI. Model `cornerstone_model_v2.
 
 1. Isi **Pemasukan bulanan** di sidebar.
 2. Catat transaksi:
-   - **Pengeluaran** → otomatis diklasifikasi AI + dicek leakage. Pilih frekuensi (Sekali/Mingguan/Bulanan/Tahunan).
-   - **Pemasukan** → pilih kategori (Gaji/Bonus/dll).
-   - **Transfer** → dicatat terpisah (tidak dihitung konsumsi).
+   - **Pengeluaran** -> otomatis diklasifikasi AI + dicek leakage. Pilih frekuensi (Sekali/Mingguan/Bulanan/Tahunan).
+   - **Pemasukan** -> pilih kategori (Gaji/Bonus/dll).
+   - **Transfer** -> dicatat terpisah (tidak dihitung konsumsi).
 3. Atau gunakan **Upload CSV** (kolom `description`, `amount`, opsional `period`).
 4. Lihat dashboard: Health Meter, distribusi kategori, Spending Leakage, proyeksi akhir bulan.
 5. Riwayat transaksi dapat difilter, di-scroll, diunduh (CSV), dan dihapus per item.
 
 ## 🔁 Replikasi Pipeline
 
-1. **Dataset** — transaksi (`transaction_name`, `amount`, `category`) + market benchmark hasil riset tim Data Scientist.
-2. **Preprocessing** — teks → tokenizer → pad_sequences (maxlen 20); amount → RobustScaler.
-3. **Training** — TensorFlow (multi-input teks + amount), Custom Callback, ekspor `.keras`.
-4. **Serving** — model dilayani via FastAPI (`/predict`, `/leakage`, `/health-score`, `/analyze`).
-5. **Frontend** — Streamlit memanggil API & menampilkan dashboard.
+1. **Dataset** - transaksi (`transaction_name`, `amount`, `category`) + market benchmark hasil riset tim Data Scientist.
+2. **Preprocessing** - teks -> tokenizer -> pad_sequences (maxlen 20); amount -> RobustScaler.
+3. **Training** - TensorFlow (multi-input teks + amount), Custom Callback, ekspor `.keras`.
+4. **Serving** - model dilayani via FastAPI (`/predict`, `/leakage`, `/health-score`, `/analyze`).
+5. **Frontend** - Streamlit memanggil API & menampilkan dashboard.
 
 ## 📡 API Endpoints
 
