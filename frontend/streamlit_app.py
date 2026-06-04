@@ -29,6 +29,15 @@ PERIODS = ["Sekali", "Mingguan", "Bulanan", "Tahunan"]
 
 st.set_page_config(page_title="Cornerstone", page_icon="💰", layout="wide")
 
+# Logo (taruh logo.png di folder yang sama). Aman jika file tidak ada.
+import os
+LOGO_PATH = os.path.join(os.path.dirname(__file__), "logo.png")
+if os.path.exists(LOGO_PATH):
+    try:
+        st.logo(LOGO_PATH, size="large")
+    except Exception:
+        pass
+
 
 # =============================================================================
 # API CLIENT
@@ -135,7 +144,10 @@ with st.sidebar:
 # =============================================================================
 # HEADER
 # =============================================================================
-st.title("💰 Cornerstone")
+if os.path.exists(LOGO_PATH):
+    st.image(LOGO_PATH, width=320)
+else:
+    st.title("💰 Cornerstone")
 st.markdown("**Auditor keuangan personal berbasis AI** — mendeteksi apakah pengeluaranmu efisien.")
 st.caption("Coding Camp 2026 powered by DBS Foundation • CC26-PRU462")
 
