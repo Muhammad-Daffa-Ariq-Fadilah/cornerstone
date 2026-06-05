@@ -82,10 +82,13 @@ cornerstone/
 ├── data/
 │   ├── README.md               # Kamus data
 │   ├── sumber - Sheet1.csv      # Sumber harga mentah (riset pasar)
-│   ├── market_benchmark_dataset.csv
-│   ├── financial_transaction_train.csv
-│   ├── financial_transaction_test.csv
-│   └── public_transactions_test.csv
+│   ├── market_benchmark_dataset.csv     # Benchmark harga (lengkap)
+│   ├── market_benchmark_cleaned.csv     # Benchmark harga (bersih, untuk serving)
+│   ├── financial_transaction_train.csv  # Data latih klasifikasi
+│   ├── financial_transaction_test.csv   # Data uji klasifikasi
+│   ├── public_transactions_train.csv    # Transaksi publik (latih)
+│   ├── public_transactions_test_fixed.csv  # Test set evaluasi (terkoreksi)
+│   └── main_dashboard_dataset.csv       # Dataset dashboard (feature engineering)
 └── README.md
 ```
 
