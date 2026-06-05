@@ -1,6 +1,6 @@
 # Cornerstone 💰
 
-> **Auditor Keuangan Personal Berbasis AI** - Coding Camp 2026 powered by DBS Foundation
+> **Auditor Keuangan Personal Berbasis AI** — Coding Camp 2026 powered by DBS Foundation
 > **Tim:** CC26-PRU462
 
 Cornerstone bukan sekadar pencatat transaksi, tapi **mengaudit** apakah pengeluaranmu efisien. Sistem mengklasifikasikan transaksi secara otomatis menggunakan Deep Learning, lalu membandingkannya dengan benchmark harga pasar untuk mendeteksi *spending leakage* (pembelian yang harganya tidak wajar).
@@ -14,17 +14,17 @@ Cornerstone bukan sekadar pencatat transaksi, tapi **mengaudit** apakah pengelua
 
 Model AI (`cornerstone_model_v2.keras`) tersedia di:
 - Repository ini (folder `model/`), dan
-- **Google Drive:** https://drive.google.com/drive/u/0/folders/1vPCnc-uW6sAQrTrKBi-xki7A8osmp4w5 - sudah diberi akses untuk `capstone@student.devacademy.id`
+- **Google Drive:** https://drive.google.com/drive/folders/1vPCnc-uW6sAQrTrKBi-xki7A8osmp4w5 — sudah diberi akses untuk `capstone@student.devacademy.id`
 
 ## ✨ Fitur
 
-1. **Klasifikasi Transaksi Otomatis** - model Deep Learning mengkategorikan transaksi pengeluaran ke 5 kategori: Tagihan, Hiburan, Makanan & Minuman, Belanja, Transportasi.
-2. **Tipe Transaksi** - Pengeluaran (diklasifikasi AI), Pemasukan, dan Transfer (dicatat manual) dipisahkan agar AI hanya menilai pengeluaran.
-3. **Financial Health Meter** - skor 0–100 berdasarkan rasio pengeluaran terhadap pemasukan.
-4. **Spending Leakage Detection** - peringatan ketika pembelian melebihi rentang harga wajar kategori.
-5. **Frekuensi Langganan** - transaksi Mingguan/Bulanan/Tahunan dinormalisasi ke per-bulan agar leakage adil (mis. langganan tahunan tidak salah dianggap boros).
-6. **Predictive Insight** - proyeksi sisa saldo akhir bulan.
-7. **Upload CSV** - input transaksi massal sekaligus.
+1. **Klasifikasi Transaksi Otomatis** — model Deep Learning mengkategorikan transaksi pengeluaran ke 5 kategori: Tagihan, Hiburan, Makanan & Minuman, Belanja, Transportasi.
+2. **Tipe Transaksi** — Pengeluaran (diklasifikasi AI), Pemasukan, dan Transfer (dicatat manual) dipisahkan agar AI hanya menilai pengeluaran.
+3. **Financial Health Meter** — skor 0–100 berdasarkan rasio pengeluaran terhadap pemasukan.
+4. **Spending Leakage Detection** — peringatan ketika pembelian melebihi rentang harga wajar kategori.
+5. **Frekuensi Langganan** — transaksi Mingguan/Bulanan/Tahunan dinormalisasi ke per-bulan agar leakage adil (mis. langganan tahunan tidak salah dianggap boros).
+6. **Predictive Insight** — proyeksi sisa saldo akhir bulan.
+7. **Upload CSV** — input transaksi massal sekaligus.
 
 ## 🏗️ Arsitektur
 
@@ -57,21 +57,35 @@ Arsitektur **decoupled**: frontend (Streamlit) memanggil REST API (FastAPI) via 
 
 ```
 cornerstone/
+├── .streamlit/
+│   └── config.toml             # Tema dark + warna brand (#54E6D4, #101516)
 ├── frontend/
-│   ├── streamlit_app.py          # Dashboard (thin client -> API)
-│   └── requirements.txt
+│   ├── streamlit_app.py        # Dashboard frontend (entrypoint Streamlit)
+│   ├── logo_dark.png           # Logo stacked (putih + L teal)
+│   ├── horizontal_dark.png     # Logo horizontal (sidebar)
+│   ├── icon.png                # Favicon (mark L)
+│   └── requirements.txt        # Dependensi frontend
 ├── api/
-│   ├── api.py                    # REST API (FastAPI)
-│   ├── tokenizer.pkl             # Tokenizer Keras
+│   ├── api.py                  # REST API (FastAPI)
+│   ├── tokenizer.pkl           # Tokenizer Keras
 │   ├── market_benchmark_cleaned.csv
 │   ├── cornerstone_model_v2.keras   # model (untuk menjalankan/deploy API)
 │   ├── requirements.txt
 │   ├── Dockerfile
-│   └── README.md                 # frontmatter untuk deploy ke Hugging Face
+│   └── README.md               # frontmatter untuk deploy ke Hugging Face
 ├── model/
-│   └── cornerstone_model_v2.keras   # Model terlatih (akurasi 99.84%) — juga di-upload ke Google Drive
+│   └── cornerstone_model_v2.keras   # Model terlatih (akurasi 99.84%) — juga di Google Drive
 ├── notebook/
-│   └── training.ipynb            # Notebook training model
+│   ├── Dataset_Transaction.ipynb    # Pipeline data transaksi (latih/uji)
+│   ├── Dataset_Benchmark.ipynb      # Pipeline benchmark harga pasar
+│   └── Dataset_Dashboard.ipynb      # Pipeline data dashboard
+├── data/
+│   ├── README.md               # Kamus data
+│   ├── sumber - Sheet1.csv      # Sumber harga mentah (riset pasar)
+│   ├── market_benchmark_dataset.csv
+│   ├── financial_transaction_train.csv
+│   ├── financial_transaction_test.csv
+│   └── public_transactions_test.csv
 └── README.md
 ```
 
@@ -100,20 +114,22 @@ Buka `http://127.0.0.1:8000/docs` untuk Swagger UI. Model `cornerstone_model_v2.
 
 1. Isi **Pemasukan bulanan** di sidebar.
 2. Catat transaksi:
-   - **Pengeluaran** -> otomatis diklasifikasi AI + dicek leakage. Pilih frekuensi (Sekali/Mingguan/Bulanan/Tahunan).
-   - **Pemasukan** -> pilih kategori (Gaji/Bonus/dll).
-   - **Transfer** -> dicatat terpisah (tidak dihitung konsumsi).
+   - **Pengeluaran** → otomatis diklasifikasi AI + dicek leakage. Pilih frekuensi (Sekali/Mingguan/Bulanan/Tahunan).
+   - **Pemasukan** → pilih kategori (Gaji/Bonus/dll).
+   - **Transfer** → dicatat terpisah (tidak dihitung konsumsi).
 3. Atau gunakan **Upload CSV** (kolom `description`, `amount`, opsional `period`).
 4. Lihat dashboard: Health Meter, distribusi kategori, Spending Leakage, proyeksi akhir bulan.
 5. Riwayat transaksi dapat difilter, di-scroll, diunduh (CSV), dan dihapus per item.
 
 ## 🔁 Replikasi Pipeline
 
-1. **Dataset** - transaksi (`transaction_name`, `amount`, `category`) + market benchmark hasil riset tim Data Scientist.
-2. **Preprocessing** - teks -> tokenizer -> pad_sequences (maxlen 20); amount -> RobustScaler.
-3. **Training** - TensorFlow (multi-input teks + amount), Custom Callback, ekspor `.keras`.
-4. **Serving** - model dilayani via FastAPI (`/predict`, `/leakage`, `/health-score`, `/analyze`).
-5. **Frontend** - Streamlit memanggil API & menampilkan dashboard.
+1. **Data** — pengumpulan, pembersihan, dan integrasi data didokumentasikan di folder `notebook/` (Data Collection → Cleaning → Integration → Feature Engineering). Dataset hasil olahan ada di folder `data/`.
+2. **Preprocessing** — teks → tokenizer → pad_sequences (maxlen 20); amount → RobustScaler.
+3. **Training** — TensorFlow (multi-input teks + amount), Custom Callback, ekspor `.keras`.
+4. **Serving** — model dilayani via FastAPI (`/predict`, `/leakage`, `/health-score`, `/analyze`).
+5. **Frontend** — Streamlit memanggil API & menampilkan dashboard.
+
+> Dataset & proses wrangling: lihat `notebook/` (3 pipeline) dan `data/README.md` (kamus data).
 
 ## 📡 API Endpoints
 
