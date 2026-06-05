@@ -43,6 +43,17 @@ if os.path.exists(LOGO_PATH):
     except Exception:
         pass
 
+# Font brand: DM Sans (sesuai brand guideline)
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+    html, body, [class*="css"], [class*="st-"] { font-family: 'DM Sans', sans-serif; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 # =============================================================================
 # API CLIENT
