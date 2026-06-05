@@ -29,12 +29,10 @@ INCOME_CATEGORIES = ["Gaji", "Bonus", "Freelance", "Hadiah", "Lainnya"]
 TRANSFER_CATEGORIES = ["Tabungan", "Investasi", "Kirim ke Orang", "Lainnya"]
 PERIODS = ["Sekali", "Mingguan", "Bulanan", "Tahunan"]
 
-# Logo & favicon. Varian per-tema; aman jika file tidak ada.
+# Logo & favicon. App dikunci dark (sesuai brand guide); pakai varian dark.
 _DIR = os.path.dirname(__file__)
-LOGO_DARK = os.path.join(_DIR, "logo_dark.png")          # stacked putih + L teal (dark)
-LOGO_LIGHT = os.path.join(_DIR, "logo_light.png")        # stacked hitam + L teal (light)
-HORIZ_DARK = os.path.join(_DIR, "horizontal_dark.png")   # horizontal putih + L teal (dark)
-HORIZ_LIGHT = os.path.join(_DIR, "horizontal_light.png") # horizontal gelap + L teal (light)
+LOGO_DARK = os.path.join(_DIR, "logo_dark.png")          # stacked putih + L teal
+HORIZ_DARK = os.path.join(_DIR, "horizontal_dark.png")   # horizontal putih + L teal
 LOGO_PATH = os.path.join(_DIR, "logo.png")               # fallback lama
 ICON_PATH = os.path.join(_DIR, "icon.png")
 _page_icon = ICON_PATH if os.path.exists(ICON_PATH) else "💰"
@@ -42,25 +40,15 @@ _page_icon = ICON_PATH if os.path.exists(ICON_PATH) else "💰"
 st.set_page_config(page_title="Cornerstone", page_icon=_page_icon, layout="wide")
 
 
-def _active_theme():
-    """Tema aktif ('light'/'dark'). Default 'dark' bila API tidak tersedia."""
-    try:
-        t = st.context.theme.type
-        return t if t in ("light", "dark") else "dark"
-    except Exception:
-        return "dark"
-
-
-def _pick(dark, light, *fallbacks):
-    pref = light if _active_theme() == "light" else dark
-    for p in (pref, *fallbacks):
+def _first_existing(*paths):
+    for p in paths:
         if p and os.path.exists(p):
             return p
     return None
 
 
-_LOGO_STACK = _pick(LOGO_DARK, LOGO_LIGHT, LOGO_PATH)        # header
-_LOGO_HORIZ = _pick(HORIZ_DARK, HORIZ_LIGHT, _LOGO_STACK)    # sidebar (fallback ke stacked)
+_LOGO_HORIZ = _first_existing(HORIZ_DARK, LOGO_DARK, LOGO_PATH)   # sidebar
+_LOGO_STACK = _first_existing(LOGO_DARK, LOGO_PATH)               # header
 
 if _LOGO_HORIZ:
     try:
