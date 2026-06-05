@@ -29,17 +29,42 @@ INCOME_CATEGORIES = ["Gaji", "Bonus", "Freelance", "Hadiah", "Lainnya"]
 TRANSFER_CATEGORIES = ["Tabungan", "Investasi", "Kirim ke Orang", "Lainnya"]
 PERIODS = ["Sekali", "Mingguan", "Bulanan", "Tahunan"]
 
-# Logo & favicon (taruh logo.png + icon.png di folder yang sama). Aman jika tidak ada.
+# Logo & favicon. Varian per-tema; aman jika file tidak ada.
 _DIR = os.path.dirname(__file__)
-LOGO_PATH = os.path.join(_DIR, "logo.png")
+LOGO_DARK = os.path.join(_DIR, "logo_dark.png")          # stacked putih + L teal (dark)
+LOGO_LIGHT = os.path.join(_DIR, "logo_light.png")        # stacked hitam + L teal (light)
+HORIZ_DARK = os.path.join(_DIR, "horizontal_dark.png")   # horizontal putih + L teal (dark)
+HORIZ_LIGHT = os.path.join(_DIR, "horizontal_light.png") # horizontal gelap + L teal (light)
+LOGO_PATH = os.path.join(_DIR, "logo.png")               # fallback lama
 ICON_PATH = os.path.join(_DIR, "icon.png")
 _page_icon = ICON_PATH if os.path.exists(ICON_PATH) else "💰"
 
 st.set_page_config(page_title="Cornerstone", page_icon=_page_icon, layout="wide")
 
-if os.path.exists(LOGO_PATH):
+
+def _active_theme():
+    """Tema aktif ('light'/'dark'). Default 'dark' bila API tidak tersedia."""
     try:
-        st.logo(LOGO_PATH, size="large")
+        t = st.context.theme.type
+        return t if t in ("light", "dark") else "dark"
+    except Exception:
+        return "dark"
+
+
+def _pick(dark, light, *fallbacks):
+    pref = light if _active_theme() == "light" else dark
+    for p in (pref, *fallbacks):
+        if p and os.path.exists(p):
+            return p
+    return None
+
+
+_LOGO_STACK = _pick(LOGO_DARK, LOGO_LIGHT, LOGO_PATH)        # header
+_LOGO_HORIZ = _pick(HORIZ_DARK, HORIZ_LIGHT, _LOGO_STACK)    # sidebar (fallback ke stacked)
+
+if _LOGO_HORIZ:
+    try:
+        st.logo(_LOGO_HORIZ, size="large")
     except Exception:
         pass
 
@@ -149,8 +174,8 @@ with st.sidebar:
 # =============================================================================
 # HEADER
 # =============================================================================
-if os.path.exists(LOGO_PATH):
-    st.image(LOGO_PATH, width=260)
+if _LOGO_STACK:
+    st.image(_LOGO_STACK, width=260)
 else:
     st.title("💰 Cornerstone")
 st.markdown("**Auditor keuangan personal berbasis AI** — mendeteksi apakah pengeluaranmu efisien.")
