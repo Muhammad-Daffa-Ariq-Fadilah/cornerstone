@@ -8,6 +8,8 @@ Run:
     streamlit run streamlit_app.py
 """
 
+import os
+
 from datetime import date
 from calendar import monthrange
 
@@ -27,11 +29,14 @@ INCOME_CATEGORIES = ["Gaji", "Bonus", "Freelance", "Hadiah", "Lainnya"]
 TRANSFER_CATEGORIES = ["Tabungan", "Investasi", "Kirim ke Orang", "Lainnya"]
 PERIODS = ["Sekali", "Mingguan", "Bulanan", "Tahunan"]
 
-st.set_page_config(page_title="Cornerstone", page_icon="💰", layout="wide")
+# Logo & favicon (taruh logo.png + icon.png di folder yang sama). Aman jika tidak ada.
+_DIR = os.path.dirname(__file__)
+LOGO_PATH = os.path.join(_DIR, "logo.png")
+ICON_PATH = os.path.join(_DIR, "icon.png")
+_page_icon = ICON_PATH if os.path.exists(ICON_PATH) else "💰"
 
-# Logo (taruh logo.png di folder yang sama). Aman jika file tidak ada.
-import os
-LOGO_PATH = os.path.join(os.path.dirname(__file__), "logo.png")
+st.set_page_config(page_title="Cornerstone", page_icon=_page_icon, layout="wide")
+
 if os.path.exists(LOGO_PATH):
     try:
         st.logo(LOGO_PATH, size="large")
@@ -145,7 +150,7 @@ with st.sidebar:
 # HEADER
 # =============================================================================
 if os.path.exists(LOGO_PATH):
-    st.image(LOGO_PATH, width=320)
+    st.image(LOGO_PATH, width=260)
 else:
     st.title("💰 Cornerstone")
 st.markdown("**Auditor keuangan personal berbasis AI** — mendeteksi apakah pengeluaranmu efisien.")
